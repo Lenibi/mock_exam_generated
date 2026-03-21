@@ -221,6 +221,7 @@ function parseQuestions(raw) {
 
     return {
       number: q.number || i + 1,
+      lecture: q.lecture_number || q.lecture || null,
       question: q.question || q.text || q.prompt || '',
       answers,
       correctIdx
@@ -270,7 +271,8 @@ document.getElementById('fileInput').addEventListener('change', e => {
 // --- Rendering ---
 function render() {
   const q = questions[current];
-  document.getElementById('qNumber').textContent = `Question ${q.number} of ${questions.length}`;
+  const lecturePart = q.lecture ? `  (Lecture ${q.lecture})` : '';
+  document.getElementById('qNumber').textContent = `Question ${q.number} of ${questions.length}${lecturePart}`;
   document.getElementById('qText').textContent = q.question;
   document.getElementById('progressDisplay').textContent = `Q ${current + 1} / ${questions.length}`;
   document.getElementById('prevBtn').disabled = current === 0;

@@ -8,7 +8,8 @@
       "C": "To reduce production costs through automation",
       "D": "To focus mainly on advertising and persuasion"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 1
   },
   {
     "number": 2,
@@ -19,7 +20,8 @@
       "C": "Products that are widely available and affordable",
       "D": "Products tailored to niche market preferences"
     },
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "lecture_number": 1
   },
   {
     "number": 3,
@@ -30,7 +32,8 @@
       "C": "Sustainable sourcing",
       "D": "Mass customization"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 1
   },
   {
     "number": 4,
@@ -41,7 +44,8 @@
       "C": "Customer needs and wants",
       "D": "Quarterly revenue targets"
     },
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "lecture_number": 1
   },
   {
     "number": 5,
@@ -52,18 +56,20 @@
       "C": "A price list",
       "D": "A distribution channel only"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 1
   },
   {
     "number": 6,
-    "question": "Customer-perceived value refers to the customer’s evaluation of:",
+    "question": "Customer-perceived value refers to the customer\u2019s evaluation of:",
     "answers": {
       "A": "Benefits relative to costs versus competing offers",
       "B": "Only the monetary price of an offering",
-      "C": "The seller’s production costs",
+      "C": "The seller\u2019s production costs",
       "D": "How frequently a product is advertised"
     },
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "lecture_number": 1
   },
   {
     "number": 7,
@@ -74,7 +80,8 @@
       "C": "Inventory turnover",
       "D": "Contribution margin per unit"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 1
   },
   {
     "number": 8,
@@ -85,7 +92,8 @@
       "C": "Opportunity",
       "D": "Threat"
     },
-    "correct_answer": "D"
+    "correct_answer": "D",
+    "lecture_number": 2
   },
   {
     "number": 9,
@@ -96,7 +104,8 @@
       "C": "Competitors",
       "D": "Demographic trends"
     },
-    "correct_answer": "D"
+    "correct_answer": "D",
+    "lecture_number": 2
   },
   {
     "number": 10,
@@ -107,7 +116,8 @@
       "C": "Political environment",
       "D": "Competitive environment"
     },
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "lecture_number": 2
   },
   {
     "number": 11,
@@ -118,18 +128,20 @@
       "C": "Changing its logo color",
       "D": "Extending payment terms to retailers"
     },
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "lecture_number": 2
   },
   {
     "number": 12,
     "question": "Publics in the marketing environment are groups that:",
     "answers": {
-      "A": "Always purchase the firm’s products",
+      "A": "Always purchase the firm\u2019s products",
       "B": "Have an actual or potential interest in or impact on the firm",
-      "C": "Distribute the firm’s products to retailers",
+      "C": "Distribute the firm\u2019s products to retailers",
       "D": "Supply raw materials to the firm"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 2
   },
   {
     "number": 13,
@@ -140,7 +152,8 @@
       "C": "A new social media algorithm",
       "D": "Higher fuel prices"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 2
   },
   {
     "number": 14,
@@ -151,7 +164,8 @@
       "C": "Replacing all internal departments",
       "D": "Eliminating the need for promotion"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 2
   },
   {
     "number": 15,
@@ -162,7 +176,8 @@
       "C": "It is used only by large multinational firms",
       "D": "It happens only after products are launched"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 2
   },
   {
     "number": 16,
@@ -173,7 +188,8 @@
       "C": "Define the problem and research objectives",
       "D": "Interpret and report findings"
     },
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "lecture_number": 3
   },
   {
     "number": 17,
@@ -184,7 +200,8 @@
       "C": "Secondary data",
       "D": "Observational archives"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 3
   },
   {
     "number": 18,
@@ -195,7 +212,8 @@
       "C": "Faster and cheaper to obtain",
       "D": "Collected in real time for the firm"
     },
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "lecture_number": 3
   },
   {
     "number": 19,
@@ -206,7 +224,8 @@
       "C": "Psychographic",
       "D": "Geographic"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 3
   },
   {
     "number": 20,
@@ -217,7 +236,8 @@
       "C": "Psychographic segmentation",
       "D": "Occasion segmentation"
     },
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "lecture_number": 3
   },
   {
     "number": 21,
@@ -228,18 +248,20 @@
       "C": "Concentrated marketing",
       "D": "Counter-segmentation"
     },
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "lecture_number": 3
   },
   {
     "number": 22,
     "question": "Positioning refers to:",
     "answers": {
       "A": "Physically placing the product on store shelves",
-      "B": "Designing the offer and image to occupy a distinct place in consumers’ minds",
+      "B": "Designing the offer and image to occupy a distinct place in consumers\u2019 minds",
       "C": "Selling to the lowest-priced segment",
       "D": "Selecting wholesalers and retailers"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 3
   },
   {
     "number": 23,
@@ -250,7 +272,8 @@
       "C": "Grouping customers by usage rate and loyalty status",
       "D": "Grouping customers by social class"
     },
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "lecture_number": 3
   },
   {
     "number": 24,
@@ -261,18 +284,20 @@
       "C": "It is substantial and can be effectively reached",
       "D": "It changes hourly and unpredictably"
     },
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "lecture_number": 3
   },
   {
     "number": 25,
-    "question": "A company that promises “fastest delivery for urban professionals” is primarily using ______ to position itself.",
+    "question": "A company that promises \u201cfastest delivery for urban professionals\u201d is primarily using ______ to position itself.",
     "answers": {
       "A": "Positioning by user",
       "B": "Positioning by product class",
       "C": "Positioning by price-quality",
       "D": "Positioning by usage occasion"
     },
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "lecture_number": 3
   },
   {
     "number": 26,
@@ -283,7 +308,8 @@
       "C": "Distribution gap",
       "D": "Production forecast"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 4
   },
   {
     "number": 27,
@@ -294,7 +320,8 @@
       "C": "Core benefit",
       "D": "Design"
     },
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "lecture_number": 4
   },
   {
     "number": 28,
@@ -305,7 +332,8 @@
       "C": "The warranty and after-sale service",
       "D": "The brand logo and label"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 4
   },
   {
     "number": 29,
@@ -316,7 +344,8 @@
       "C": "The total set of brands owned globally",
       "D": "A one-time promotional bundle"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 4
   },
   {
     "number": 30,
@@ -327,18 +356,20 @@
       "C": "Width",
       "D": "Length"
     },
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "lecture_number": 4
   },
   {
     "number": 31,
     "question": "A brand is best described as a:",
     "answers": {
       "A": "Legal contract with wholesalers",
-      "B": "Name, term, sign, symbol, or design identifying a seller’s goods or services",
+      "B": "Name, term, sign, symbol, or design identifying a seller\u2019s goods or services",
       "C": "Package insert containing instructions",
       "D": "Pricing strategy for premium products"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 4
   },
   {
     "number": 32,
@@ -349,7 +380,8 @@
       "C": "Co-branding",
       "D": "Private labeling"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 4
   },
   {
     "number": 33,
@@ -360,7 +392,8 @@
       "C": "Maturity",
       "D": "Decline"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 4
   },
   {
     "number": 34,
@@ -371,7 +404,8 @@
       "C": "Modifying the market, product, or marketing mix to defend share",
       "D": "Preparing to remove the product immediately"
     },
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "lecture_number": 4
   },
   {
     "number": 35,
@@ -382,7 +416,8 @@
       "C": "Owned permanently by the buyer",
       "D": "Produced long before consumption"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 4
   },
   {
     "number": 36,
@@ -393,7 +428,8 @@
       "C": "Value-added pricing",
       "D": "Prestige positioning"
     },
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "lecture_number": 5
   },
   {
     "number": 37,
@@ -404,7 +440,8 @@
       "C": "Psychological pricing",
       "D": "Promotional pricing"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 5
   },
   {
     "number": 38,
@@ -415,7 +452,8 @@
       "C": "Value-based pricing",
       "D": "Competition-based pricing"
     },
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "lecture_number": 5
   },
   {
     "number": 39,
@@ -423,10 +461,11 @@
     "answers": {
       "A": "Adding a standard markup to product cost",
       "B": "Setting price below cost to build traffic",
-      "C": "Matching the largest competitor’s price",
+      "C": "Matching the largest competitor\u2019s price",
       "D": "Starting with customer willingness to pay only"
     },
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "lecture_number": 5
   },
   {
     "number": 40,
@@ -437,7 +476,8 @@
       "C": "Captive-product pricing",
       "D": "Allowance pricing"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 5
   },
   {
     "number": 41,
@@ -446,9 +486,10 @@
       "A": "Charging different prices for students and adults for the same movie",
       "B": "Adding a markup to manufacturing cost",
       "C": "Cutting prices during a clearance sale",
-      "D": "Setting a price equal to a major competitor’s price"
+      "D": "Setting a price equal to a major competitor\u2019s price"
     },
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "lecture_number": 5
   },
   {
     "number": 42,
@@ -459,7 +500,8 @@
       "C": "Charges freight costs to distant customers",
       "D": "Offers cash discounts for early payment"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 5
   },
   {
     "number": 43,
@@ -470,7 +512,8 @@
       "C": "Uses product bundles to reduce the final price",
       "D": "Targets different geographic regions"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 5
   },
   {
     "number": 44,
@@ -481,7 +524,8 @@
       "C": "Captive pricing",
       "D": "Product line pricing"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 5
   },
   {
     "number": 45,
@@ -492,7 +536,8 @@
       "C": "Revenue exceeds cost by the target profit amount",
       "D": "Demand becomes perfectly elastic"
     },
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "lecture_number": 5
   },
   {
     "number": 46,
@@ -503,7 +548,8 @@
       "C": "Patenting",
       "D": "Financing only"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 8
   },
   {
     "number": 47,
@@ -514,7 +560,8 @@
       "C": "Direct channel",
       "D": "Conventional channel"
     },
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "lecture_number": 8
   },
   {
     "number": 48,
@@ -525,7 +572,8 @@
       "C": "Wholesalers for resale",
       "D": "Governments for tender bids"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 8
   },
   {
     "number": 49,
@@ -536,7 +584,8 @@
       "C": "Resale or business use",
       "D": "Brand awareness surveys"
     },
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "lecture_number": 8
   },
   {
     "number": 50,
@@ -547,7 +596,8 @@
       "C": "Designing national ad campaigns for consumers",
       "D": "Creating product patents"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 8
   },
   {
     "number": 51,
@@ -558,7 +608,8 @@
       "C": "Disintermediated network",
       "D": "Pure direct-response system"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 8
   },
   {
     "number": 52,
@@ -569,7 +620,8 @@
       "C": "Horizontal conflict",
       "D": "Promotional conflict"
     },
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "lecture_number": 8
   },
   {
     "number": 53,
@@ -580,7 +632,8 @@
       "C": "Only after visiting specialty dealers",
       "D": "Only through private negotiation"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 8
   },
   {
     "number": 54,
@@ -591,7 +644,8 @@
       "C": "More than one but fewer than all willing intermediaries",
       "D": "No intermediaries at all"
     },
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "lecture_number": 8
   },
   {
     "number": 55,
@@ -602,7 +656,8 @@
       "C": "Wholesaling",
       "D": "Exclusive distribution"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 8
   },
   {
     "number": 56,
@@ -613,7 +668,8 @@
       "C": "Distribution logistics",
       "D": "Price discrimination"
     },
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "lecture_number": 9
   },
   {
     "number": 57,
@@ -624,7 +680,8 @@
       "C": "Advertising",
       "D": "Personal selling"
     },
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "lecture_number": 9
   },
   {
     "number": 58,
@@ -635,7 +692,8 @@
       "C": "Unpaid media exposure gained through news coverage only",
       "D": "One-on-one presentations by salespeople only"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 9
   },
   {
     "number": 59,
@@ -646,7 +704,8 @@
       "C": "Avoid all customer interaction",
       "D": "Substitute entirely for product quality"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 9
   },
   {
     "number": 60,
@@ -657,29 +716,32 @@
       "C": "Attention, Information, Decision, Adoption",
       "D": "Assessment, Intention, Demand, Action"
     },
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "lecture_number": 9
   },
   {
     "number": 61,
-    "question": "In the communication process, the receiver’s response sent back to the sender is called:",
+    "question": "In the communication process, the receiver\u2019s response sent back to the sender is called:",
     "answers": {
       "A": "Encoding",
       "B": "Noise",
       "C": "Feedback",
       "D": "Media"
     },
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "lecture_number": 9
   },
   {
     "number": 62,
-    "question": "A trade allowance offered to retailers in exchange for featuring a manufacturer’s product is a type of:",
+    "question": "A trade allowance offered to retailers in exchange for featuring a manufacturer\u2019s product is a type of:",
     "answers": {
       "A": "Consumer promotion",
       "B": "Trade promotion",
       "C": "Publicity",
       "D": "Institutional advertising"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 9
   },
   {
     "number": 63,
@@ -690,7 +752,8 @@
       "C": "Maturity",
       "D": "Decline"
     },
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "lecture_number": 10
   },
   {
     "number": 64,
@@ -701,7 +764,8 @@
       "C": "Maturity stage",
       "D": "Test marketing stage"
     },
-    "correct_answer": "C"
+    "correct_answer": "C",
+    "lecture_number": 10
   },
   {
     "number": 65,
@@ -712,7 +776,8 @@
       "C": "Trade promotion",
       "D": "Institutional advertising"
     },
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "lecture_number": 10
   },
   {
     "number": 66,
@@ -723,7 +788,8 @@
       "C": "Targets only internal employees",
       "D": "Cannot shape public perception"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 10
   },
   {
     "number": 67,
@@ -734,7 +800,8 @@
       "C": "Mass production",
       "D": "Captive pricing"
     },
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "lecture_number": 10
   },
   {
     "number": 68,
@@ -745,7 +812,8 @@
       "C": "Eliminating all price sensitivity forever",
       "D": "Replacing the need for distribution"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 10
   },
   {
     "number": 69,
@@ -756,7 +824,8 @@
       "C": "Regulators to loosen restrictions",
       "D": "Suppliers to lower input costs"
     },
-    "correct_answer": "B"
+    "correct_answer": "B",
+    "lecture_number": 10
   },
   {
     "number": 70,
@@ -767,6 +836,7 @@
       "C": "Reduce all advertising spending to zero",
       "D": "Eliminate the need for branding"
     },
-    "correct_answer": "A"
+    "correct_answer": "A",
+    "lecture_number": 10
   }
 ]
