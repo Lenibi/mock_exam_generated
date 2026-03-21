@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3002 Mock Exam</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #1a1a2e;
+    color: #eee;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Top bar */
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background: #16213e;
+    border-bottom: 2px solid #0f3460;
+    font-size: 1.1rem;
+  }
+  .topbar .score { font-weight: 700; }
+  .topbar .progress { color: #aaa; }
+
+  /* Landing screen */
+  #landing {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    gap: 24px;
+  }
+  #landing h1 { font-size: 2rem; margin-bottom: 8px; }
+  #landing p { color: #aaa; max-width: 500px; text-align: center; }
+  #landing textarea {
+    width: 100%;
+    max-width: 600px;
+    height: 200px;
+    background: #0f3460;
+    color: #eee;
+    border: 2px solid #533483;
+    border-radius: 8px;
+    padding: 16px;
+    font-family: monospace;
+    font-size: 0.9rem;
+    resize: vertical;
+  }
+  #landing .btn-row { display: flex; gap: 12px; }
+
+  /* Quiz screen */
+  #quiz {
+    flex: 1;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    gap: 24px;
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .q-number { color: #888; font-size: 0.95rem; }
+  .q-text { font-size: 1.4rem; line-height: 1.5; text-align: center; }
+
+  .choices {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    max-width: 600px;
+  }
+  .choice-btn {
+    background: #16213e;
+    border: 2px solid #0f3460;
+    color: #eee;
+    padding: 14px 20px;
+    border-radius: 8px;
+    font-size: 1.05rem;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .choice-btn:hover { border-color: #533483; }
+  .choice-btn.selected { border-color: #e94560; background: #2a1a3e; }
+  .choice-btn.correct-flash { background: #c9a800 !important; color: #000 !important; border-color: #c9a800 !important; }
+
+  .nav-row {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  button {
+    background: #533483;
+    color: #eee;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  button:hover { background: #6a42a0; }
+  button:disabled { opacity: 0.4; cursor: default; }
+  .btn-show { background: #0f3460; }
+  .btn-start { background: #e94560; font-size: 1.1rem; padding: 12px 36px; }
+  .btn-file { background: #0f3460; }
+
+  .hidden-input { display: none; }
+</style>
+</head>
+<body>
+
+<div class="topbar" id="topbar" style="display:none;">
+  <span class="score" id="scoreDisplay">0% — 0/0</span>
+  <span class="progress" id="progressDisplay">Q 1 / 70</span>
+</div>
+
+<!-- Landing -->
+<div id="landing">
+  <h1>3002 Mock Exam</h1>
+  <p>Paste your JSON below or load a .json file. Expected format: an array of objects with <code>number</code>, <code>question</code>, <code>answers</code> (array of 4), and <code>correct</code> (the correct answer text or index).</p>
+  <textarea id="jsonInput" placeholder='[
+  {
+    "number": 1,
+    "question": "What is marketing?",
+    "answers": ["A","B","C","D"],
+    "correct": "B"
+  },
+  ...
+]'></textarea>
+  <div class="btn-row">
+    <button class="btn-file" onclick="document.getElementById('fileInput').click()">Load JSON File</button>
+    <input type="file" id="fileInput" class="hidden-input" accept=".json" />
+    <button class="btn-start" onclick="startFromPaste()">Start Exam</button>
+  </div>
+</div>
+
+<!-- Quiz -->
+<div id="quiz">
+  <div class="q-number" id="qNumber"></div>
+  <div class="q-text" id="qText"></div>
+  <div class="choices" id="choices"></div>
+  <div class="nav-row">
+    <button id="prevBtn" onclick="go(-1)">← Prev</button>
+    <button class="btn-show" id="showBtn" onclick="flashAnswer()">Show Answer</button>
+    <button id="nextBtn" onclick="go(1)">Next →</button>
+  </div>
+</div>
+
+<script>
+let questions = [];
+let current = 0;
+let userAnswers = [];   // index of chosen answer per question, -1 = unanswered
+
+// --- JSON parsing (flexible) ---
+function parseQuestions(raw) {
+  let data = typeof raw === 'string' ? JSON.parse(raw) : raw;
+  // handle wrapper objects like { "questions": [...] } or { "exam": [...] }
+  if (!Array.isArray(data)) {
+    const keys = Object.keys(data);
+    for (const k of keys) {
+      if (Array.isArray(data[k])) { data = data[k]; break; }
+    }
+  }
+  if (!Array.isArray(data)) throw new Error('Could not find an array of questions in the JSON');
+
+  return data.map((q, i) => {
+    // normalize answer options
+    let answers = q.answers || q.options || q.choices || [];
+    if (answers.length === 0) {
+      // try A/B/C/D keys
+      ['A','B','C','D'].forEach(k => { if (q[k]) answers.push(q[k]); });
+    }
+
+    // normalize correct answer to an index
+    let correctIdx = 0;
+    const c = q.correct ?? q.correct_answer ?? q.answer ?? q.correctAnswer ?? 0;
+    if (typeof c === 'number') {
+      correctIdx = c;
+      // if 1-based (1-4), convert to 0-based
+      if (correctIdx >= 1 && correctIdx <= 4 && answers.length === 4) correctIdx -= 1;
+    } else if (typeof c === 'string') {
+      // letter like "A","B","C","D"
+      const letterIdx = 'ABCD'.indexOf(c.trim().toUpperCase());
+      if (letterIdx !== -1 && c.trim().length === 1) {
+        correctIdx = letterIdx;
+      } else {
+        // match text
+        const idx = answers.findIndex(a => a === c || a.replace(/^[A-D][.)]\s*/, '') === c);
+        correctIdx = idx !== -1 ? idx : 0;
+      }
+    }
+
+    return {
+      number: q.number || i + 1,
+      question: q.question || q.text || q.prompt || '',
+      answers,
+      correctIdx
+    };
+  });
+}
+
+function startExam(data) {
+  questions = parseQuestions(data);
+  userAnswers = new Array(questions.length).fill(-1);
+  current = 0;
+  document.getElementById('landing').style.display = 'none';
+  document.getElementById('quiz').style.display = 'flex';
+  document.getElementById('topbar').style.display = 'flex';
+  render();
+}
+
+function startFromPaste() {
+  const txt = document.getElementById('jsonInput').value.trim();
+  if (!txt) return alert('Paste JSON first!');
+  try { startExam(txt); } catch (e) { alert('JSON parse error: ' + e.message); }
+}
+
+document.getElementById('fileInput').addEventListener('change', e => {
+  const file = e.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = () => { try { startExam(reader.result); } catch (err) { alert('Error: ' + err.message); } };
+  reader.readAsText(file);
+});
+
+// --- Rendering ---
+function render() {
+  const q = questions[current];
+  document.getElementById('qNumber').textContent = `Question ${q.number} of ${questions.length}`;
+  document.getElementById('qText').textContent = q.question;
+  document.getElementById('progressDisplay').textContent = `Q ${current + 1} / ${questions.length}`;
+  document.getElementById('prevBtn').disabled = current === 0;
+  document.getElementById('nextBtn').disabled = current === questions.length - 1;
+
+  const container = document.getElementById('choices');
+  container.innerHTML = '';
+  const labels = ['A', 'B', 'C', 'D'];
+  q.answers.forEach((ans, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'choice-btn';
+    btn.textContent = `${labels[i]}.  ${ans}`;
+
+    if (userAnswers[current] === i) btn.classList.add('selected');
+    btn.onclick = () => selectAnswer(i);
+    container.appendChild(btn);
+  });
+
+  updateScore();
+}
+
+function selectAnswer(i) {
+  userAnswers[current] = i;
+  render();
+}
+
+function flashAnswer() {
+  const q = questions[current];
+  const btns = document.querySelectorAll('.choice-btn');
+  btns[q.correctIdx].classList.add('correct-flash');
+  setTimeout(() => {
+    btns[q.correctIdx].classList.remove('correct-flash');
+  }, 500);
+}
+
+function go(dir) {
+  current += dir;
+  if (current < 0) current = 0;
+  if (current >= questions.length) current = questions.length - 1;
+  render();
+}
+
+function updateScore() {
+  let answered = 0, correct = 0;
+  for (let i = 0; i < questions.length; i++) {
+    if (userAnswers[i] !== -1) {
+      answered++;
+      if (userAnswers[i] === questions[i].correctIdx) correct++;
+    }
+  }
+  const pct = answered > 0 ? Math.round((correct / answered) * 100) : 0;
+  document.getElementById('scoreDisplay').textContent = `${pct}% — ${correct}/${answered} answered`;
+}
+
+// auto-load default exam JSON
+(async function autoLoad() {
+  try {
+    const res = await fetch('exam_mock_jsons/example.json');
+    if (res.ok) {
+      const data = await res.json();
+      startExam(data);
+    }
+  } catch (e) {
+    // fetch failed (e.g. file:// CORS) — user can paste or load manually
+  }
+})();
+
+// keyboard shortcuts
+document.addEventListener('keydown', e => {
+  if (document.getElementById('quiz').style.display === 'none') return;
+  if (e.key === 'ArrowRight' || e.key === 'd') go(1);
+  else if (e.key === 'ArrowLeft' || e.key === 'a') go(-1);
+  else if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); flashAnswer(); }
+  else if (e.key === '1') selectAnswer(0);
+  else if (e.key === '2') selectAnswer(1);
+  else if (e.key === '3') selectAnswer(2);
+  else if (e.key === '4') selectAnswer(3);
+});
+</script>
+</body>
+</html>
