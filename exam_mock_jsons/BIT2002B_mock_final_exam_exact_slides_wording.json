@@ -1,0 +1,842 @@
+[
+  {
+    "number": 1,
+    "question": "According to Lecture 1, which phrase is the business-focused definition of marketing?",
+    "answers": {
+      "A": "The set of strategies and activities by which companies acquire and engage customers, build strong customer relationships, and create superior customer value in order to capture value from customers in return.",
+      "B": "A short-term sales tactic focused only on price cuts.",
+      "C": "A production system for reducing costs and increasing efficiency.",
+      "D": "A distribution process for moving products to retailers."
+    },
+    "correct_answer": "A",
+    "lecture_number": 1
+  },
+  {
+    "number": 2,
+    "question": "According to Lecture 1, which is Goal 1 of marketing?",
+    "answers": {
+      "A": "Attract new customers by promising superior value",
+      "B": "Keep and grow current customers by delivering the promised value",
+      "C": "Help drive long-term company profitability by recapturing some of the delivered value from satisfied and loyal customers",
+      "D": "Set the lowest possible price in the market"
+    },
+    "correct_answer": "A",
+    "lecture_number": 1
+  },
+  {
+    "number": 3,
+    "question": "According to Lecture 1, which is Goal 2 of marketing?",
+    "answers": {
+      "A": "Keep and grow current customers by delivering the promised value",
+      "B": "Attract new customers by promising superior value",
+      "C": "Help drive long-term company profitability by recapturing some of the delivered value from satisfied and loyal customers",
+      "D": "Reduce advertising to improve margins"
+    },
+    "correct_answer": "A",
+    "lecture_number": 1
+  },
+  {
+    "number": 4,
+    "question": "According to Lecture 1, which is Goal 3 of marketing?",
+    "answers": {
+      "A": "Help drive long-term company profitability by recapturing some of the delivered value from satisfied and loyal customers",
+      "B": "Attract new customers by promising superior value",
+      "C": "Keep and grow current customers by delivering the promised value",
+      "D": "Match competitor prices in every category"
+    },
+    "correct_answer": "A",
+    "lecture_number": 1
+  },
+  {
+    "number": 5,
+    "question": "In Lecture 1, which exact phrase defines a need?",
+    "answers": {
+      "A": "State of felt deprivation",
+      "B": "Needs shaped by culture & individual personality",
+      "C": "Human wants backed by buying power",
+      "D": "Easy, instant, mobile messaging"
+    },
+    "correct_answer": "A",
+    "lecture_number": 1
+  },
+  {
+    "number": 6,
+    "question": "In Lecture 1, which exact phrase defines a want?",
+    "answers": {
+      "A": "Needs shaped by culture & individual personality",
+      "B": "State of felt deprivation",
+      "C": "Human wants backed by buying power",
+      "D": "Connect with others"
+    },
+    "correct_answer": "A",
+    "lecture_number": 1
+  },
+  {
+    "number": 7,
+    "question": "In Lecture 1, which exact phrase defines demand?",
+    "answers": {
+      "A": "Human wants backed by buying power",
+      "B": "State of felt deprivation",
+      "C": "Needs shaped by culture & individual personality",
+      "D": "Connect with others"
+    },
+    "correct_answer": "A",
+    "lecture_number": 1
+  },
+  {
+    "number": 8,
+    "question": "In Lecture 1, which example is listed for a want?",
+    "answers": {
+      "A": "Easy, instant, mobile messaging",
+      "B": "Connect with others",
+      "C": "Free messaging application, adopted globally",
+      "D": "Creating and exchanging value with others"
+    },
+    "correct_answer": "A",
+    "lecture_number": 1
+  },
+  {
+    "number": 9,
+    "question": "According to Lecture 2, which exact phrase defines the marketing environment?",
+    "answers": {
+      "A": "The marketing environment includes the actors and forces outside marketing that affect marketing management’s ability to build and maintain successful relationships with target customers.",
+      "B": "Consumer buyer behavior is how people decide what to buy, use, and recommend.",
+      "C": "Customer insights is a deep understanding of needs, pain points, and behavior.",
+      "D": "Marketing channel: A set of interdependent organizations that help make a product/service available for use or consumption."
+    },
+    "correct_answer": "A",
+    "lecture_number": 2
+  },
+  {
+    "number": 10,
+    "question": "Which exact Lecture 2 phrase completes the slide note under the marketing environment?",
+    "answers": {
+      "A": "Everything outside of your product that can help or hurt demand",
+      "B": "The end-to-end customer journey",
+      "C": "The full mix of benefits upon which a brand is positioned",
+      "D": "The desired customer service level at the lowest total cost"
+    },
+    "correct_answer": "A",
+    "lecture_number": 2
+  },
+  {
+    "number": 11,
+    "question": "According to Lecture 2, which exact item appears under microenvironmental actors?",
+    "answers": {
+      "A": "Marketing Intermediaries (how you reach customers): app stores, resellers, agencies, marketplaces",
+      "B": "Demographic: who your users are (age, income, location…)",
+      "C": "Technological: platform shifts, AI, cybersecurity threats, new standards",
+      "D": "Natural/Environmental: climate risk, energy costs, sustainability"
+    },
+    "correct_answer": "A",
+    "lecture_number": 2
+  },
+  {
+    "number": 12,
+    "question": "According to Lecture 2, which exact item appears under microenvironmental actors?",
+    "answers": {
+      "A": "Public (groups that shape reputation): media, online communities, regulators, investors",
+      "B": "Economic: budgets, inflation, interest rates, hiring freezes",
+      "C": "Cultural/Social: values, trust, ethics, privacy attitudes",
+      "D": "Demographic: who your users are (age, income, location…)"
+    },
+    "correct_answer": "A",
+    "lecture_number": 2
+  },
+  {
+    "number": 13,
+    "question": "According to Lecture 2, which exact item appears under macroenvironmental actors?",
+    "answers": {
+      "A": "Economic: budgets, inflation, interest rates, hiring freezes",
+      "B": "Customers (buyers & users): needs, budgets, switching costs, decision-makers",
+      "C": "Marketing Intermediaries (how you reach customers): app stores, resellers, agencies, marketplaces",
+      "D": "Competitors (and substitutes): direct rivals + 'do nothing' or spreadsheets"
+    },
+    "correct_answer": "A",
+    "lecture_number": 2
+  },
+  {
+    "number": 14,
+    "question": "According to Lecture 2, which exact item appears under macroenvironmental actors?",
+    "answers": {
+      "A": "Political/Legal: privacy, IP, accessibility, competition laws",
+      "B": "Company (internal teams): product, engineering sales, support",
+      "C": "Customers (buyers & users): needs, budgets, switching costs, decision-makers",
+      "D": "Public (groups that shape reputation): media, online communities, regulators, investors"
+    },
+    "correct_answer": "A",
+    "lecture_number": 2
+  },
+  {
+    "number": 15,
+    "question": "According to Lecture 2, which exact phrase appears under why consumer behavior matters?",
+    "answers": {
+      "A": "To understand how consumers make decisions",
+      "B": "To coordinate communication tools to deliver a clear, consistent, and compelling brand message.",
+      "C": "To deliver the desired customer service level at the lowest total cost.",
+      "D": "To add offerings at a new price/market level."
+    },
+    "correct_answer": "A",
+    "lecture_number": 2
+  },
+  {
+    "number": 16,
+    "question": "According to Lecture 2, which exact phrase appears under consumer behavior in tech?",
+    "answers": {
+      "A": "Advocacy: What makes people leave reviews, share, and recommend?",
+      "B": "Awareness: introduce new products or build primary demand",
+      "C": "Trialability: sandbox demo and a 7-day free trial",
+      "D": "Exporting: selling products produced in one country to buyers in another"
+    },
+    "correct_answer": "A",
+    "lecture_number": 2
+  },
+  {
+    "number": 17,
+    "question": "According to Lecture 3, which exact sentence appears on the customer insights slide?",
+    "answers": {
+      "A": "Data tells you what happened. Insight tells you why. Strategy tells you what to do.",
+      "B": "Price is the money charged for a product/service.",
+      "C": "Advertising is paid, non-personal promotion of ideas, goods, or services.",
+      "D": "One brand should feel like one voice, no matter where the customer encounters it."
+    },
+    "correct_answer": "A",
+    "lecture_number": 3
+  },
+  {
+    "number": 18,
+    "question": "According to Lecture 3, which exact phrase defines customer insights?",
+    "answers": {
+      "A": "Customer Insights is a deep understanding of needs, pain points, and behavior",
+      "B": "Customer-perceived value refers to benefits relative to costs versus competing offers",
+      "C": "A market segment is a group of buyers with similar needs/characteristics",
+      "D": "Product: anything offered to satisfy a need or want"
+    },
+    "correct_answer": "A",
+    "lecture_number": 3
+  },
+  {
+    "number": 19,
+    "question": "According to Lecture 3, which exact phrase appears under big data?",
+    "answers": {
+      "A": "Big data is high-volume, high-velocity, high-variety data from digital systems",
+      "B": "Big data is any information previously collected for another purpose",
+      "C": "Big data is the specific blend of promotion tools the company uses",
+      "D": "Big data is a short-term incentive to encourage the purchase or sale of a product or service"
+    },
+    "correct_answer": "A",
+    "lecture_number": 3
+  },
+  {
+    "number": 20,
+    "question": "According to Lecture 3, which exact item is listed as a source under big data?",
+    "answers": {
+      "A": "product usage analytics, transactions, CRM, support tickets, social reviews",
+      "B": "TV, digital, radio etc.",
+      "C": "discounts, coupons, displays, demonstrations, events",
+      "D": "mobile-first and short-form video discovery"
+    },
+    "correct_answer": "A",
+    "lecture_number": 3
+  },
+  {
+    "number": 21,
+    "question": "According to Lecture 3, which exact sentence appears on the managing marketing info slide?",
+    "answers": {
+      "A": "Insight without action is trivia.",
+      "B": "Sell value, not price.",
+      "C": "Good logos are simple, readable and scalable.",
+      "D": "One brand should feel like one voice."
+    },
+    "correct_answer": "A",
+    "lecture_number": 3
+  },
+  {
+    "number": 22,
+    "question": "According to Lecture 3, which three sources are listed under developing marketing information?",
+    "answers": {
+      "A": "Internal Data – what customers do; Marketing Intelligence – what’s happening outside the company; Marketing Research – what customers say + why they do it",
+      "B": "Advertising – remind customers; PR – engage publics; digital – go global",
+      "C": "Need – want – demand",
+      "D": "Product – price – place"
+    },
+    "correct_answer": "A",
+    "lecture_number": 3
+  },
+  {
+    "number": 23,
+    "question": "According to Lecture 3, which exact phrase defines primary data?",
+    "answers": {
+      "A": "information collected for the specific purpose at-hand.",
+      "B": "information previously collected for another purpose that can be used.",
+      "C": "data you already collect from running the business and product",
+      "D": "the actors and forces outside marketing"
+    },
+    "correct_answer": "A",
+    "lecture_number": 3
+  },
+  {
+    "number": 24,
+    "question": "According to Lecture 3, which exact phrase defines secondary data?",
+    "answers": {
+      "A": "information previously collected for another purpose that can be used.",
+      "B": "information collected for the specific purpose at-hand.",
+      "C": "the process: Collect → clean → analyze → test → share → act",
+      "D": "a deep understanding of needs, pain points, and behavior"
+    },
+    "correct_answer": "A",
+    "lecture_number": 3
+  },
+  {
+    "number": 25,
+    "question": "According to Lecture 4, which exact phrase defines a product?",
+    "answers": {
+      "A": "Product: anything offered to satisfy a need or want",
+      "B": "Price is the money charged for a product/service",
+      "C": "Advertising is paid, non-personal promotion of ideas, goods, or services",
+      "D": "Marketing channel: A set of interdependent organizations that help make a product/service available for use or consumption."
+    },
+    "correct_answer": "A",
+    "lecture_number": 4
+  },
+  {
+    "number": 26,
+    "question": "According to Lecture 4, which exact phrase appears directly under the product definition?",
+    "answers": {
+      "A": "Includes goods, services, experiences, people, places, ideas",
+      "B": "Includes wholesalers, retailers, distributors, and logistics providers",
+      "C": "Includes budgets, inflation, interest rates, hiring freezes",
+      "D": "Includes websites, social media, email, and mobile"
+    },
+    "correct_answer": "A",
+    "lecture_number": 4
+  },
+  {
+    "number": 27,
+    "question": "According to Lecture 4, which exact phrase defines services?",
+    "answers": {
+      "A": "Services are intangible benefits (you use them – you don’t own them)",
+      "B": "Services are products sold only through digital channels",
+      "C": "Services are short-term incentives to encourage purchase",
+      "D": "Services are the same as physical goods but cheaper"
+    },
+    "correct_answer": "A",
+    "lecture_number": 4
+  },
+  {
+    "number": 28,
+    "question": "According to Lecture 4, which exact phrase appears on products, services, and experiences?",
+    "answers": {
+      "A": "Experience is the differentiator (how it feels to buy / use / support)",
+      "B": "Price is the only 'P' that produces revenue",
+      "C": "Competition laws shape markets and buyer behavior",
+      "D": "Informative advertising introduces new products or builds primary demand"
+    },
+    "correct_answer": "A",
+    "lecture_number": 4
+  },
+  {
+    "number": 29,
+    "question": "According to Lecture 4, which exact phrase labels the first product level?",
+    "answers": {
+      "A": "Core Value: What problem are we solving?",
+      "B": "Actual Product: What is it, exactly?",
+      "C": "Augmented Product: What makes it better to choose / use?",
+      "D": "Product Mix Decisions = the full portfolio"
+    },
+    "correct_answer": "A",
+    "lecture_number": 4
+  },
+  {
+    "number": 30,
+    "question": "According to Lecture 4, which exact phrase describes convenience products?",
+    "answers": {
+      "A": "Convenience: frequent, low effort",
+      "B": "Shopping: compare options",
+      "C": "Specialty: strong brand preference; high involvement",
+      "D": "Unsought: not actively looking; need awareness"
+    },
+    "correct_answer": "A",
+    "lecture_number": 4
+  },
+  {
+    "number": 31,
+    "question": "According to Lecture 4, which exact sentence appears under B2B product classifications?",
+    "answers": {
+      "A": "B2B buyers care most about ROI, reliability, support & risk reduction",
+      "B": "B2C buyers care most about prestige, celebrity, and trend cycles",
+      "C": "Consumers only buy through direct channels",
+      "D": "Intermediaries exist to eliminate all costs"
+    },
+    "correct_answer": "A",
+    "lecture_number": 4
+  },
+  {
+    "number": 32,
+    "question": "According to Lecture 4, which exact line appears under product attributes?",
+    "answers": {
+      "A": "Good attributes reduce friction → higher adoption & retention",
+      "B": "Good attributes reduce prices → higher margins only",
+      "C": "Good attributes eliminate the need for promotion",
+      "D": "Good attributes guarantee market leadership"
+    },
+    "correct_answer": "A",
+    "lecture_number": 4
+  },
+  {
+    "number": 33,
+    "question": "According to Lecture 4, which exact phrase distinguishes performance quality?",
+    "answers": {
+      "A": "Performance Quality: how well it works (speed, accuracy, features work)",
+      "B": "Conformance Quality: how consistently it works (bugs, uptime, reliability)",
+      "C": "Style: how it looks and feels (visual appeal)",
+      "D": "Design: how it works (usability + usefulness)"
+    },
+    "correct_answer": "A",
+    "lecture_number": 4
+  },
+  {
+    "number": 34,
+    "question": "According to Lecture 4, which exact phrase defines design?",
+    "answers": {
+      "A": "Design: how it works (usability + usefulness)",
+      "B": "Style: how it looks and feels (visual appeal)",
+      "C": "Quality: reliability, performance, security",
+      "D": "Features: capabilities that solve the user’s job"
+    },
+    "correct_answer": "A",
+    "lecture_number": 4
+  },
+  {
+    "number": 35,
+    "question": "According to Lecture 5, which exact phrase defines price?",
+    "answers": {
+      "A": "Price is the money charged for a product/service – or more broadly, the total value customers exchange to receive the benefits (money + time + effort + risk)",
+      "B": "Price is the standard markup added to cost",
+      "C": "Price is whatever competitors charge",
+      "D": "Price is any paid form of nonpersonal presentation and promotion"
+    },
+    "correct_answer": "A",
+    "lecture_number": 5
+  },
+  {
+    "number": 36,
+    "question": "According to Lecture 5, which exact sentence appears under important notes?",
+    "answers": {
+      "A": "Price is the only “P’ that produces revenue; the others (product, place, promotion) create costs.",
+      "B": "Place is the only 'P' that produces revenue; the others create costs.",
+      "C": "Promotion is the only 'P' that produces revenue; the others create costs.",
+      "D": "Product is the only 'P' that produces revenue; the others create costs."
+    },
+    "correct_answer": "A",
+    "lecture_number": 5
+  },
+  {
+    "number": 37,
+    "question": "According to Lecture 5, which exact phrase appears under customer-value based pricing?",
+    "answers": {
+      "A": "Set price based on the customer’s perceived value (benefits), not the sellers cost",
+      "B": "Set price based on the costs of producing, distributing, and selling",
+      "C": "Definition: Price = cost + standard markup",
+      "D": "Set price to cover costs (breakeven) or earn a target profit"
+    },
+    "correct_answer": "A",
+    "lecture_number": 5
+  },
+  {
+    "number": 38,
+    "question": "According to Lecture 5, which exact phrase appears under customer-value based pricing?",
+    "answers": {
+      "A": "Customer-driven: start with what buyers value and will pay for",
+      "B": "Competition-driven: start with what rivals charge and copy it",
+      "C": "Supplier-driven: start with input cost increases",
+      "D": "Promotion-driven: start with the media budget"
+    },
+    "correct_answer": "A",
+    "lecture_number": 5
+  },
+  {
+    "number": 39,
+    "question": "According to Lecture 5, which exact phrase appears under cost-based pricing?",
+    "answers": {
+      "A": "Set price based on the costs of producing, distributing, and selling",
+      "B": "Set price based on the customer’s perceived value (benefits), not the sellers cost",
+      "C": "Set price to introduce new products or build primary demand",
+      "D": "Set price to create a seamless customer experience across touchpoints"
+    },
+    "correct_answer": "A",
+    "lecture_number": 5
+  },
+  {
+    "number": 40,
+    "question": "According to Lecture 5, which exact phrase defines cost-plus pricing?",
+    "answers": {
+      "A": "Definition: Price = cost + standard markup",
+      "B": "Definition: Price = perceived value + standard markdown",
+      "C": "Definition: Price = competitor price + ad spend",
+      "D": "Definition: Price = fixed cost + variable cost only"
+    },
+    "correct_answer": "A",
+    "lecture_number": 5
+  },
+  {
+    "number": 41,
+    "question": "According to Lecture 5, which exact phrase appears under cost-plus pricing?",
+    "answers": {
+      "A": "Why firms use it: simple, predictable, feels “fair”",
+      "B": "Why firms use it: coordinated and consistent across channels",
+      "C": "Why firms use it: creates one voice across all media",
+      "D": "Why firms use it: reduces mixed or confusing messages"
+    },
+    "correct_answer": "A",
+    "lecture_number": 5
+  },
+  {
+    "number": 42,
+    "question": "According to Lecture 5, which exact phrase appears under new product pricing?",
+    "answers": {
+      "A": "Market-Skimming",
+      "B": "Reminder advertising",
+      "C": "Selective distribution",
+      "D": "Trade promotion"
+    },
+    "correct_answer": "A",
+    "lecture_number": 5
+  },
+  {
+    "number": 43,
+    "question": "According to Lecture 5, which exact phrase appears under new product pricing?",
+    "answers": {
+      "A": "Market Penetration",
+      "B": "Branded entertainment",
+      "C": "Straight Product Extension",
+      "D": "Interactive Marketing"
+    },
+    "correct_answer": "A",
+    "lecture_number": 5
+  },
+  {
+    "number": 44,
+    "question": "According to Lecture 5, which exact phrase appears under deceptive pricing?",
+    "answers": {
+      "A": "fake “regular” prices, drip fees, confusing price representation",
+      "B": "same marketing strategy across countries",
+      "C": "one clear and consistent brand message",
+      "D": "good-value pricing: the right mix of quality and service at a fair price"
+    },
+    "correct_answer": "A",
+    "lecture_number": 5
+  },
+  {
+    "number": 45,
+    "question": "According to Lecture 8, which exact phrase defines a marketing channel?",
+    "answers": {
+      "A": "Marketing channel (distribution channel): A set of interdependent organizations that help make a product/service available for use or consumption.",
+      "B": "The promotion mix is the specific blend of promotion tools that the company uses to persuasively communicate customer value and build customer relationships.",
+      "C": "Retailing includes all the activities in selling products or services directly to final consumers for their personal, nonbusiness use.",
+      "D": "Advertising is paid, non-personal promotion of ideas, goods, or services."
+    },
+    "correct_answer": "A",
+    "lecture_number": 8
+  },
+  {
+    "number": 46,
+    "question": "According to Lecture 8, which exact phrase appears under why channels add value?",
+    "answers": {
+      "A": "Match supply with what customers want (right assortment)",
+      "B": "Build stronger brand awareness",
+      "C": "Keep the brand in customers’ minds and maintain relationships",
+      "D": "Introduce new products or build primary demand"
+    },
+    "correct_answer": "A",
+    "lecture_number": 8
+  },
+  {
+    "number": 47,
+    "question": "According to Lecture 8, which exact phrase appears under why channels add value?",
+    "answers": {
+      "A": "Bridge gaps: time, place, and possession",
+      "B": "Bridge gaps: quality, service, and price",
+      "C": "Bridge gaps: promotion, segmentation, and positioning",
+      "D": "Bridge gaps: awareness, interest, and desire"
+    },
+    "correct_answer": "A",
+    "lecture_number": 8
+  },
+  {
+    "number": 48,
+    "question": "According to Lecture 8, which exact phrase defines channel level?",
+    "answers": {
+      "A": "Channel Level: A layer of intermediaries that moves the product and ownership closer to the final buyer.",
+      "B": "A sales promotion aimed at organizational buyers",
+      "C": "A group of closely related products sold to similar customers",
+      "D": "A specific communication task with a defined target audience and time period"
+    },
+    "correct_answer": "A",
+    "lecture_number": 8
+  },
+  {
+    "number": 49,
+    "question": "According to Lecture 8, which exact phrase defines a direct channel?",
+    "answers": {
+      "A": "Direct channel: no intermediaries",
+      "B": "Indirect channel: one or more intermediaries",
+      "C": "Inbound logistics (into the company)",
+      "D": "Retailers are businesses whose sales come primarily from retailing."
+    },
+    "correct_answer": "A",
+    "lecture_number": 8
+  },
+  {
+    "number": 50,
+    "question": "According to Lecture 8, which exact item is listed as a key channel flow?",
+    "answers": {
+      "A": "Ownership flow",
+      "B": "Brand equity flow",
+      "C": "Culture flow",
+      "D": "Experience flow"
+    },
+    "correct_answer": "A",
+    "lecture_number": 8
+  },
+  {
+    "number": 51,
+    "question": "According to Lecture 8, which exact phrase appears under types of VMS?",
+    "answers": {
+      "A": "Corporate VMS",
+      "B": "Reminder VMS",
+      "C": "Persuasive VMS",
+      "D": "Experiential VMS"
+    },
+    "correct_answer": "A",
+    "lecture_number": 8
+  },
+  {
+    "number": 52,
+    "question": "According to Lecture 8, which exact phrase appears under types of VMS?",
+    "answers": {
+      "A": "Contractual VMS",
+      "B": "Integrated VMS",
+      "C": "Geographic VMS",
+      "D": "Lifestyle VMS"
+    },
+    "correct_answer": "A",
+    "lecture_number": 8
+  },
+  {
+    "number": 53,
+    "question": "According to Lecture 8, which exact phrase defines marketing logistics?",
+    "answers": {
+      "A": "Marketing logistics (physical distribution): planning and managing the flow of goods + information from origin to consumption. Goal: deliver the desired customer service level at the lowest total cost.",
+      "B": "Marketing logistics means maximizing delivery speed regardless of cost.",
+      "C": "Marketing logistics means eliminating all intermediaries.",
+      "D": "Marketing logistics means standardizing ads across countries."
+    },
+    "correct_answer": "A",
+    "lecture_number": 8
+  },
+  {
+    "number": 54,
+    "question": "According to Lecture 8, which exact phrase defines retailing?",
+    "answers": {
+      "A": "Retailing includes all the activities in selling products or services directly to final consumers for their personal, nonbusiness use.",
+      "B": "Wholesaling includes all activities involved in selling goods and services to those buying for resale or business use.",
+      "C": "Promotion is directed at final consumers to create demand.",
+      "D": "Advertising is any paid form of nonpersonal presentation and promotion by an identified sponsor."
+    },
+    "correct_answer": "A",
+    "lecture_number": 8
+  },
+  {
+    "number": 55,
+    "question": "According to Lecture 9, which exact phrase defines the promotion mix?",
+    "answers": {
+      "A": "The promotion mix is the specific blend of promotion tools that the company uses to persuasively communicate customer value and build customer relationships.",
+      "B": "Marketing channel (distribution channel): A set of interdependent organizations that help make a product/service available for use or consumption.",
+      "C": "Price is the money charged for a product/service.",
+      "D": "Customer insights is a deep understanding of needs, pain points, and behavior."
+    },
+    "correct_answer": "A",
+    "lecture_number": 9
+  },
+  {
+    "number": 56,
+    "question": "According to Lecture 9, which exact phrase defines advertising?",
+    "answers": {
+      "A": "Advertising is any paid form of nonpersonal presentation and promotion of ideas, goods, or services by an identified sponsor.",
+      "B": "Sales promotion is a short-term incentive to encourage the purchase or sale of a product or service.",
+      "C": "Personal selling is the personal interaction by the firm’s sales force for the purpose of engaging customers, making sales, and building customer relationships.",
+      "D": "Public relations involves building good relations with the company’s various publics by obtaining favorable publicity, building up a good corporate image, and handling or heading off unfavorable rumors, stories, and events."
+    },
+    "correct_answer": "A",
+    "lecture_number": 9
+  },
+  {
+    "number": 57,
+    "question": "According to Lecture 9, which exact phrase defines sales promotion?",
+    "answers": {
+      "A": "Sales promotion is a short-term incentive to encourage the purchase or sale of a product or service.",
+      "B": "Advertising is any paid form of nonpersonal presentation and promotion of ideas, goods, or services by an identified sponsor.",
+      "C": "Reminder advertising - keep the brand in customers’ minds and maintain relationships",
+      "D": "Exporting – selling products produced in one country to buyers in another"
+    },
+    "correct_answer": "A",
+    "lecture_number": 9
+  },
+  {
+    "number": 58,
+    "question": "According to Lecture 9, which exact phrase defines personal selling?",
+    "answers": {
+      "A": "Personal selling is the personal interaction by the firm’s sales force for the purpose of engaging customers, making sales, and building customer relationships.",
+      "B": "Public relations involves building good relations with the company’s various publics.",
+      "C": "Advertising is any paid form of nonpersonal presentation and promotion.",
+      "D": "Sales promotion is a short-term incentive."
+    },
+    "correct_answer": "A",
+    "lecture_number": 9
+  },
+  {
+    "number": 59,
+    "question": "According to Lecture 9, which exact phrase defines IMC?",
+    "answers": {
+      "A": "IMC = coordinating communication tools to deliver a clear, consistent, and compelling brand message.",
+      "B": "IMC = increasing ad frequency until sales rise.",
+      "C": "IMC = choosing the lowest-cost media mix.",
+      "D": "IMC = selling the same product everywhere."
+    },
+    "correct_answer": "A",
+    "lecture_number": 9
+  },
+  {
+    "number": 60,
+    "question": "According to Lecture 9, which exact sentence appears under why it matters?",
+    "answers": {
+      "A": "One brand should feel like one voice, no matter where the customer encounters it.",
+      "B": "One price should feel like one deal, no matter where the customer shops.",
+      "C": "One product should feel like one feature set, no matter the segment.",
+      "D": "One channel should feel like one retailer, no matter the market."
+    },
+    "correct_answer": "A",
+    "lecture_number": 9
+  },
+  {
+    "number": 61,
+    "question": "According to Lecture 9, which exact step appears first in developing effective marketing communication?",
+    "answers": {
+      "A": "Identify the target audience",
+      "B": "Set communication objectives",
+      "C": "Design the message",
+      "D": "Choose communication channels"
+    },
+    "correct_answer": "A",
+    "lecture_number": 9
+  },
+  {
+    "number": 62,
+    "question": "According to Lecture 9, which exact phrase appears under push and pull?",
+    "answers": {
+      "A": "Promotion is directed at final consumers to create demand.",
+      "B": "Promotion is directed at channel members to move products through the channel.",
+      "C": "Promotion is directed at suppliers to lower input costs.",
+      "D": "Promotion is directed at regulators to shape policy."
+    },
+    "correct_answer": "A",
+    "lecture_number": 9
+  },
+  {
+    "number": 63,
+    "question": "According to Lecture 10, which exact phrase defines advertising?",
+    "answers": {
+      "A": "Paid, non-personal promotion of ideas, goods, or services",
+      "B": "A short-term incentive to encourage the purchase or sale of a product or service",
+      "C": "The personal interaction by the firm’s sales force",
+      "D": "Planning and managing the flow of goods + information from origin to consumption"
+    },
+    "correct_answer": "A",
+    "lecture_number": 10
+  },
+  {
+    "number": 64,
+    "question": "According to Lecture 10, which exact phrase appears as a purpose of advertising?",
+    "answers": {
+      "A": "Inform customers",
+      "B": "Break bulk into smaller lots",
+      "C": "Deliver the desired customer service level at the lowest total cost",
+      "D": "Collect → clean → analyze → test → share → act"
+    },
+    "correct_answer": "A",
+    "lecture_number": 10
+  },
+  {
+    "number": 65,
+    "question": "According to Lecture 10, which exact phrase appears under key advertising decisions?",
+    "answers": {
+      "A": "Set advertising objectives (inform, engage, persuade, remind)",
+      "B": "Set channel objectives (cost, control, adaptability)",
+      "C": "Set product objectives (quality, features, design)",
+      "D": "Set logistics objectives (inbound, outbound, reverse)"
+    },
+    "correct_answer": "A",
+    "lecture_number": 10
+  },
+  {
+    "number": 66,
+    "question": "According to Lecture 10, which exact phrase defines an advertising objective?",
+    "answers": {
+      "A": "A specific communication task with a defined target audience and time period",
+      "B": "A specific pricing task with a defined target margin and time period",
+      "C": "A specific logistics task with a defined service level and time period",
+      "D": "A specific segmentation task with a defined profile and time period"
+    },
+    "correct_answer": "A",
+    "lecture_number": 10
+  },
+  {
+    "number": 67,
+    "question": "According to Lecture 10, which exact phrase defines informative advertising?",
+    "answers": {
+      "A": "Informative advertising – introduce new products or build primary demand",
+      "B": "Persuasive advertising – build brand preference and encourage switching",
+      "C": "Reminder advertising - keep the brand in customers’ minds and maintain relationships",
+      "D": "Press relations – share newsworthy information with media outlets"
+    },
+    "correct_answer": "A",
+    "lecture_number": 10
+  },
+  {
+    "number": 68,
+    "question": "According to Lecture 10, which exact phrase appears under advertising budget factors?",
+    "answers": {
+      "A": "Stage in the product life cycle",
+      "B": "Line filling",
+      "C": "Buyer readiness stage",
+      "D": "Performance quality"
+    },
+    "correct_answer": "A",
+    "lecture_number": 10
+  },
+  {
+    "number": 69,
+    "question": "According to Lecture 10, which exact phrase appears under digital marketing process?",
+    "answers": {
+      "A": "Use digital channels (web, social, mobile)",
+      "B": "Use only physical retail outlets",
+      "C": "Use only TV, radio, and print",
+      "D": "Use only one channel to avoid mixed messages"
+    },
+    "correct_answer": "A",
+    "lecture_number": 10
+  },
+  {
+    "number": 70,
+    "question": "According to Lecture 10, which exact phrase defines straight product extension?",
+    "answers": {
+      "A": "Straight Product Extension – sell the same product everywhere",
+      "B": "Product Adaptation – modify the product for local preferences",
+      "C": "Product Invention – create a new product for a specific market",
+      "D": "Adapted Marketing – adjust marketing for each country"
+    },
+    "correct_answer": "A",
+    "lecture_number": 10
+  }
+]

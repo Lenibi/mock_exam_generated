@@ -1,0 +1,842 @@
+[
+  {
+    "number": 1,
+    "question": "Consumers will favor products that are available and highly affordable.",
+    "answers": {
+      "A": "Production Concept",
+      "B": "Product Concept",
+      "C": "Selling Concept",
+      "D": "Marketing Concept"
+    },
+    "correct_answer": "A",
+    "lecture_number": 1
+  },
+  {
+    "number": 2,
+    "question": "Consumers will favor products that offer quality, performance and features.",
+    "answers": {
+      "A": "Societal Concept",
+      "B": "Product Concept",
+      "C": "Selling Concept",
+      "D": "Production Concept"
+    },
+    "correct_answer": "B",
+    "lecture_number": 1
+  },
+  {
+    "number": 3,
+    "question": "Consumers will not buy enough of the firm’s products unless the firm undertakes a large-scale selling and promotion effort.",
+    "answers": {
+      "A": "Marketing Concept",
+      "B": "Societal Concept",
+      "C": "Selling Concept",
+      "D": "Product Concept"
+    },
+    "correct_answer": "C",
+    "lecture_number": 1
+  },
+  {
+    "number": 4,
+    "question": "Customer-centered sense-and-respond philosophy (as opposed to product-centered make-and-sell philosophy).",
+    "answers": {
+      "A": "Marketing Concept",
+      "B": "Production Concept",
+      "C": "Selling Concept",
+      "D": "Societal Concept"
+    },
+    "correct_answer": "A",
+    "lecture_number": 1
+  },
+  {
+    "number": 5,
+    "question": "Strive to balance the interests of consumers (wants & needs), company (profits) and society (long-run welfare).",
+    "answers": {
+      "A": "Product Concept",
+      "B": "Societal Concept",
+      "C": "Selling Concept",
+      "D": "Production Concept"
+    },
+    "correct_answer": "B",
+    "lecture_number": 1
+  },
+  {
+    "number": 6,
+    "question": "Market segmentation is the division of a market into distinct groups of buyers who have different needs, characteristics, or behaviors and who might require separate products or marketing mixes.",
+    "answers": {
+      "A": "Market segmentation",
+      "B": "Market targeting",
+      "C": "Market positioning",
+      "D": "Differentiation"
+    },
+    "correct_answer": "A",
+    "lecture_number": 1
+  },
+  {
+    "number": 7,
+    "question": "Market targeting is the process of evaluating each market segment’s attractiveness and selecting one or more segments to enter.",
+    "answers": {
+      "A": "Market positioning",
+      "B": "Market targeting",
+      "C": "Differentiation",
+      "D": "Value proposition"
+    },
+    "correct_answer": "B",
+    "lecture_number": 1
+  },
+  {
+    "number": 8,
+    "question": "Market positioning is the arranging for a product to occupy a clear, distinctive, and desirable place relative to competing products in the minds of target consumers.",
+    "answers": {
+      "A": "Market segmentation",
+      "B": "Market targeting",
+      "C": "Market positioning",
+      "D": "Marketing management"
+    },
+    "correct_answer": "C",
+    "lecture_number": 1
+  },
+  {
+    "number": 9,
+    "question": "How can we best serve these customers?",
+    "answers": {
+      "A": "Target market",
+      "B": "Value proposition",
+      "C": "Market segment",
+      "D": "Marketing environment"
+    },
+    "correct_answer": "B",
+    "lecture_number": 1
+  },
+  {
+    "number": 10,
+    "question": "Creating & delivering value for customers",
+    "answers": {
+      "A": "What is Marketing?",
+      "B": "Marketing Environment",
+      "C": "B2C & B2B Marketing",
+      "D": "Group Formation"
+    },
+    "correct_answer": "A",
+    "lecture_number": 2
+  },
+  {
+    "number": 11,
+    "question": "Building strong customer relationships",
+    "answers": {
+      "A": "Marketing Environment",
+      "B": "What is Marketing?",
+      "C": "B2C & B2B Marketing",
+      "D": "Review Group Project Requirements & Group Formation"
+    },
+    "correct_answer": "B",
+    "lecture_number": 2
+  },
+  {
+    "number": 12,
+    "question": "Capturing value in return (profit / loyalty) by satisfying needs",
+    "answers": {
+      "A": "Marketing Strategy",
+      "B": "What is Marketing?",
+      "C": "Macroenvironment",
+      "D": "Mission statement"
+    },
+    "correct_answer": "B",
+    "lecture_number": 2
+  },
+  {
+    "number": 13,
+    "question": "The adoption process is the mental process an individual goes through from first learning about an innovation to final regular use.",
+    "answers": {
+      "A": "The buying center",
+      "B": "The adoption process",
+      "C": "Selective retention",
+      "D": "The marketing environment"
+    },
+    "correct_answer": "B",
+    "lecture_number": 2
+  },
+  {
+    "number": 14,
+    "question": "Stages in the adoption process include: 1. Awareness 2. Interest 3. Evaluation 4. Trial 5. Adoption",
+    "answers": {
+      "A": "Awareness, Interest, Evaluation, Trial, Adoption",
+      "B": "Need recognition, Info search, Evaluation, Purchase, Post-purchase",
+      "C": "Targeting, Positioning, Differentiation, Value proposition, Loyalty",
+      "D": "Innovators, Early Adopters, Early Mainstream, Late Mainstream, Lagging Adopters"
+    },
+    "correct_answer": "A",
+    "lecture_number": 2
+  },
+  {
+    "number": 15,
+    "question": "The customer first learns the product exists.",
+    "answers": {
+      "A": "Interest",
+      "B": "Awareness",
+      "C": "Evaluation",
+      "D": "Adoption"
+    },
+    "correct_answer": "B",
+    "lecture_number": 2
+  },
+  {
+    "number": 16,
+    "question": "The customer tests the product with low commitment.",
+    "answers": {
+      "A": "Awareness",
+      "B": "Evaluation",
+      "C": "Trial",
+      "D": "Adoption"
+    },
+    "correct_answer": "C",
+    "lecture_number": 2
+  },
+  {
+    "number": 17,
+    "question": "The customer becomes a regular user or paying customer.",
+    "answers": {
+      "A": "Interest",
+      "B": "Trial",
+      "C": "Adoption",
+      "D": "Evaluation"
+    },
+    "correct_answer": "C",
+    "lecture_number": 2
+  },
+  {
+    "number": 18,
+    "question": "Data tells you what happened. Insight tells you why. Strategy tells you what to do.",
+    "answers": {
+      "A": "Marketing Strategy",
+      "B": "Marketing Information → Customer Insights",
+      "C": "The buying process",
+      "D": "The marketing environment"
+    },
+    "correct_answer": "B",
+    "lecture_number": 3
+  },
+  {
+    "number": 19,
+    "question": "The design, collection, analysis, and reporting of data relevant to a specific marketing situation facing an organization.",
+    "answers": {
+      "A": "Big data",
+      "B": "Market Research",
+      "C": "Market intelligence",
+      "D": "Internal data"
+    },
+    "correct_answer": "B",
+    "lecture_number": 3
+  },
+  {
+    "number": 20,
+    "question": "Uncertainty is high (launching / changing something important)",
+    "answers": {
+      "A": "When to use Market Research",
+      "B": "Why channels add value",
+      "C": "Why firms use sales promotion",
+      "D": "Factors Companies Consider"
+    },
+    "correct_answer": "A",
+    "lecture_number": 3
+  },
+  {
+    "number": 21,
+    "question": "Internal data is what customers do, marketing intelligence is what’s happening in the market, and marketing research is why customers behave as they do.",
+    "answers": {
+      "A": "Brand strategy builds equity and enables growth",
+      "B": "Marketing information comes from three key sources",
+      "C": "The promotion mix should be coordinated carefully",
+      "D": "Price = value exchange, not just $."
+    },
+    "correct_answer": "B",
+    "lecture_number": 3
+  },
+  {
+    "number": 22,
+    "question": "STP: Segmentation → Targeting → Positioning",
+    "answers": {
+      "A": "The Personal Selling Process",
+      "B": "STP",
+      "C": "The communication process",
+      "D": "The product life cycle"
+    },
+    "correct_answer": "B",
+    "lecture_number": 3
+  },
+  {
+    "number": 23,
+    "question": "Segmentation identifies meaningful customer groups, targeting is the deliberate choice of which segments to serve, and positioning defines the specific value a brand promises in the customer’s mind.",
+    "answers": {
+      "A": "Strong positioning requires trade-offs",
+      "B": "STP is about choice, not coverage",
+      "C": "Why channels add value",
+      "D": "The promotion mix"
+    },
+    "correct_answer": "B",
+    "lecture_number": 3
+  },
+  {
+    "number": 24,
+    "question": "Effective positioning is specific, differentiated, believable, and actionable.",
+    "answers": {
+      "A": "Why It Matters",
+      "B": "Strong positioning requires trade-offs",
+      "C": "The Nature & Importance of Marketing Channels",
+      "D": "Personal Selling Today"
+    },
+    "correct_answer": "B",
+    "lecture_number": 3
+  },
+  {
+    "number": 25,
+    "question": "Measurable, Accessible, Substantial, Differentiable, Actionable",
+    "answers": {
+      "A": "Segmentation Criteria",
+      "B": "Advertising Objectives",
+      "C": "Key channel flows",
+      "D": "Major logistics functions"
+    },
+    "correct_answer": "A",
+    "lecture_number": 3
+  },
+  {
+    "number": 26,
+    "question": "Not segment-specific and not meaningfully differentiated",
+    "answers": {
+      "A": "Best critique",
+      "B": "Point of parity",
+      "C": "Product adaptation",
+      "D": "Wholesaling"
+    },
+    "correct_answer": "A",
+    "lecture_number": 3
+  },
+  {
+    "number": 27,
+    "question": "New Product Development (NPD): idea → concept → MVP → launch",
+    "answers": {
+      "A": "Product Life Cycle",
+      "B": "New Product Development (NPD)",
+      "C": "Adoption process",
+      "D": "The personal selling process"
+    },
+    "correct_answer": "B",
+    "lecture_number": 4
+  },
+  {
+    "number": 28,
+    "question": "Creating value: features vs benefits, product–market fit",
+    "answers": {
+      "A": "Marketing channels",
+      "B": "Product",
+      "C": "Promotion",
+      "D": "Price"
+    },
+    "correct_answer": "B",
+    "lecture_number": 4
+  },
+  {
+    "number": 29,
+    "question": "More than the item: Nike sells identify + performance + belonging",
+    "answers": {
+      "A": "PELOTON Premium Price, Premium Value",
+      "B": "Nike: Product – Total Brand Experience",
+      "C": "The Marketing Process: Marketing Strategy",
+      "D": "Advertising Budget"
+    },
+    "correct_answer": "B",
+    "lecture_number": 4
+  },
+  {
+    "number": 30,
+    "question": "Experience ecosystem: apps, communities, events, retail, service",
+    "answers": {
+      "A": "Nike: Product – Total Brand Experience",
+      "B": "Advertising Strategy",
+      "C": "Push Strategy",
+      "D": "Marketing logistics"
+    },
+    "correct_answer": "A",
+    "lecture_number": 4
+  },
+  {
+    "number": 31,
+    "question": "Result: stronger loyalty, repeat purchase, and willingness to pay",
+    "answers": {
+      "A": "The adoption process",
+      "B": "Nike: Product – Total Brand Experience",
+      "C": "Wholesaling",
+      "D": "Global Product Strategies"
+    },
+    "correct_answer": "B",
+    "lecture_number": 4
+  },
+  {
+    "number": 32,
+    "question": "The adoption process is the mental process an individual goes through from first learning about an innovation to final regular use.",
+    "answers": {
+      "A": "Adoption of New Products",
+      "B": "Advertising Decision Making",
+      "C": "The Personal Selling Process",
+      "D": "Integrated Marketing Communications"
+    },
+    "correct_answer": "A",
+    "lecture_number": 4
+  },
+  {
+    "number": 33,
+    "question": "People adopt innovations at different speeds.",
+    "answers": {
+      "A": "Integrated Marketing Communications",
+      "B": "Adoption of New Products",
+      "C": "Marketing Environment",
+      "D": "Advertising"
+    },
+    "correct_answer": "B",
+    "lecture_number": 4
+  },
+  {
+    "number": 34,
+    "question": "Innovators / Early Adopters / Early Mainstream / Late Mainstream / Lagging Adopters",
+    "answers": {
+      "A": "Stages in the adoption process",
+      "B": "Adopter group",
+      "C": "Major logistics functions",
+      "D": "Sales force decisions"
+    },
+    "correct_answer": "B",
+    "lecture_number": 4
+  },
+  {
+    "number": 35,
+    "question": "Your marketing message & channels should match the adopter group.",
+    "answers": {
+      "A": "Adoption of New Products",
+      "B": "Shaping the Promotional Mix",
+      "C": "Advertising Objective",
+      "D": "Distribution Coverage"
+    },
+    "correct_answer": "A",
+    "lecture_number": 4
+  },
+  {
+    "number": 36,
+    "question": "Price = value exchange, not just $.",
+    "answers": {
+      "A": "Lecture 8 recap of Lecture #5",
+      "B": "Market skimming pricing",
+      "C": "Product line pricing",
+      "D": "Advertising objective"
+    },
+    "correct_answer": "A",
+    "lecture_number": 5
+  },
+  {
+    "number": 37,
+    "question": "Value-Based, Cost-Based, and Competition-Based",
+    "answers": {
+      "A": "Three main choices",
+      "B": "Three core pricing approaches were compared",
+      "C": "Major logistics functions",
+      "D": "Main promotional tools"
+    },
+    "correct_answer": "B",
+    "lecture_number": 5
+  },
+  {
+    "number": 38,
+    "question": "Skimming v. penetration for new products",
+    "answers": {
+      "A": "Practical pricing tactics",
+      "B": "Global Product Strategies",
+      "C": "The Personal Selling Process",
+      "D": "Distribution Coverage"
+    },
+    "correct_answer": "A",
+    "lecture_number": 5
+  },
+  {
+    "number": 39,
+    "question": "bundles, add-ons, captive products",
+    "answers": {
+      "A": "Practical pricing tactics",
+      "B": "Market research",
+      "C": "Advertising strategy",
+      "D": "Channel alternatives"
+    },
+    "correct_answer": "A",
+    "lecture_number": 5
+  },
+  {
+    "number": 40,
+    "question": "Policy risks such as collusion, bid-rigging, predatory pricing, and deceptive “drip pricing”.",
+    "answers": {
+      "A": "Price changes and legal / ethical boundaries",
+      "B": "Why intermediaries exist",
+      "C": "Why It Matters",
+      "D": "Managing Sales"
+    },
+    "correct_answer": "A",
+    "lecture_number": 5
+  },
+  {
+    "number": 41,
+    "question": "Bike: $1,745 v. basic bikes $200-$300",
+    "answers": {
+      "A": "PELOTON Premium Price, Premium Value",
+      "B": "Nike: Product – Total Brand Experience",
+      "C": "Advertising Budget",
+      "D": "Global Marketing Strategy"
+    },
+    "correct_answer": "A",
+    "lecture_number": 5
+  },
+  {
+    "number": 42,
+    "question": "Membership: $39/month to access the full experience",
+    "answers": {
+      "A": "Nike: Product – Total Brand Experience",
+      "B": "PELOTON Premium Price, Premium Value",
+      "C": "Advertising Strategy",
+      "D": "Wholesaling"
+    },
+    "correct_answer": "B",
+    "lecture_number": 5
+  },
+  {
+    "number": 43,
+    "question": "Convenience (work out at home) / Content + coaching (classes, instructors, programs) / Accountability (tracking, routines, streaks) / Community (competition + belonging)",
+    "answers": {
+      "A": "Why customers pay",
+      "B": "Why firms use sales promotion",
+      "C": "Factors Companies Consider",
+      "D": "Salespeople create value by"
+    },
+    "correct_answer": "A",
+    "lecture_number": 5
+  },
+  {
+    "number": 44,
+    "question": "Market Skimming",
+    "answers": {
+      "A": "New Product Pricing",
+      "B": "Segmentation Criteria",
+      "C": "Main promotional tools",
+      "D": "Types of VMS"
+    },
+    "correct_answer": "A",
+    "lecture_number": 5
+  },
+  {
+    "number": 45,
+    "question": "Marketing channel (distribution channel): A set of interdependent organizations that help make a product/service available for use or consumption.",
+    "answers": {
+      "A": "Marketing channel (distribution channel)",
+      "B": "Marketing logistics",
+      "C": "Wholesaling",
+      "D": "Integrated Marketing Communications"
+    },
+    "correct_answer": "A",
+    "lecture_number": 8
+  },
+  {
+    "number": 46,
+    "question": "Match supply with what customers want (right assortment)",
+    "answers": {
+      "A": "Why channels add value",
+      "B": "Why firms use sales promotion",
+      "C": "Why It Matters",
+      "D": "Salespeople create value by"
+    },
+    "correct_answer": "A",
+    "lecture_number": 8
+  },
+  {
+    "number": 47,
+    "question": "Bridge gaps: time, place, and possession",
+    "answers": {
+      "A": "Why channels add value",
+      "B": "Advertising strategy",
+      "C": "The buying process",
+      "D": "Communication objectives"
+    },
+    "correct_answer": "A",
+    "lecture_number": 8
+  },
+  {
+    "number": 48,
+    "question": "Direct channel: no intermediaries",
+    "answers": {
+      "A": "Direct vs. indirect",
+      "B": "Types of VMS",
+      "C": "Coverage intensity",
+      "D": "Channel conflict"
+    },
+    "correct_answer": "A",
+    "lecture_number": 8
+  },
+  {
+    "number": 49,
+    "question": "Indirect channel: one or more intermediaries",
+    "answers": {
+      "A": "Direct vs. indirect",
+      "B": "Conventional vs Vertical Marketing System (VMS)",
+      "C": "The promotion mix",
+      "D": "Global Product Strategies"
+    },
+    "correct_answer": "A",
+    "lecture_number": 8
+  },
+  {
+    "number": 50,
+    "question": "Physical product flow / Ownership flow / Payment flow / Information flow / Promotion flow",
+    "answers": {
+      "A": "Main promotional tools",
+      "B": "Key channel flows",
+      "C": "Major logistics functions",
+      "D": "Sales force decisions"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 51,
+    "question": "Corporate VMS / Contractual VMS / Administered VMS",
+    "answers": {
+      "A": "Types of VMS + Examples",
+      "B": "Coverage intensity",
+      "C": "Major logistics functions",
+      "D": "Global Product Strategies"
+    },
+    "correct_answer": "A",
+    "lecture_number": 8
+  },
+  {
+    "number": 52,
+    "question": "Intensive: everywhere (convenience goods) / Selective: some outlets (shopping goods) / Exclusive: very few/one (luxury/speciality)",
+    "answers": {
+      "A": "Coverage intensity",
+      "B": "Key channel flows",
+      "C": "Sales promotion",
+      "D": "Advertising objectives"
+    },
+    "correct_answer": "A",
+    "lecture_number": 8
+  },
+  {
+    "number": 53,
+    "question": "Goal: deliver the desired customer service level at the lowest total cost.",
+    "answers": {
+      "A": "Marketing logistics",
+      "B": "Wholesaling",
+      "C": "Push Strategy",
+      "D": "Advertising Budget"
+    },
+    "correct_answer": "A",
+    "lecture_number": 8
+  },
+  {
+    "number": 54,
+    "question": "The promotion mix is the specific blend of promotion tools that the company uses to persuasively communicate customer value and build customer relationships.",
+    "answers": {
+      "A": "The promotion mix",
+      "B": "Integrated Marketing Communications",
+      "C": "Advertising",
+      "D": "Public relations"
+    },
+    "correct_answer": "A",
+    "lecture_number": 9
+  },
+  {
+    "number": 55,
+    "question": "Advertising is any paid form of nonpersonal presentation and promotion of ideas, goods, or services by an identified sponsor.",
+    "answers": {
+      "A": "Sales promotion",
+      "B": "Advertising",
+      "C": "Personal selling",
+      "D": "Public relations"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 56,
+    "question": "Sales promotion is a short-term incentive to encourage the purchase or sale of a product or service.",
+    "answers": {
+      "A": "Public relations",
+      "B": "Sales promotion",
+      "C": "Advertising",
+      "D": "Direct and digital marketing"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 57,
+    "question": "Personal selling is the personal interaction by the firm’s sales force for the purpose of engaging customers, making sales, and building customer relationships.",
+    "answers": {
+      "A": "Advertising",
+      "B": "Sales promotion",
+      "C": "Personal selling",
+      "D": "Public relations"
+    },
+    "correct_answer": "C",
+    "lecture_number": 9
+  },
+  {
+    "number": 58,
+    "question": "Public relations involves building good relations with the company’s various publics by obtaining favorable publicity, building up a good corporate image, and handling or heading off unfavorable rumors, stories, and events.",
+    "answers": {
+      "A": "Public relations",
+      "B": "Advertising",
+      "C": "Sales promotion",
+      "D": "Personal selling"
+    },
+    "correct_answer": "A",
+    "lecture_number": 9
+  },
+  {
+    "number": 59,
+    "question": "IMC = coordinating communication tools to deliver a clear, consistent, and compelling brand message.",
+    "answers": {
+      "A": "Integrated Marketing Communications",
+      "B": "The Personal Selling Process",
+      "C": "Wholesaling",
+      "D": "Global Marketing Strategy"
+    },
+    "correct_answer": "A",
+    "lecture_number": 9
+  },
+  {
+    "number": 60,
+    "question": "Developing effective marketing communication involves: 1. Identify the target audience 2. Set communication objectives 3. Design the message 4. Choose communication channels 5. Select the message source 6. Collect feedback",
+    "answers": {
+      "A": "The Personal Selling Process",
+      "B": "Developing effective marketing communication",
+      "C": "Marketing logistics",
+      "D": "The adoption process"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 61,
+    "question": "Build awareness / Create interest or appeal / Encourage action / Build loyalty and advocacy",
+    "answers": {
+      "A": "Set communication objectives",
+      "B": "Major logistics functions",
+      "C": "Advertising evaluation",
+      "D": "Coverage intensity"
+    },
+    "correct_answer": "A",
+    "lecture_number": 9
+  },
+  {
+    "number": 62,
+    "question": "Advertising / Sales promotion / Personal selling / Public relations / Direct and digital marketing",
+    "answers": {
+      "A": "Main promotional tools",
+      "B": "The Personal Selling Process",
+      "C": "Factors Companies Consider",
+      "D": "The marketing orientations"
+    },
+    "correct_answer": "A",
+    "lecture_number": 9
+  },
+  {
+    "number": 63,
+    "question": "Promotion is directed at channel members to move products through the channel.",
+    "answers": {
+      "A": "Pull Strategy",
+      "B": "Push Strategy",
+      "C": "Advertising Strategy",
+      "D": "Public Relations"
+    },
+    "correct_answer": "B",
+    "lecture_number": 10
+  },
+  {
+    "number": 64,
+    "question": "Promotion is directed at final consumers to create demand.",
+    "answers": {
+      "A": "Push Strategy",
+      "B": "Pull Strategy",
+      "C": "Personal selling",
+      "D": "Sales promotion"
+    },
+    "correct_answer": "B",
+    "lecture_number": 10
+  },
+  {
+    "number": 65,
+    "question": "Paid, non-personal promotion of ideas, goods, or services",
+    "answers": {
+      "A": "Advertising",
+      "B": "Public relations",
+      "C": "Sales promotion",
+      "D": "Wholesaling"
+    },
+    "correct_answer": "A",
+    "lecture_number": 10
+  },
+  {
+    "number": 66,
+    "question": "Inform customers / Persuade customers / Remind customers about products or brands",
+    "answers": {
+      "A": "Purpose of Advertising",
+      "B": "Sales force decisions",
+      "C": "Wholesaling",
+      "D": "Distribution Coverage"
+    },
+    "correct_answer": "A",
+    "lecture_number": 10
+  },
+  {
+    "number": 67,
+    "question": "Set advertising objectives (inform, engage, persuade, remind) / Determine the advertising budget / Develop advertising messages and content / Select appropriate media channels / Evaluate results and advertising effectiveness",
+    "answers": {
+      "A": "Advertising Decision Making",
+      "B": "Integrated Marketing Communications",
+      "C": "The Personal Selling Process",
+      "D": "Designing an Effective Sales Promotion"
+    },
+    "correct_answer": "A",
+    "lecture_number": 10
+  },
+  {
+    "number": 68,
+    "question": "Informative advertising – introduce new products or build primary demand / Persuasive advertising – build brand preference and encourage switching / Reminder advertising - keep the brand in customers’ minds and maintain relationships",
+    "answers": {
+      "A": "Types of Advertising Objectives",
+      "B": "Types of VMS",
+      "C": "Types of Wholesalers",
+      "D": "Adopter group"
+    },
+    "correct_answer": "A",
+    "lecture_number": 10
+  },
+  {
+    "number": 69,
+    "question": "Stage in the product life cycle / Market share / Competition / Advertising frequency",
+    "answers": {
+      "A": "Main promotional tools",
+      "B": "Factors Companies Consider",
+      "C": "Coverage intensity",
+      "D": "Sales force decisions"
+    },
+    "correct_answer": "B",
+    "lecture_number": 10
+  },
+  {
+    "number": 70,
+    "question": "Straight Product Extension / Product Adaptation / Product Invention",
+    "answers": {
+      "A": "Global Product Strategies",
+      "B": "Types of VMS + Examples",
+      "C": "Stages in the adoption process",
+      "D": "Key channel flows"
+    },
+    "correct_answer": "A",
+    "lecture_number": 10
+  }
+]
