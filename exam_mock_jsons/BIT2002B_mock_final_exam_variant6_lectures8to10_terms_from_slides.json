@@ -1,0 +1,842 @@
+[
+  {
+    "number": 1,
+    "lecture_number": 8,
+    "question": "A set of interdependent organizations that helps make a product or service available for use or consumption is called a:",
+    "answers": {
+      "A": "Marketing channel",
+      "B": "Promotional mix",
+      "C": "Digital campaign",
+      "D": "Global division"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 2,
+    "lecture_number": 8,
+    "question": "According to Lecture 8, channels add value mainly by matching supply with what customers want and bridging gaps in:",
+    "answers": {
+      "A": "Time, place, and possession",
+      "B": "Price, promotion, and product",
+      "C": "Awareness, interest, and loyalty",
+      "D": "Risk, control, and laws"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 3,
+    "lecture_number": 8,
+    "question": "Why do intermediaries exist in marketing channels?",
+    "answers": {
+      "A": "To create fewer connections, lower costs, and simpler buying",
+      "B": "To eliminate the need for customers",
+      "C": "To replace all promotion tools",
+      "D": "To standardize global markets"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 4,
+    "lecture_number": 8,
+    "question": "A layer of intermediaries that moves the product and ownership closer to the final buyer is a:",
+    "answers": {
+      "A": "Channel level",
+      "B": "Demand chain",
+      "C": "Retail cooperative",
+      "D": "Message source"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 5,
+    "lecture_number": 8,
+    "question": "A channel with no intermediaries is a:",
+    "answers": {
+      "A": "Direct channel",
+      "B": "Indirect channel",
+      "C": "Contractual VMS",
+      "D": "Selective channel"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 6,
+    "lecture_number": 8,
+    "question": "A channel with one or more intermediaries is an:",
+    "answers": {
+      "A": "Indirect channel",
+      "B": "Direct channel",
+      "C": "Corporate VMS",
+      "D": "Exclusive channel"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 7,
+    "lecture_number": 8,
+    "question": "Which of the following is listed in Lecture 8 as a key channel flow?",
+    "answers": {
+      "A": "Ownership flow",
+      "B": "Brand equity flow",
+      "C": "Segmentation flow",
+      "D": "Trialability flow"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 8,
+    "lecture_number": 8,
+    "question": "Disagreement over goals, roles, or rewards in a channel is called:",
+    "answers": {
+      "A": "Channel conflict",
+      "B": "Market information",
+      "C": "Reverse logistics",
+      "D": "Shopper marketing"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 9,
+    "lecture_number": 8,
+    "question": "Conflict between firms at the same channel level is:",
+    "answers": {
+      "A": "Horizontal conflict",
+      "B": "Vertical conflict",
+      "C": "Reverse conflict",
+      "D": "Omni-channel conflict"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 10,
+    "lecture_number": 8,
+    "question": "Conflict between firms at different channel levels is:",
+    "answers": {
+      "A": "Vertical conflict",
+      "B": "Horizontal conflict",
+      "C": "Selective conflict",
+      "D": "Retail conflict"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 11,
+    "lecture_number": 8,
+    "question": "When one firm owns multiple stages of the channel, this is a:",
+    "answers": {
+      "A": "Corporate VMS",
+      "B": "Contractual VMS",
+      "C": "Retailer cooperative",
+      "D": "Voluntary chain"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 12,
+    "lecture_number": 8,
+    "question": "Coordination via contracts, such as franchising, is a:",
+    "answers": {
+      "A": "Contractual VMS",
+      "B": "Corporate VMS",
+      "C": "Direct channel",
+      "D": "Merchant wholesaler"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 13,
+    "lecture_number": 8,
+    "question": "Coordination through power or influence by a big retailer or brand is an:",
+    "answers": {
+      "A": "Administered VMS",
+      "B": "Contractual VMS",
+      "C": "Indirect channel",
+      "D": "Retail franchise"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 14,
+    "lecture_number": 8,
+    "question": "Using two or more channels to reach segments is called:",
+    "answers": {
+      "A": "Multichannel",
+      "B": "Disintermediation",
+      "C": "Reverse logistics",
+      "D": "Exclusive coverage"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 15,
+    "lecture_number": 8,
+    "question": "Cutting out or reshaping intermediaries is:",
+    "answers": {
+      "A": "Disintermediation",
+      "B": "Outsourcing",
+      "C": "Franchising",
+      "D": "Retail convergence"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 16,
+    "lecture_number": 8,
+    "question": "According to Lecture 8, the first step in channel design is to:",
+    "answers": {
+      "A": "Analyze customer needs",
+      "B": "Evaluate and choose",
+      "C": "Identify channel alternatives",
+      "D": "Set advertising objectives"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 17,
+    "lecture_number": 8,
+    "question": "Which comes right after analyzing customer needs in the 4-step channel design process?",
+    "answers": {
+      "A": "Set the channel objectives",
+      "B": "Evaluate performance",
+      "C": "Choose communication channels",
+      "D": "Determine the advertising budget"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 18,
+    "lecture_number": 8,
+    "question": "In Lecture 8, intensive coverage means distribution through:",
+    "answers": {
+      "A": "Everywhere",
+      "B": "Some outlets",
+      "C": "Very few or one outlet",
+      "D": "Only online"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 19,
+    "lecture_number": 8,
+    "question": "Selective coverage means distribution through:",
+    "answers": {
+      "A": "Some outlets",
+      "B": "Everywhere",
+      "C": "A single outlet only",
+      "D": "No intermediaries"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 20,
+    "lecture_number": 8,
+    "question": "Exclusive coverage means distribution through:",
+    "answers": {
+      "A": "Very few or one outlet",
+      "B": "Every possible outlet",
+      "C": "All retailers in one city",
+      "D": "Only wholesalers"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 21,
+    "lecture_number": 8,
+    "question": "Which decision lens in Lecture 8 focuses on brand experience, pricing, data, and service quality?",
+    "answers": {
+      "A": "Control issues",
+      "B": "Economic criteria",
+      "C": "Adaptability",
+      "D": "Coverage intensity"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 22,
+    "lecture_number": 8,
+    "question": "Which decision lens asks whether a channel can evolve with market and technology changes?",
+    "answers": {
+      "A": "Adaptability",
+      "B": "Control issues",
+      "C": "Economic criteria",
+      "D": "Information flow"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 23,
+    "lecture_number": 8,
+    "question": "Planning and managing the flow of goods and information from origin to consumption is:",
+    "answers": {
+      "A": "Marketing logistics",
+      "B": "Public relations",
+      "C": "Personal selling",
+      "D": "Demand chain"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 24,
+    "lecture_number": 8,
+    "question": "The goal of marketing logistics is to deliver the desired customer service level at the:",
+    "answers": {
+      "A": "Lowest total cost",
+      "B": "Highest promotional frequency",
+      "C": "Most selective coverage",
+      "D": "Greatest number of intermediaries"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 25,
+    "lecture_number": 9,
+    "question": "The specific blend of promotion tools a company uses to communicate customer value and build relationships is the:",
+    "answers": {
+      "A": "Promotion mix",
+      "B": "Marketing channel",
+      "C": "Value delivery network",
+      "D": "Global marketing program"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 26,
+    "lecture_number": 9,
+    "question": "Which promotion tool is any paid form of nonpersonal presentation and promotion by an identified sponsor?",
+    "answers": {
+      "A": "Advertising",
+      "B": "Public relations",
+      "C": "Personal selling",
+      "D": "Sales promotion"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 27,
+    "lecture_number": 9,
+    "question": "Short-term incentives to encourage the purchase or sale of a product or service are:",
+    "answers": {
+      "A": "Sales promotion",
+      "B": "Advertising",
+      "C": "Public relations",
+      "D": "Logistics information systems"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 28,
+    "lecture_number": 9,
+    "question": "Personal interaction by the firm's sales force to engage customers, make sales, and build relationships is:",
+    "answers": {
+      "A": "Personal selling",
+      "B": "Direct investment",
+      "C": "Public affairs",
+      "D": "Retailing"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 29,
+    "lecture_number": 9,
+    "question": "Building good relations with the company's various publics and handling unfavorable rumors or events is:",
+    "answers": {
+      "A": "Public relations",
+      "B": "Sales promotion",
+      "C": "Personal selling",
+      "D": "Wholesaling"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 30,
+    "lecture_number": 9,
+    "question": "Coordinating communication tools to deliver a clear, consistent, and compelling brand message is:",
+    "answers": {
+      "A": "Integrated Marketing Communications",
+      "B": "Marketing logistics",
+      "C": "Selective distribution",
+      "D": "Product adaptation"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 31,
+    "lecture_number": 9,
+    "question": "According to Lecture 9, IMC matters because it helps reduce:",
+    "answers": {
+      "A": "Mixed or confusing messages",
+      "B": "Transportation costs only",
+      "C": "Need for all communication channels",
+      "D": "Customer awareness"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 32,
+    "lecture_number": 9,
+    "question": "In developing effective marketing communication, the first step is to:",
+    "answers": {
+      "A": "Identify the target audience",
+      "B": "Collect feedback",
+      "C": "Choose communication channels",
+      "D": "Evaluate performance"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 33,
+    "lecture_number": 9,
+    "question": "Build awareness, create interest or appeal, encourage action, and build loyalty and advocacy are examples of:",
+    "answers": {
+      "A": "Communication objectives",
+      "B": "Logistics functions",
+      "C": "Retail classifications",
+      "D": "Global entry strategies"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 34,
+    "lecture_number": 9,
+    "question": "In message design, 'what to say' refers to:",
+    "answers": {
+      "A": "Message content",
+      "B": "Structure and format",
+      "C": "Media timing",
+      "D": "Market share"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 35,
+    "lecture_number": 9,
+    "question": "In message design, rational, emotional, and moral are examples of:",
+    "answers": {
+      "A": "Common appeals",
+      "B": "Types of retailers",
+      "C": "Sales force decisions",
+      "D": "PR functions"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 36,
+    "lecture_number": 9,
+    "question": "Face-to-face, phone, email, and chat are examples of which communication channels?",
+    "answers": {
+      "A": "Personal",
+      "B": "Non-personal",
+      "C": "Indirect",
+      "D": "Global"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 37,
+    "lecture_number": 9,
+    "question": "Advertising, websites, social media, and events are examples of which communication channels?",
+    "answers": {
+      "A": "Non-personal",
+      "B": "Personal",
+      "C": "Inbound",
+      "D": "Exclusive"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 38,
+    "lecture_number": 9,
+    "question": "Celebrities, professionals, experts, and influencers are examples tied to selecting the:",
+    "answers": {
+      "A": "Message source",
+      "B": "Channel level",
+      "C": "Retail organization",
+      "D": "Product strategy"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 39,
+    "lecture_number": 9,
+    "question": "Looking at awareness, engagement, and action to improve communication is part of:",
+    "answers": {
+      "A": "Collecting feedback",
+      "B": "Handling objections",
+      "C": "Inbound logistics",
+      "D": "Buyer assortment building"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 40,
+    "lecture_number": 9,
+    "question": "Which promotion tool is described in Lecture 9 as having broad reach and repeated exposure?",
+    "answers": {
+      "A": "Advertising",
+      "B": "Personal selling",
+      "C": "Public relations",
+      "D": "Direct and digital marketing"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 41,
+    "lecture_number": 9,
+    "question": "Which promotion tool is strongest for relationship building and persuasion?",
+    "answers": {
+      "A": "Personal selling",
+      "B": "Advertising",
+      "C": "Sales promotion",
+      "D": "Wholesaling"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 42,
+    "lecture_number": 9,
+    "question": "Which promotion tool is described as targeted, interactive, and immediate?",
+    "answers": {
+      "A": "Direct and digital marketing",
+      "B": "Public relations",
+      "C": "Advertising",
+      "D": "Retailing"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 43,
+    "lecture_number": 9,
+    "question": "When promotion is directed at channel members to move products through the channel, the firm is using a:",
+    "answers": {
+      "A": "Push strategy",
+      "B": "Pull strategy",
+      "C": "PR strategy",
+      "D": "Global strategy"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 44,
+    "lecture_number": 9,
+    "question": "When promotion is directed at final consumers to create demand, the firm is using a:",
+    "answers": {
+      "A": "Pull strategy",
+      "B": "Push strategy",
+      "C": "Channel conflict strategy",
+      "D": "Corporate VMS"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 45,
+    "lecture_number": 9,
+    "question": "Lecture 9 says personal selling is especially useful when relationships matter and the product is:",
+    "answers": {
+      "A": "Complex or expensive",
+      "B": "Always low-priced",
+      "C": "Only sold internationally",
+      "D": "A convenience good only"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 46,
+    "lecture_number": 9,
+    "question": "Recruiting, training, compensating, motivating, and evaluating are key decisions in managing the:",
+    "answers": {
+      "A": "Sales force",
+      "B": "Retail assortment",
+      "C": "Advertising budget",
+      "D": "Supply chain flow"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 47,
+    "lecture_number": 9,
+    "question": "According to Lecture 9, many sales roles today are hybrid because they combine relationship-building with:",
+    "answers": {
+      "A": "Digital communication",
+      "B": "Manufacturing",
+      "C": "Wholesaling only",
+      "D": "Product invention"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 48,
+    "lecture_number": 10,
+    "question": "Lecture 10 defines advertising as paid, non-personal promotion of ideas, goods, or services sponsored by an:",
+    "answers": {
+      "A": "Identified organization or company",
+      "B": "Independent wholesaler",
+      "C": "Unidentified end user",
+      "D": "Exclusive retailer only"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 49,
+    "lecture_number": 10,
+    "question": "Which is listed in Lecture 10 as a purpose of advertising?",
+    "answers": {
+      "A": "Remind customers about products or brands",
+      "B": "Eliminate all intermediaries",
+      "C": "Reduce market laws",
+      "D": "Handle returns and repairs"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 50,
+    "lecture_number": 10,
+    "question": "Setting advertising objectives, determining the advertising budget, developing messages, selecting media, and evaluating results are part of:",
+    "answers": {
+      "A": "Advertising decision making",
+      "B": "The personal selling process",
+      "C": "Retailing classifications",
+      "D": "Types of wholesalers"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 51,
+    "lecture_number": 10,
+    "question": "Choosing media types, vehicles, reach, frequency, and timing is part of:",
+    "answers": {
+      "A": "Media strategy",
+      "B": "Message strategy",
+      "C": "Public affairs",
+      "D": "Risk bearing"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 52,
+    "lecture_number": 10,
+    "question": "A specific communication task with a defined target audience and time period is an:",
+    "answers": {
+      "A": "Advertising objective",
+      "B": "Advertising budget",
+      "C": "Omni-channel strategy",
+      "D": "Entry strategy"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 53,
+    "lecture_number": 10,
+    "question": "Which type of advertising objective is used to introduce new products or build primary demand?",
+    "answers": {
+      "A": "Informative advertising",
+      "B": "Persuasive advertising",
+      "C": "Reminder advertising",
+      "D": "Institutional wholesaling"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 54,
+    "lecture_number": 10,
+    "question": "Which type of advertising objective is meant to build brand preference and encourage switching?",
+    "answers": {
+      "A": "Persuasive advertising",
+      "B": "Informative advertising",
+      "C": "Reminder advertising",
+      "D": "Publicity advertising"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 55,
+    "lecture_number": 10,
+    "question": "Which type of advertising objective keeps the brand in customers' minds and maintains relationships?",
+    "answers": {
+      "A": "Reminder advertising",
+      "B": "Informative advertising",
+      "C": "Persuasive advertising",
+      "D": "Selective advertising"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 56,
+    "lecture_number": 10,
+    "question": "Which factor is listed in Lecture 10 under advertising budget considerations?",
+    "answers": {
+      "A": "Advertising frequency",
+      "B": "Channel conflict",
+      "C": "Retail convergence",
+      "D": "Prospecting"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 57,
+    "lecture_number": 10,
+    "question": "Good advertising messages should be meaningful, believable, and:",
+    "answers": {
+      "A": "Distinctive",
+      "B": "Intensive",
+      "C": "Contractual",
+      "D": "Inbound"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 58,
+    "lecture_number": 10,
+    "question": "Which message execution style is listed in Lecture 10?",
+    "answers": {
+      "A": "Testimonial or endorsement",
+      "B": "Selective distribution",
+      "C": "Joint venture",
+      "D": "Retailer cooperative"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 59,
+    "lecture_number": 10,
+    "question": "The percentage of the target audience exposed to an ad is:",
+    "answers": {
+      "A": "Reach",
+      "B": "Frequency",
+      "C": "Impact",
+      "D": "Engagement"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 60,
+    "lecture_number": 10,
+    "question": "The number of times the audience sees the ad is:",
+    "answers": {
+      "A": "Frequency",
+      "B": "Reach",
+      "C": "Impact",
+      "D": "Engagement"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 61,
+    "lecture_number": 10,
+    "question": "Interaction such as views, clicks, or readership is:",
+    "answers": {
+      "A": "Engagement",
+      "B": "Frequency",
+      "C": "Ownership flow",
+      "D": "Adaptability"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 62,
+    "lecture_number": 10,
+    "question": "Which PR function involves sharing newsworthy information with the media?",
+    "answers": {
+      "A": "Press relations",
+      "B": "Lobbying",
+      "C": "Investor relations",
+      "D": "Development"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 63,
+    "lecture_number": 10,
+    "question": "Which PR function focuses on influencing legislation and government policy?",
+    "answers": {
+      "A": "Lobbying",
+      "B": "Press relations",
+      "C": "Product publicity",
+      "D": "Public affairs"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 64,
+    "lecture_number": 10,
+    "question": "Lecture 10 says PR can create strong public awareness and:",
+    "answers": {
+      "A": "Credibility",
+      "B": "Warehousing",
+      "C": "Bulk breaking",
+      "D": "Franchise tension"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 65,
+    "lecture_number": 10,
+    "question": "Understanding digital marketing and consumers, preparing a campaign, using digital channels, and integrating channels are steps in:",
+    "answers": {
+      "A": "The digital marketing process",
+      "B": "The personal selling process",
+      "C": "Advertising budget planning",
+      "D": "Wholesaling"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 66,
+    "lecture_number": 10,
+    "question": "Which of the following is listed as a digital marketing technology in Lecture 10?",
+    "answers": {
+      "A": "Online platforms",
+      "B": "Wholesale branches",
+      "C": "Territory rights",
+      "D": "Retail cooperatives"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 67,
+    "lecture_number": 10,
+    "question": "Lecture 10 says digital marketing benefits consumers by offering convenience, price comparisons, more information and reviews, and the ability to:",
+    "answers": {
+      "A": "Interact with brands",
+      "B": "Eliminate all promotion tools",
+      "C": "Control government policy",
+      "D": "Absorb spoilage risk"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 68,
+    "lecture_number": 10,
+    "question": "Search engine marketing (Google ads) is listed as a key:",
+    "answers": {
+      "A": "Digital marketing channel",
+      "B": "Retail classification",
+      "C": "PR function",
+      "D": "Sales force decision"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 69,
+    "lecture_number": 10,
+    "question": "Marketing through smartphones and mobile apps is:",
+    "answers": {
+      "A": "Mobile marketing",
+      "B": "Press relations",
+      "C": "Trade promotion",
+      "D": "Direct investment"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 70,
+    "lecture_number": 10,
+    "question": "Selling products produced in one country to buyers in another is:",
+    "answers": {
+      "A": "Exporting",
+      "B": "Joint ventures",
+      "C": "Direct investment",
+      "D": "Adapted marketing"
+    },
+    "correct_answer": "A"
+  }
+]
