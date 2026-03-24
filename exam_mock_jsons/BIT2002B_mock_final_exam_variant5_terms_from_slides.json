@@ -1,0 +1,842 @@
+[
+  {
+    "number": 1,
+    "question": "A company that focuses on improving production and distribution efficiency is following which orientation?",
+    "answers": {
+      "A": "Production concept",
+      "B": "Product concept",
+      "C": "Selling concept",
+      "D": "Marketing concept"
+    },
+    "correct_answer": "A",
+    "lecture_number": 1
+  },
+  {
+    "number": 2,
+    "question": "Which orientation assumes consumers will favor products that offer quality, performance, and features?",
+    "answers": {
+      "A": "Production concept",
+      "B": "Product concept",
+      "C": "Selling concept",
+      "D": "Societal concept"
+    },
+    "correct_answer": "B",
+    "lecture_number": 1
+  },
+  {
+    "number": 3,
+    "question": "A firm that relies on a large-scale selling and promotion effort is acting under the:",
+    "answers": {
+      "A": "Marketing concept",
+      "B": "Societal concept",
+      "C": "Selling concept",
+      "D": "Product concept"
+    },
+    "correct_answer": "C",
+    "lecture_number": 1
+  },
+  {
+    "number": 4,
+    "question": "A customer-centered sense-and-respond philosophy describes the:",
+    "answers": {
+      "A": "Marketing concept",
+      "B": "Production concept",
+      "C": "Selling concept",
+      "D": "Product concept"
+    },
+    "correct_answer": "A",
+    "lecture_number": 1
+  },
+  {
+    "number": 5,
+    "question": "Balancing consumers, company profits, and long-run welfare is the focus of the:",
+    "answers": {
+      "A": "Product concept",
+      "B": "Societal concept",
+      "C": "Marketing concept",
+      "D": "Production concept"
+    },
+    "correct_answer": "B",
+    "lecture_number": 1
+  },
+  {
+    "number": 6,
+    "question": "Dividing a market into distinct groups of buyers is called:",
+    "answers": {
+      "A": "Market targeting",
+      "B": "Market segmentation",
+      "C": "Market positioning",
+      "D": "Differentiation"
+    },
+    "correct_answer": "B",
+    "lecture_number": 1
+  },
+  {
+    "number": 7,
+    "question": "Selecting one or more segments to enter is:",
+    "answers": {
+      "A": "Market targeting",
+      "B": "Market positioning",
+      "C": "Differentiation",
+      "D": "Value proposition"
+    },
+    "correct_answer": "A",
+    "lecture_number": 1
+  },
+  {
+    "number": 8,
+    "question": "Arranging for a product to occupy a clear, distinctive, and desirable place in the minds of target consumers is:",
+    "answers": {
+      "A": "Differentiation",
+      "B": "Market segmentation",
+      "C": "Market positioning",
+      "D": "Market penetration"
+    },
+    "correct_answer": "C",
+    "lecture_number": 1
+  },
+  {
+    "number": 9,
+    "question": "Forces close to the company that affect its ability to serve customers are part of the:",
+    "answers": {
+      "A": "Macroenvironment",
+      "B": "Microenvironment",
+      "C": "Demographic environment",
+      "D": "Natural environment"
+    },
+    "correct_answer": "B",
+    "lecture_number": 2
+  },
+  {
+    "number": 10,
+    "question": "Demographics, economic conditions, technology, and culture are part of the:",
+    "answers": {
+      "A": "Microenvironment",
+      "B": "Marketing channel",
+      "C": "Macroenvironment",
+      "D": "Value delivery network"
+    },
+    "correct_answer": "C",
+    "lecture_number": 2
+  },
+  {
+    "number": 11,
+    "question": "In B2B markets, demand is often described as:",
+    "answers": {
+      "A": "Impulsive demand",
+      "B": "Derived demand",
+      "C": "Seasonal demand",
+      "D": "Latent demand"
+    },
+    "correct_answer": "B",
+    "lecture_number": 2
+  },
+  {
+    "number": 12,
+    "question": "Compared with many B2C purchases, B2B buying usually involves:",
+    "answers": {
+      "A": "Shorter cycles and lower risk",
+      "B": "Buying centers and more formal processes",
+      "C": "Less information search",
+      "D": "Fewer decision makers"
+    },
+    "correct_answer": "B",
+    "lecture_number": 2
+  },
+  {
+    "number": 13,
+    "question": "The group that participates in a B2B purchase decision is the:",
+    "answers": {
+      "A": "Reference group",
+      "B": "Target segment",
+      "C": "Buying center",
+      "D": "Public"
+    },
+    "correct_answer": "C",
+    "lecture_number": 2
+  },
+  {
+    "number": 14,
+    "question": "When people notice information that supports what they already believe, this is closest to:",
+    "answers": {
+      "A": "Selective attention",
+      "B": "Selective distortion",
+      "C": "Selective retention",
+      "D": "Cognitive dissonance"
+    },
+    "correct_answer": "B",
+    "lecture_number": 2
+  },
+  {
+    "number": 15,
+    "question": "Remembering good points about brands you already like is:",
+    "answers": {
+      "A": "Selective attention",
+      "B": "Selective distortion",
+      "C": "Selective retention",
+      "D": "Perception risk"
+    },
+    "correct_answer": "C",
+    "lecture_number": 2
+  },
+  {
+    "number": 16,
+    "question": "Culture, subculture, and social class are part of which set of influences on consumer behavior?",
+    "answers": {
+      "A": "Psychological",
+      "B": "Personal",
+      "C": "Social",
+      "D": "Cultural"
+    },
+    "correct_answer": "D",
+    "lecture_number": 2
+  },
+  {
+    "number": 17,
+    "question": "'Data tells you what happened. Insight tells you why. Strategy tells you what to do.' best matches the move from:",
+    "answers": {
+      "A": "Product to service",
+      "B": "Marketing information to customer insights",
+      "C": "Segmentation to targeting",
+      "D": "Promotion to place"
+    },
+    "correct_answer": "B",
+    "lecture_number": 3
+  },
+  {
+    "number": 18,
+    "question": "High-volume, high-velocity, high-variety data from digital systems is:",
+    "answers": {
+      "A": "Market intelligence",
+      "B": "Big data",
+      "C": "Primary research",
+      "D": "A marketing dashboard"
+    },
+    "correct_answer": "B",
+    "lecture_number": 3
+  },
+  {
+    "number": 19,
+    "question": "Product usage analytics, transactions, CRM, support tickets, and social reviews are slide examples of sources of:",
+    "answers": {
+      "A": "Big data",
+      "B": "Selective retention",
+      "C": "Brand equity",
+      "D": "Channel conflict"
+    },
+    "correct_answer": "A",
+    "lecture_number": 3
+  },
+  {
+    "number": 20,
+    "question": "The slide warning that 'Insight without action is trivia' is about turning data into:",
+    "answers": {
+      "A": "Brand awareness",
+      "B": "Customer value",
+      "C": "Decisions",
+      "D": "Market share"
+    },
+    "correct_answer": "C",
+    "lecture_number": 3
+  },
+  {
+    "number": 21,
+    "question": "The design, collection, analysis, and reporting of data relevant to a specific marketing situation is:",
+    "answers": {
+      "A": "Market research",
+      "B": "Market intelligence",
+      "C": "Internal databases",
+      "D": "Environmental scanning"
+    },
+    "correct_answer": "A",
+    "lecture_number": 3
+  },
+  {
+    "number": 22,
+    "question": "STP stands for:",
+    "answers": {
+      "A": "Segmentation, targeting, positioning",
+      "B": "Strategy, tactics, promotion",
+      "C": "Selection, testing, pricing",
+      "D": "Segmentation, timing, persuasion"
+    },
+    "correct_answer": "A",
+    "lecture_number": 3
+  },
+  {
+    "number": 23,
+    "question": "A segment should be measurable, accessible, substantial, differentiable, and actionable. These are:",
+    "answers": {
+      "A": "Types of research",
+      "B": "Segmentation criteria",
+      "C": "Pricing objectives",
+      "D": "Adoption stages"
+    },
+    "correct_answer": "B",
+    "lecture_number": 3
+  },
+  {
+    "number": 24,
+    "question": "Serving the whole market with one offer is:",
+    "answers": {
+      "A": "Differentiated targeting",
+      "B": "Concentrated targeting",
+      "C": "Undifferentiated targeting",
+      "D": "Micromarketing"
+    },
+    "correct_answer": "C",
+    "lecture_number": 3
+  },
+  {
+    "number": 25,
+    "question": "At the three levels of product, the basic problem-solving benefit is the:",
+    "answers": {
+      "A": "Actual product",
+      "B": "Core benefit",
+      "C": "Augmented product",
+      "D": "Brand equity"
+    },
+    "correct_answer": "B",
+    "lecture_number": 4
+  },
+  {
+    "number": 26,
+    "question": "Features, design, quality, and brand name are part of the:",
+    "answers": {
+      "A": "Core benefit",
+      "B": "Actual product",
+      "C": "Augmented product",
+      "D": "Support service"
+    },
+    "correct_answer": "B",
+    "lecture_number": 4
+  },
+  {
+    "number": 27,
+    "question": "Delivery, installation, warranty, and after-sale service are part of the:",
+    "answers": {
+      "A": "Core benefit",
+      "B": "Actual product",
+      "C": "Augmented product",
+      "D": "Line fill"
+    },
+    "correct_answer": "C",
+    "lecture_number": 4
+  },
+  {
+    "number": 28,
+    "question": "A group of product lines offered by a company is the:",
+    "answers": {
+      "A": "Product line",
+      "B": "Product mix",
+      "C": "Brand extension",
+      "D": "Service package"
+    },
+    "correct_answer": "B",
+    "lecture_number": 4
+  },
+  {
+    "number": 29,
+    "question": "Adding more items within the present range of the line is:",
+    "answers": {
+      "A": "Line filling",
+      "B": "Line stretching",
+      "C": "Diversification",
+      "D": "Brand licensing"
+    },
+    "correct_answer": "A",
+    "lecture_number": 4
+  },
+  {
+    "number": 30,
+    "question": "Extending a product line downward or upward is:",
+    "answers": {
+      "A": "Line filling",
+      "B": "Line stretching",
+      "C": "Brand repositioning",
+      "D": "Service recovery"
+    },
+    "correct_answer": "B",
+    "lecture_number": 4
+  },
+  {
+    "number": 31,
+    "question": "Intangibility, variability, inseparability, and perishability are the core challenges of:",
+    "answers": {
+      "A": "Wholesaling",
+      "B": "Service quality",
+      "C": "Advertising",
+      "D": "Market research"
+    },
+    "correct_answer": "B",
+    "lecture_number": 4
+  },
+  {
+    "number": 32,
+    "question": "Introduction, growth, maturity, and decline are stages of the:",
+    "answers": {
+      "A": "Adoption process",
+      "B": "Product life cycle",
+      "C": "Consumer decision process",
+      "D": "Marketing process"
+    },
+    "correct_answer": "B",
+    "lecture_number": 4
+  },
+  {
+    "number": 33,
+    "question": "The slide phrase 'Price = value exchange, not just $' means price includes money plus:",
+    "answers": {
+      "A": "Only time",
+      "B": "Only effort",
+      "C": "Time, effort, and risk",
+      "D": "Only delivery cost"
+    },
+    "correct_answer": "C",
+    "lecture_number": 5
+  },
+  {
+    "number": 34,
+    "question": "Setting price based mainly on buyer perceptions of value is:",
+    "answers": {
+      "A": "Cost-based pricing",
+      "B": "Competition-based pricing",
+      "C": "Value-based pricing",
+      "D": "Cost-plus pricing"
+    },
+    "correct_answer": "C",
+    "lecture_number": 5
+  },
+  {
+    "number": 35,
+    "question": "Taking unit cost and adding a standard markup is:",
+    "answers": {
+      "A": "Dynamic pricing",
+      "B": "Target costing",
+      "C": "Cost-plus pricing",
+      "D": "Value-based pricing"
+    },
+    "correct_answer": "C",
+    "lecture_number": 5
+  },
+  {
+    "number": 36,
+    "question": "When competitors are central to the pricing decision, the firm is using:",
+    "answers": {
+      "A": "Competition-based pricing",
+      "B": "Value-based pricing",
+      "C": "Captive pricing",
+      "D": "Skimming pricing"
+    },
+    "correct_answer": "A",
+    "lecture_number": 5
+  },
+  {
+    "number": 37,
+    "question": "Launching with a high price to capture the highest willingness-to-pay customers first is:",
+    "answers": {
+      "A": "Market penetration pricing",
+      "B": "Market skimming pricing",
+      "C": "Psychological pricing",
+      "D": "Promotional pricing"
+    },
+    "correct_answer": "B",
+    "lecture_number": 5
+  },
+  {
+    "number": 38,
+    "question": "Launching with a low initial price to quickly win market share is:",
+    "answers": {
+      "A": "Market skimming pricing",
+      "B": "Market penetration pricing",
+      "C": "Captive product pricing",
+      "D": "Cost-plus pricing"
+    },
+    "correct_answer": "B",
+    "lecture_number": 5
+  },
+  {
+    "number": 39,
+    "question": "A printer sold cheaply but ink cartridges priced high is closest to:",
+    "answers": {
+      "A": "Bundling",
+      "B": "Captive product pricing",
+      "C": "Geographic pricing",
+      "D": "Allowance pricing"
+    },
+    "correct_answer": "B",
+    "lecture_number": 5
+  },
+  {
+    "number": 40,
+    "question": "Advertising a low price and then adding a mandatory fee later in checkout is:",
+    "answers": {
+      "A": "Allowance pricing",
+      "B": "Captive pricing",
+      "C": "Drip pricing",
+      "D": "Promotional pricing"
+    },
+    "correct_answer": "C",
+    "lecture_number": 5
+  },
+  {
+    "number": 41,
+    "question": "A set of interdependent organizations that help make a product or service available for use or consumption is a:",
+    "answers": {
+      "A": "Value proposition",
+      "B": "Marketing channel",
+      "C": "Target market",
+      "D": "Promotion mix"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 42,
+    "question": "The slide says channels add value by bridging gaps of:",
+    "answers": {
+      "A": "Price, quality, and promotion",
+      "B": "Time, place, and possession",
+      "C": "Awareness, trial, and adoption",
+      "D": "Scale, speed, and profit"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 43,
+    "question": "A direct channel has:",
+    "answers": {
+      "A": "One intermediary",
+      "B": "No intermediaries",
+      "C": "A wholesaler only",
+      "D": "A retailer only"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 44,
+    "question": "A layer of intermediaries that moves the product and ownership closer to the final buyer is a:",
+    "answers": {
+      "A": "Channel level",
+      "B": "Demand chain",
+      "C": "Flow channel",
+      "D": "VMS"
+    },
+    "correct_answer": "A",
+    "lecture_number": 8
+  },
+  {
+    "number": 45,
+    "question": "Disagreement among channel members over goals, roles, and rewards is:",
+    "answers": {
+      "A": "Channel intensity",
+      "B": "Channel conflict",
+      "C": "Selective distribution",
+      "D": "Reverse logistics"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 46,
+    "question": "Conflict between retailers at the same level is:",
+    "answers": {
+      "A": "Vertical conflict",
+      "B": "Horizontal conflict",
+      "C": "Corporate conflict",
+      "D": "Administered conflict"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 47,
+    "question": "Conflict between a producer and retailer is:",
+    "answers": {
+      "A": "Horizontal conflict",
+      "B": "Vertical conflict",
+      "C": "Exclusive conflict",
+      "D": "Intensive conflict"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 48,
+    "question": "In a corporate VMS, coordination comes from:",
+    "answers": {
+      "A": "Contracts",
+      "B": "Ownership",
+      "C": "Market power only",
+      "D": "Advertising support"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 49,
+    "question": "In a contractual VMS, coordination comes through:",
+    "answers": {
+      "A": "Ownership",
+      "B": "Informal norms",
+      "C": "Contracts",
+      "D": "Consumer pull"
+    },
+    "correct_answer": "C",
+    "lecture_number": 8
+  },
+  {
+    "number": 50,
+    "question": "Analyzing customer needs, setting channel objectives, identifying channel alternatives, and evaluating them describes:",
+    "answers": {
+      "A": "The personal selling process",
+      "B": "Channel design",
+      "C": "Advertising strategy",
+      "D": "Market targeting"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 51,
+    "question": "The specific blend of promotion tools used to communicate customer value and build customer relationships is the:",
+    "answers": {
+      "A": "Marketing channel",
+      "B": "Promotion mix",
+      "C": "Value delivery network",
+      "D": "Product mix"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 52,
+    "question": "Any paid form of nonpersonal presentation and promotion by an identified sponsor is:",
+    "answers": {
+      "A": "Advertising",
+      "B": "Sales promotion",
+      "C": "Public relations",
+      "D": "Personal selling"
+    },
+    "correct_answer": "A",
+    "lecture_number": 9
+  },
+  {
+    "number": 53,
+    "question": "A short-term incentive to encourage purchase or sale is:",
+    "answers": {
+      "A": "Advertising",
+      "B": "Sales promotion",
+      "C": "Public relations",
+      "D": "Direct marketing"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 54,
+    "question": "The personal interaction by a firm's sales force to engage customers, make sales, and build relationships is:",
+    "answers": {
+      "A": "Personal selling",
+      "B": "Public relations",
+      "C": "Advertising",
+      "D": "Sales promotion"
+    },
+    "correct_answer": "A",
+    "lecture_number": 9
+  },
+  {
+    "number": 55,
+    "question": "Building good relations with various publics and handling unfavorable rumors, stories, and events is:",
+    "answers": {
+      "A": "Advertising",
+      "B": "Sales promotion",
+      "C": "Public relations",
+      "D": "Personal selling"
+    },
+    "correct_answer": "C",
+    "lecture_number": 9
+  },
+  {
+    "number": 56,
+    "question": "Coordinating communication tools to deliver a clear, consistent, and compelling brand message is:",
+    "answers": {
+      "A": "Integrated Marketing Communications",
+      "B": "Push strategy",
+      "C": "Direct response",
+      "D": "Market targeting"
+    },
+    "correct_answer": "A",
+    "lecture_number": 9
+  },
+  {
+    "number": 57,
+    "question": "The first step in developing effective marketing communication is to:",
+    "answers": {
+      "A": "Design the message",
+      "B": "Identify the target audience",
+      "C": "Collect feedback",
+      "D": "Select the message source"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 58,
+    "question": "Rational, emotional, and moral are common types of message:",
+    "answers": {
+      "A": "Sources",
+      "B": "Appeals",
+      "C": "Channels",
+      "D": "Objectives"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 59,
+    "question": "Promotion directed at channel members to move products through the channel is a:",
+    "answers": {
+      "A": "Pull strategy",
+      "B": "Push strategy",
+      "C": "Societal strategy",
+      "D": "Selective strategy"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 60,
+    "question": "Promotion directed at final consumers to create demand is a:",
+    "answers": {
+      "A": "Pull strategy",
+      "B": "Push strategy",
+      "C": "Channel strategy",
+      "D": "Corporate VMS"
+    },
+    "correct_answer": "A",
+    "lecture_number": 9
+  },
+  {
+    "number": 61,
+    "question": "Paid, non-personal promotion of ideas, goods, or services sponsored by an identified organization or company is:",
+    "answers": {
+      "A": "Public relations",
+      "B": "Advertising",
+      "C": "Direct and digital marketing",
+      "D": "Sales promotion"
+    },
+    "correct_answer": "B",
+    "lecture_number": 10
+  },
+  {
+    "number": 62,
+    "question": "The three stated purposes of advertising are to inform, persuade, and:",
+    "answers": {
+      "A": "Segment",
+      "B": "Remind",
+      "C": "Distribute",
+      "D": "Standardize"
+    },
+    "correct_answer": "B",
+    "lecture_number": 10
+  },
+  {
+    "number": 63,
+    "question": "A specific communication task with a defined target audience and time period is an advertising:",
+    "answers": {
+      "A": "Budget",
+      "B": "Objective",
+      "C": "Medium",
+      "D": "Appeal"
+    },
+    "correct_answer": "B",
+    "lecture_number": 10
+  },
+  {
+    "number": 64,
+    "question": "Introducing new products or building primary demand is the role of:",
+    "answers": {
+      "A": "Reminder advertising",
+      "B": "Persuasive advertising",
+      "C": "Informative advertising",
+      "D": "Comparative advertising"
+    },
+    "correct_answer": "C",
+    "lecture_number": 10
+  },
+  {
+    "number": 65,
+    "question": "Building brand preference and encouraging switching is the role of:",
+    "answers": {
+      "A": "Informative advertising",
+      "B": "Persuasive advertising",
+      "C": "Reminder advertising",
+      "D": "Public relations"
+    },
+    "correct_answer": "B",
+    "lecture_number": 10
+  },
+  {
+    "number": 66,
+    "question": "Keeping the brand in customers' minds and maintaining relationships is the role of:",
+    "answers": {
+      "A": "Reminder advertising",
+      "B": "Institutional advertising",
+      "C": "Personal selling",
+      "D": "Sales promotion"
+    },
+    "correct_answer": "A",
+    "lecture_number": 10
+  },
+  {
+    "number": 67,
+    "question": "Stage in the product life cycle, market share, competition, and advertising frequency are factors in setting the advertising:",
+    "answers": {
+      "A": "Objective",
+      "B": "Budget",
+      "C": "Message source",
+      "D": "Channel level"
+    },
+    "correct_answer": "B",
+    "lecture_number": 10
+  },
+  {
+    "number": 68,
+    "question": "Message strategy plans and creates engaging content, while media strategy chooses media types, vehicles, reach, frequency, and:",
+    "answers": {
+      "A": "Positioning",
+      "B": "Timing",
+      "C": "Segmentation",
+      "D": "Target cost"
+    },
+    "correct_answer": "B",
+    "lecture_number": 10
+  },
+  {
+    "number": 69,
+    "question": "Measuring communication impact, sales impact, and return on advertising investment is part of advertising:",
+    "answers": {
+      "A": "Evaluation",
+      "B": "Targeting",
+      "C": "Distribution",
+      "D": "Wholesaling"
+    },
+    "correct_answer": "A",
+    "lecture_number": 10
+  },
+  {
+    "number": 70,
+    "question": "Selling the same product everywhere, modifying it for local preferences, or creating a new product for a specific market are global product:",
+    "answers": {
+      "A": "Segmentation criteria",
+      "B": "Product strategies",
+      "C": "Pricing tactics",
+      "D": "Logistics functions"
+    },
+    "correct_answer": "B",
+    "lecture_number": 10
+  }
+]

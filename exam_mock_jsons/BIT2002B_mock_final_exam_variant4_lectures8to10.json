@@ -1,0 +1,842 @@
+[
+  {
+    "number": 1,
+    "question": "Which statement best explains why intermediaries exist in marketing channels?",
+    "answers": {
+      "A": "They mainly increase prices to raise margins",
+      "B": "They make distribution more efficient by reducing transaction complexity",
+      "C": "They remove the need for logistics",
+      "D": "They ensure producers sell directly to all buyers"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 2,
+    "question": "A producer selling large quantities to a limited number of retailers instead of millions of consumers is primarily benefiting from:",
+    "answers": {
+      "A": "Channel conflict",
+      "B": "Sorting",
+      "C": "Contact efficiency",
+      "D": "Franchising"
+    },
+    "correct_answer": "C",
+    "lecture_number": 8
+  },
+  {
+    "number": 3,
+    "question": "A channel member that takes title to goods and resells them to retailers is usually a:",
+    "answers": {
+      "A": "Broker",
+      "B": "Agent",
+      "C": "Merchant wholesaler",
+      "D": "Facilitator"
+    },
+    "correct_answer": "C",
+    "lecture_number": 8
+  },
+  {
+    "number": 4,
+    "question": "A firm gives one dealer exclusive rights to sell in a geographic territory. This is:",
+    "answers": {
+      "A": "Intensive distribution",
+      "B": "Selective distribution",
+      "C": "Exclusive distribution",
+      "D": "Dual distribution"
+    },
+    "correct_answer": "C",
+    "lecture_number": 8
+  },
+  {
+    "number": 5,
+    "question": "Convenience goods such as bottled water and gum are most likely to use:",
+    "answers": {
+      "A": "Exclusive distribution",
+      "B": "Selective distribution",
+      "C": "Intensive distribution",
+      "D": "Reverse logistics"
+    },
+    "correct_answer": "C",
+    "lecture_number": 8
+  },
+  {
+    "number": 6,
+    "question": "A premium watch brand chooses only a small number of carefully screened retailers. This is most consistent with:",
+    "answers": {
+      "A": "Intensive distribution",
+      "B": "Selective distribution",
+      "C": "Horizontal marketing",
+      "D": "Mass merchandising"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 7,
+    "question": "When manufacturers, wholesalers, and retailers act as a unified system rather than independently, this is a:",
+    "answers": {
+      "A": "Conventional channel",
+      "B": "Vertical marketing system",
+      "C": "Hybrid channel",
+      "D": "Contract manufacturer"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 8,
+    "question": "Which is an example of a corporate vertical marketing system?",
+    "answers": {
+      "A": "Independent firms linked by contracts",
+      "B": "One firm owning multiple levels of the channel",
+      "C": "A dominant retailer informally coordinating others",
+      "D": "Competing brands sharing shelf space"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 9,
+    "question": "A franchising arrangement is best classified as a:",
+    "answers": {
+      "A": "Corporate VMS",
+      "B": "Administered VMS",
+      "C": "Contractual VMS",
+      "D": "Conventional channel"
+    },
+    "correct_answer": "C",
+    "lecture_number": 8
+  },
+  {
+    "number": 10,
+    "question": "When a powerful brand like a market leader can influence retailers without owning them, that channel is closest to an:",
+    "answers": {
+      "A": "Administered VMS",
+      "B": "Corporate VMS",
+      "C": "Contractual VMS",
+      "D": "Horizontal VMS"
+    },
+    "correct_answer": "A",
+    "lecture_number": 8
+  },
+  {
+    "number": 11,
+    "question": "A retailer and an online marketplace offering the same product at different prices create tension. This is an example of:",
+    "answers": {
+      "A": "Horizontal conflict",
+      "B": "Vertical conflict",
+      "C": "Reverse distribution",
+      "D": "Disintermediation"
+    },
+    "correct_answer": "A",
+    "lecture_number": 8
+  },
+  {
+    "number": 12,
+    "question": "A manufacturer bypasses wholesalers and sells directly online to end users. This is most directly called:",
+    "answers": {
+      "A": "Backward integration",
+      "B": "Disintermediation",
+      "C": "Forward auctioning",
+      "D": "Intensive coverage"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 13,
+    "question": "Adding an online store while also keeping retailers is best described as:",
+    "answers": {
+      "A": "Single-channel marketing",
+      "B": "Hybrid or multichannel distribution",
+      "C": "Exclusive distribution",
+      "D": "Reverse logistics"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 14,
+    "question": "The set of activities required to move products from producers to consumers is called:",
+    "answers": {
+      "A": "Promotion",
+      "B": "Channel power",
+      "C": "Place or distribution",
+      "D": "Merchandising"
+    },
+    "correct_answer": "C",
+    "lecture_number": 8
+  },
+  {
+    "number": 15,
+    "question": "Breaking bulk means intermediaries mainly:",
+    "answers": {
+      "A": "Produce finished goods",
+      "B": "Buy in large quantities and sell in smaller units",
+      "C": "Handle only perishable products",
+      "D": "Remove the need for storage"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 16,
+    "question": "A wholesaler mainly adds value by:",
+    "answers": {
+      "A": "Stimulating primary demand through mass advertising",
+      "B": "Linking producers and retailers through assortment, storage, and delivery",
+      "C": "Eliminating all channel conflict",
+      "D": "Replacing retailers in consumer markets"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 17,
+    "question": "Retailing refers to:",
+    "answers": {
+      "A": "Selling goods only through physical stores",
+      "B": "All activities involved in selling to final consumers",
+      "C": "Transactions only between manufacturers and wholesalers",
+      "D": "Selling only services to businesses"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 18,
+    "question": "Wholesaling refers to:",
+    "answers": {
+      "A": "Selling directly to end consumers",
+      "B": "Activities involved in selling to buyers for resale or business use",
+      "C": "Only importing goods from foreign markets",
+      "D": "Only large-volume trucking operations"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 19,
+    "question": "A store that carries a deep line of sporting goods but limited categories overall is a:",
+    "answers": {
+      "A": "Department store",
+      "B": "Specialty store",
+      "C": "Warehouse club",
+      "D": "Convenience store"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 20,
+    "question": "A company chooses selective distribution mainly because it wants to:",
+    "answers": {
+      "A": "Maximize availability at any cost",
+      "B": "Balance market coverage with control and service quality",
+      "C": "Avoid using retailers entirely",
+      "D": "Sell only in one location"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 21,
+    "question": "Logistics management is primarily concerned with:",
+    "answers": {
+      "A": "Persuading consumers to buy",
+      "B": "Planning and controlling the physical flow of goods and information",
+      "C": "Setting advertising budgets",
+      "D": "Segmenting markets"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 22,
+    "question": "Which choice best reflects the goal of supply chain management?",
+    "answers": {
+      "A": "Maximize each department's local efficiency regardless of total system cost",
+      "B": "Coordinate the entire flow from raw materials to final customer value",
+      "C": "Replace all intermediaries with AI",
+      "D": "Focus only on outbound transportation"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 23,
+    "question": "A retailer runs out of product because inventory was not replenished in time. This is mainly a logistics failure in:",
+    "answers": {
+      "A": "Warehousing and inventory management",
+      "B": "Personal selling",
+      "C": "Market segmentation",
+      "D": "Brand positioning"
+    },
+    "correct_answer": "A",
+    "lecture_number": 8
+  },
+  {
+    "number": 24,
+    "question": "Reverse logistics refers to managing products moving:",
+    "answers": {
+      "A": "From manufacturer to retailer only",
+      "B": "Back from consumers or intermediaries for return, repair, reuse, or disposal",
+      "C": "Only into international markets",
+      "D": "Between competitors through exchanges"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 25,
+    "question": "A manufacturer uses too many channels that overlap and compete for the same customer. The most likely result is:",
+    "answers": {
+      "A": "Improved channel harmony automatically",
+      "B": "Greater channel conflict",
+      "C": "Lower need for coordination",
+      "D": "Exclusive distribution"
+    },
+    "correct_answer": "B",
+    "lecture_number": 8
+  },
+  {
+    "number": 26,
+    "question": "The promotional mix is best defined as the company's blend of:",
+    "answers": {
+      "A": "Pricing, targeting, and logistics tools",
+      "B": "Advertising, sales promotion, PR, personal selling, and direct/digital marketing tools",
+      "C": "Only paid media channels",
+      "D": "Only online communication tactics"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 27,
+    "question": "Integrated marketing communications is mainly about:",
+    "answers": {
+      "A": "Using as many media channels as possible",
+      "B": "Coordinating promotion tools to deliver a clear, consistent, compelling message",
+      "C": "Letting each department create separate brand messages",
+      "D": "Prioritizing personal selling over all other tools"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 28,
+    "question": "A company offers retailers allowances and incentives so they will stock and promote its product. This is a:",
+    "answers": {
+      "A": "Pull strategy",
+      "B": "Push strategy",
+      "C": "Publicity strategy",
+      "D": "Social marketing strategy"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 29,
+    "question": "Heavy consumer advertising designed to make customers ask stores for the product is a:",
+    "answers": {
+      "A": "Push strategy",
+      "B": "Pull strategy",
+      "C": "Trade promotion strategy",
+      "D": "Channel compression strategy"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 30,
+    "question": "Which element of the communication process is the person or organization sending the message?",
+    "answers": {
+      "A": "Receiver",
+      "B": "Media",
+      "C": "Source or sender",
+      "D": "Noise"
+    },
+    "correct_answer": "C",
+    "lecture_number": 9
+  },
+  {
+    "number": 31,
+    "question": "When a consumer misunderstands an ad because the wording is vague, the problem is mainly in:",
+    "answers": {
+      "A": "Decoding",
+      "B": "Feedback",
+      "C": "Scheduling",
+      "D": "Reach"
+    },
+    "correct_answer": "A",
+    "lecture_number": 9
+  },
+  {
+    "number": 32,
+    "question": "In the communication process, clutter and competing ads are examples of:",
+    "answers": {
+      "A": "Feedback",
+      "B": "Noise",
+      "C": "Encoding",
+      "D": "Response"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 33,
+    "question": "A firm wants immediate short-term sales and uses coupons and limited-time discounts. It is relying most on:",
+    "answers": {
+      "A": "Public relations",
+      "B": "Sales promotion",
+      "C": "Personal selling",
+      "D": "Publicity"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 34,
+    "question": "Which promotional tool is generally best for building detailed customer understanding and adapting messages in real time?",
+    "answers": {
+      "A": "Mass advertising",
+      "B": "Personal selling",
+      "C": "Publicity",
+      "D": "Sales promotion"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 35,
+    "question": "Public relations differs from advertising mainly because PR often:",
+    "answers": {
+      "A": "Has no strategic purpose",
+      "B": "Uses unpaid or earned communication and relationship-building",
+      "C": "Avoids any media contact",
+      "D": "Targets only internal audiences"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 36,
+    "question": "A company sponsors a charity event and gets favorable local news coverage. This is primarily:",
+    "answers": {
+      "A": "Sales promotion",
+      "B": "Public relations/publicity",
+      "C": "Direct marketing",
+      "D": "Personal selling"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 37,
+    "question": "A marketer sending a personalized email offer based on purchase history is using:",
+    "answers": {
+      "A": "Mass marketing only",
+      "B": "Direct and digital marketing",
+      "C": "Publicity",
+      "D": "Trade promotion"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 38,
+    "question": "The first step in developing effective marketing communications is usually to:",
+    "answers": {
+      "A": "Choose the media mix",
+      "B": "Identify the target audience",
+      "C": "Set the total budget",
+      "D": "Design the ad layout"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 39,
+    "question": "A communications objective aimed at moving buyers to take a purchase step is most closely tied to influencing:",
+    "answers": {
+      "A": "Awareness only",
+      "B": "Buyer readiness stage",
+      "C": "Warehouse efficiency",
+      "D": "Channel intensity"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 40,
+    "question": "When selecting a message, rational appeals mainly focus on:",
+    "answers": {
+      "A": "Emotions and mood",
+      "B": "Benefits, performance, and value arguments",
+      "C": "Fear alone",
+      "D": "Celebrity popularity"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 41,
+    "question": "A fear-based anti-smoking campaign is primarily using a(n):",
+    "answers": {
+      "A": "Moral or emotional appeal",
+      "B": "Logistics appeal",
+      "C": "Channel appeal",
+      "D": "Price appeal"
+    },
+    "correct_answer": "A",
+    "lecture_number": 9
+  },
+  {
+    "number": 42,
+    "question": "Choosing between TV, social media, email, and in-store displays is part of deciding the:",
+    "answers": {
+      "A": "Target segment size",
+      "B": "Communication channels/media",
+      "C": "Product assortment",
+      "D": "Distribution coverage"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 43,
+    "question": "A company sets its promotion budget by starting with sales forecasts and then assigning what it thinks it can afford. This is the:",
+    "answers": {
+      "A": "Objective-and-task method",
+      "B": "Competitive-parity method",
+      "C": "Affordable method",
+      "D": "Percentage-of-sales method"
+    },
+    "correct_answer": "C",
+    "lecture_number": 9
+  },
+  {
+    "number": 44,
+    "question": "A company defines communication goals, lists required tasks, and estimates their cost. This budgeting method is:",
+    "answers": {
+      "A": "Affordable method",
+      "B": "Objective-and-task method",
+      "C": "Percentage-of-sales method",
+      "D": "Competitor-following method"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 45,
+    "question": "Which promotional tool is usually most effective in the later stages of the buying process, especially for B2B?",
+    "answers": {
+      "A": "Public relations",
+      "B": "Personal selling",
+      "C": "Publicity",
+      "D": "Mass advertising only"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 46,
+    "question": "A retailer's 'buy one, get one free this weekend only' offer is an example of:",
+    "answers": {
+      "A": "Public relations",
+      "B": "Sales promotion",
+      "C": "Personal selling",
+      "D": "Direct selling channel"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 47,
+    "question": "Using influencers, email, search ads, and in-store displays with a unified campaign slogan reflects:",
+    "answers": {
+      "A": "Channel conflict",
+      "B": "Integrated marketing communications",
+      "C": "Exclusive distribution",
+      "D": "Line filling"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 48,
+    "question": "Feedback in the communications model refers to:",
+    "answers": {
+      "A": "The medium chosen for the message",
+      "B": "The receiver's response communicated back to the sender",
+      "C": "Random interference in the message",
+      "D": "The cost of the campaign"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 49,
+    "question": "A firm promoting to wholesalers to encourage inventory loading is focusing on which target within promotion?",
+    "answers": {
+      "A": "Final consumers only",
+      "B": "Channel members/trade partners",
+      "C": "Government regulators",
+      "D": "Competitors"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 50,
+    "question": "The main weakness of sales promotion, when overused, is that it can:",
+    "answers": {
+      "A": "Build long-term brand equity better than advertising",
+      "B": "Train customers to buy on deal rather than brand value",
+      "C": "Replace all other promotion tools permanently",
+      "D": "Eliminate the need for distribution"
+    },
+    "correct_answer": "B",
+    "lecture_number": 9
+  },
+  {
+    "number": 51,
+    "question": "Advertising can be defined most accurately as:",
+    "answers": {
+      "A": "Personal presentations by a sales force",
+      "B": "Any unpaid media coverage",
+      "C": "Paid, nonpersonal communication by an identified sponsor",
+      "D": "Only social media influencer posts"
+    },
+    "correct_answer": "C",
+    "lecture_number": 10
+  },
+  {
+    "number": 52,
+    "question": "The first major decision in developing an advertising program is usually to set:",
+    "answers": {
+      "A": "The retail margin",
+      "B": "Advertising objectives",
+      "C": "Warehouse locations",
+      "D": "Sales quotas for wholesalers"
+    },
+    "correct_answer": "B",
+    "lecture_number": 10
+  },
+  {
+    "number": 53,
+    "question": "An ad campaign aimed at creating primary demand for a new product category is primarily using:",
+    "answers": {
+      "A": "Reminder advertising",
+      "B": "Comparative advertising",
+      "C": "Informative advertising",
+      "D": "Reinforcement advertising"
+    },
+    "correct_answer": "C",
+    "lecture_number": 10
+  },
+  {
+    "number": 54,
+    "question": "A mature brand reminding consumers to keep buying the brand is mainly using:",
+    "answers": {
+      "A": "Reminder advertising",
+      "B": "Informative advertising",
+      "C": "Institutional advertising",
+      "D": "Pioneering advertising"
+    },
+    "correct_answer": "A",
+    "lecture_number": 10
+  },
+  {
+    "number": 55,
+    "question": "A brand directly compares itself with a rival on features and performance. This is:",
+    "answers": {
+      "A": "Reminder advertising",
+      "B": "Comparative advertising",
+      "C": "Publicity",
+      "D": "Native retailing"
+    },
+    "correct_answer": "B",
+    "lecture_number": 10
+  },
+  {
+    "number": 56,
+    "question": "A company estimates its ad budget based on what it wants to accomplish and the tasks needed. This is the:",
+    "answers": {
+      "A": "Affordable method",
+      "B": "Objective-and-task method",
+      "C": "Percentage-of-sales method",
+      "D": "Competitive-spending ceiling"
+    },
+    "correct_answer": "B",
+    "lecture_number": 10
+  },
+  {
+    "number": 57,
+    "question": "Creating the actual appeal, theme, and execution of an ad is part of:",
+    "answers": {
+      "A": "Media scheduling",
+      "B": "Message creation",
+      "C": "Sales promotion",
+      "D": "Channel design"
+    },
+    "correct_answer": "B",
+    "lecture_number": 10
+  },
+  {
+    "number": 58,
+    "question": "Choosing the best media vehicles based on reach, frequency, and impact is part of:",
+    "answers": {
+      "A": "Media selection",
+      "B": "Public relations",
+      "C": "Wholesaling",
+      "D": "Line stretching"
+    },
+    "correct_answer": "A",
+    "lecture_number": 10
+  },
+  {
+    "number": 59,
+    "question": "Reach in advertising refers to:",
+    "answers": {
+      "A": "How believable the ad is",
+      "B": "The percentage of people in the target market exposed to the ad",
+      "C": "How often the ad is repeated",
+      "D": "The cost per thousand impressions"
+    },
+    "correct_answer": "B",
+    "lecture_number": 10
+  },
+  {
+    "number": 60,
+    "question": "Frequency refers to:",
+    "answers": {
+      "A": "The qualitative value of a media exposure",
+      "B": "How many times the average person is exposed to the message",
+      "C": "The number of retailers carrying the product",
+      "D": "The duration of product development"
+    },
+    "correct_answer": "B",
+    "lecture_number": 10
+  },
+  {
+    "number": 61,
+    "question": "A marketer testing whether consumers recall a campaign and changed purchase behavior is evaluating:",
+    "answers": {
+      "A": "Advertising effectiveness",
+      "B": "Channel intensity",
+      "C": "Wholesaler productivity",
+      "D": "Market penetration pricing"
+    },
+    "correct_answer": "A",
+    "lecture_number": 10
+  },
+  {
+    "number": 62,
+    "question": "Public relations is especially useful when a company wants to:",
+    "answers": {
+      "A": "Secure highly controlled paid placements only",
+      "B": "Build credibility and manage relationships with publics",
+      "C": "Replace all selling activity",
+      "D": "Avoid media exposure entirely"
+    },
+    "correct_answer": "B",
+    "lecture_number": 10
+  },
+  {
+    "number": 63,
+    "question": "A company uses websites, apps, search, social media, and email in a coordinated customer journey. This is closest to:",
+    "answers": {
+      "A": "Omni-channel marketing",
+      "B": "Exclusive distribution",
+      "C": "Administered VMS",
+      "D": "Captive pricing"
+    },
+    "correct_answer": "A",
+    "lecture_number": 10
+  },
+  {
+    "number": 64,
+    "question": "A firm sells the same product with the same message in every country to gain economies of scale. This reflects:",
+    "answers": {
+      "A": "Full adaptation",
+      "B": "Standardization",
+      "C": "Product invention",
+      "D": "Local customization"
+    },
+    "correct_answer": "B",
+    "lecture_number": 10
+  },
+  {
+    "number": 65,
+    "question": "Changing packaging, features, or communication to suit local market conditions is:",
+    "answers": {
+      "A": "Straight product extension",
+      "B": "Adaptation",
+      "C": "Disintermediation",
+      "D": "Selective distribution"
+    },
+    "correct_answer": "B",
+    "lecture_number": 10
+  },
+  {
+    "number": 66,
+    "question": "Selling a product in foreign markets without changing the product is called:",
+    "answers": {
+      "A": "Product adaptation",
+      "B": "Straight product extension",
+      "C": "Product invention",
+      "D": "Backward integration"
+    },
+    "correct_answer": "B",
+    "lecture_number": 10
+  },
+  {
+    "number": 67,
+    "question": "Developing a new product version specifically for a foreign market is called:",
+    "answers": {
+      "A": "Straight product extension",
+      "B": "Product invention",
+      "C": "Selective adaptation",
+      "D": "Integrated exporting"
+    },
+    "correct_answer": "B",
+    "lecture_number": 10
+  },
+  {
+    "number": 68,
+    "question": "Which foreign market entry strategy is typically the simplest and lowest risk?",
+    "answers": {
+      "A": "Direct investment",
+      "B": "Joint venture",
+      "C": "Exporting",
+      "D": "Acquisition"
+    },
+    "correct_answer": "C",
+    "lecture_number": 10
+  },
+  {
+    "number": 69,
+    "question": "A company wants more local control than exporting but less commitment than wholly owned operations. Partnering with a local firm is usually a:",
+    "answers": {
+      "A": "Direct investment",
+      "B": "Joint venture",
+      "C": "Straight extension",
+      "D": "Reverse logistics arrangement"
+    },
+    "correct_answer": "B",
+    "lecture_number": 10
+  },
+  {
+    "number": 70,
+    "question": "The main trade-off in global marketing standardization versus adaptation is between:",
+    "answers": {
+      "A": "Brand consistency and local relevance",
+      "B": "Price and logistics cost only",
+      "C": "Reach and frequency",
+      "D": "Wholesaling and retailing"
+    },
+    "correct_answer": "A",
+    "lecture_number": 10
+  }
+]
