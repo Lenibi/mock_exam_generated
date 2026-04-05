@@ -1,0 +1,212 @@
+[
+  {
+    "number": 1,
+    "question": "Which type of light decay follows the formula 1/d², matching how regular light behaves in the real world?",
+    "answers": { "A": "Linear", "B": "Cubic", "C": "Quadratic", "D": "No Decay" },
+    "correct_answer": "C",
+    "lecture_number": 14
+  },
+  {
+    "number": 2,
+    "question": "What parameter of a spotlight defines the fuzzy edges of the light cone due to light bounces around the edge?",
+    "answers": { "A": "Cone Angle", "B": "Penumbra Angle", "C": "Drop Off", "D": "Barn Doors" },
+    "correct_answer": "B",
+    "lecture_number": 14
+  },
+  {
+    "number": 3,
+    "question": "A colour temperature of 4100°K corresponds to which common light source?",
+    "answers": { "A": "Candle", "B": "Incandescent lamp", "C": "Moonlight", "D": "Standard studio light" },
+    "correct_answer": "C",
+    "lecture_number": 14
+  },
+  {
+    "number": 4,
+    "question": "What is the primary purpose of using a negative intensity value on a light source?",
+    "answers": { "A": "To increase brightness in dark areas", "B": "To remove light from specific areas", "C": "To create coloured light", "D": "To simulate ambient occlusion" },
+    "correct_answer": "B",
+    "lecture_number": 14
+  },
+  {
+    "number": 5,
+    "question": "In Image-Based Lighting, why is a High Dynamic Range Image (HDRI) used instead of a standard 8-bit image?",
+    "answers": { "A": "It uses less storage space", "B": "It captures a greater range of light values from dark to bright", "C": "It is compatible with more file formats", "D": "It renders faster" },
+    "correct_answer": "B",
+    "lecture_number": 15
+  },
+  {
+    "number": 6,
+    "question": "Which of the following is NOT a method for capturing an omni-directional image for IBL?",
+    "answers": { "A": "Mirrored ball", "B": "Fish-eye lens", "C": "Panoramic camera", "D": "Pinhole camera" },
+    "correct_answer": "D",
+    "lecture_number": 15
+  },
+  {
+    "number": 7,
+    "question": "Image-Based Lighting evolved primarily from which existing technique?",
+    "answers": { "A": "Radiosity", "B": "Photon Mapping", "C": "Reflection Mapping", "D": "Ray Tracing" },
+    "correct_answer": "C",
+    "lecture_number": 15
+  },
+  {
+    "number": 8,
+    "question": "In the Phong reflection model, what does the shininess constant (alpha) control?",
+    "answers": { "A": "The colour of the diffuse reflection", "B": "The intensity of the ambient light", "C": "How much the specular shading drops off from the ideal reflection vector", "D": "The transparency of the material" },
+    "correct_answer": "C",
+    "lecture_number": 16
+  },
+  {
+    "number": 9,
+    "question": "Which reflection model is best suited for modelling micro-grooved surfaces such as CDs and brushed metal?",
+    "answers": { "A": "Lambert", "B": "Phong", "C": "Blinn", "D": "Anisotropic" },
+    "correct_answer": "D",
+    "lecture_number": 16
+  },
+  {
+    "number": 10,
+    "question": "What does BRDF stand for?",
+    "answers": { "A": "Bidirectional Radiance Distribution Formula", "B": "Bidirectional Reflectance Distribution Function", "C": "Bilateral Refraction Distribution Function", "D": "Bidirectional Rendering Diffusion Framework" },
+    "correct_answer": "B",
+    "lecture_number": 16
+  },
+  {
+    "number": 11,
+    "question": "What property of a BRDF states that the input and output angles can be switched and the function value remains the same?",
+    "answers": { "A": "Energy conservation", "B": "Normalisation", "C": "Helmholtz Reciprocity", "D": "Fresnel invariance" },
+    "correct_answer": "C",
+    "lecture_number": 16
+  },
+  {
+    "number": 12,
+    "question": "In 2D texture mapping, what happens when a UV coordinate value greater than 1.0 is used with the repeat mode?",
+    "answers": { "A": "The texture is stretched", "B": "The texture is clamped at the edge", "C": "The texture is repeated multiple times", "D": "The texture is mirrored" },
+    "correct_answer": "C",
+    "lecture_number": 17
+  },
+  {
+    "number": 13,
+    "question": "What is the primary purpose of mipmapping?",
+    "answers": { "A": "To increase texture resolution", "B": "To reduce flickering during texture mapping at different distances", "C": "To compress textures for storage", "D": "To add bump effects to surfaces" },
+    "correct_answer": "B",
+    "lecture_number": 17
+  },
+  {
+    "number": 14,
+    "question": "How does normal mapping differ from bump mapping?",
+    "answers": { "A": "Normal mapping perturbs the existing surface normal; bump mapping replaces it", "B": "Normal mapping replaces the normal entirely; bump mapping only perturbs it", "C": "Normal mapping requires more polygons than bump mapping", "D": "Normal mapping only works with ray tracing" },
+    "correct_answer": "B",
+    "lecture_number": 17
+  },
+  {
+    "number": 15,
+    "question": "What is the key difference between displacement mapping and bump mapping?",
+    "answers": { "A": "Displacement mapping only modifies colour values", "B": "Bump mapping perturbs the actual geometry", "C": "Displacement mapping perturbs the actual geometry, not just the normal", "D": "There is no practical difference" },
+    "correct_answer": "C",
+    "lecture_number": 18
+  },
+  {
+    "number": 16,
+    "question": "In cubic environment mapping, reflections are computed by reflecting the camera ray about the surface normal and then:",
+    "answers": { "A": "Tracing the ray through the entire scene", "B": "Looking up the resulting direction in the six faces of a cube map", "C": "Applying a spherical texture to the object", "D": "Computing a photon map" },
+    "correct_answer": "B",
+    "lecture_number": 18
+  },
+  {
+    "number": 17,
+    "question": "What does a light map simulate when applied to a surface?",
+    "answers": { "A": "Surface displacement", "B": "The effect of a local light source", "C": "Normal perturbation", "D": "Specular reflection only" },
+    "correct_answer": "B",
+    "lecture_number": 18
+  },
+  {
+    "number": 18,
+    "question": "In OpenPBR, what does the metalness parameter control?",
+    "answers": { "A": "The roughness of the surface", "B": "Whether a surface behaves like a metal (conductor) or a non-metal (dielectric)", "C": "The index of refraction", "D": "The subsurface scattering weight" },
+    "correct_answer": "B",
+    "lecture_number": 19
+  },
+  {
+    "number": 19,
+    "question": "According to the Fresnel effect, what happens to the reflectivity of a surface such as water as the viewing angle becomes more glancing?",
+    "answers": { "A": "Reflectivity decreases", "B": "Reflectivity stays constant", "C": "The surface becomes more reflective", "D": "The surface becomes fully transparent" },
+    "correct_answer": "C",
+    "lecture_number": 19
+  },
+  {
+    "number": 20,
+    "question": "In OpenPBR, what does the Abbe number describe?",
+    "answers": { "A": "The amount of subsurface scattering", "B": "The strength of chromatic dispersion in transparent materials", "C": "The roughness of the coat layer", "D": "The emission intensity" },
+    "correct_answer": "B",
+    "lecture_number": 19
+  },
+  {
+    "number": 21,
+    "question": "The Rendering Equation by Kajiya (1986) cannot model which of the following optical phenomena?",
+    "answers": { "A": "Reflection", "B": "Refraction", "C": "Diffraction", "D": "Dispersion" },
+    "correct_answer": "C",
+    "lecture_number": 20
+  },
+  {
+    "number": 22,
+    "question": "In forward ray tracing, rays are traced from:",
+    "answers": { "A": "The light source to the camera", "B": "The camera (eye) back toward the scene and lights", "C": "Object to object only", "D": "The z-buffer to the viewport" },
+    "correct_answer": "B",
+    "lecture_number": 20
+  },
+  {
+    "number": 23,
+    "question": "In radiosity rendering, why can the result be traversed in real-time once computed?",
+    "answers": { "A": "It uses GPU-accelerated ray tracing", "B": "It only tracks specular light which is simple to compute", "C": "The result is view-independent because it only tracks diffuse light", "D": "It uses a z-buffer for visibility" },
+    "correct_answer": "C",
+    "lecture_number": 20
+  },
+  {
+    "number": 24,
+    "question": "In photon mapping, after a photon intersects a surface, its new direction is selected using:",
+    "answers": { "A": "The z-buffer", "B": "The surface's BRDF", "C": "A fixed reflection angle", "D": "Random direction only" },
+    "correct_answer": "B",
+    "lecture_number": 20
+  },
+  {
+    "number": 25,
+    "question": "What is the primary advantage of Metropolis Light Transport over standard bidirectional path tracing?",
+    "answers": { "A": "It is always faster", "B": "Once a path from light to camera is found, it can explore nearby paths more thoroughly", "C": "It does not require any random sampling", "D": "It only works with direct illumination" },
+    "correct_answer": "B",
+    "lecture_number": 21
+  },
+  {
+    "number": 26,
+    "question": "Ambient occlusion computes the shading at a surface point by:",
+    "answers": { "A": "Tracing rays from the light source", "B": "Calculating the ratio of occluded hemispherical sample rays to total sample rays", "C": "Using the z-buffer depth directly", "D": "Applying a texture map" },
+    "correct_answer": "B",
+    "lecture_number": 21
+  },
+  {
+    "number": 27,
+    "question": "In toon shading, the two-tone (hard-shading) approach typically uses which technique to determine lit vs. shadowed areas?",
+    "answers": { "A": "Ray tracing with multiple bounces", "B": "Remapping the diffuse dot product (n·l) to a limited colour gradient", "C": "Applying a volumetric fog pass", "D": "Using photon mapping" },
+    "correct_answer": "B",
+    "lecture_number": 22
+  },
+  {
+    "number": 28,
+    "question": "How does network rendering differ from distributed rendering?",
+    "answers": { "A": "Network rendering splits each frame into buckets; distributed rendering assigns whole frames", "B": "Network rendering assigns whole frames to different machines; distributed rendering splits each frame into buckets", "C": "They are identical processes", "D": "Distributed rendering cannot handle inter-frame dependency" },
+    "correct_answer": "B",
+    "lecture_number": 22
+  },
+  {
+    "number": 29,
+    "question": "In the shadow volume technique, a surface point is determined to be in shadow when:",
+    "answers": { "A": "The z-buffer value exceeds the shadow map value", "B": "The stencil counter is greater than zero after tracking front-facing and back-facing crossings", "C": "The surface normal faces away from the light", "D": "The point is behind the camera" },
+    "correct_answer": "B",
+    "lecture_number": 23
+  },
+  {
+    "number": 30,
+    "question": "In shadow mapping, when must the shadow map be re-rendered?",
+    "answers": { "A": "Every time the camera moves", "B": "Every time the material properties change", "C": "Only when the shadow-casting object or the light moves", "D": "Once per scene, regardless of any changes" },
+    "correct_answer": "C",
+    "lecture_number": 23
+  }
+]
