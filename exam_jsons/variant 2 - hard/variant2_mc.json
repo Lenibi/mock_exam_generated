@@ -1,0 +1,1202 @@
+[
+  {
+    "number": 1,
+    "question": "A point light in a scene is set to quadratic decay with an intensity of 6.0. Compared to linear decay at the same intensity, the quadratic setting will:",
+    "answers": {
+      "A": "illuminate nearby surfaces more brightly and fall off faster with distance",
+      "B": "illuminate distant surfaces more brightly and fall off slower with distance",
+      "C": "illuminate all surfaces equally since intensity is the same for both settings",
+      "D": "illuminate nearby surfaces more dimly but maintain brightness over distance"
+    },
+    "correct_answer": "A",
+    "lecture_number": 14
+  },
+  {
+    "number": 2,
+    "question": "Which of the following light types has decay inherently built into its calculation due to the angle between the illuminated point and the light surface?",
+    "answers": {
+      "A": "a directional light with diffuse emission enabled",
+      "B": "a point light with quadratic decay configured",
+      "C": "an area light represented as a rectangle",
+      "D": "a volume light set to outward direction"
+    },
+    "correct_answer": "C",
+    "lecture_number": 14
+  },
+  {
+    "number": 3,
+    "question": "A spotlight's penumbra angle is set to -10 degrees. This means the light intensity decrease occurs:",
+    "answers": {
+      "A": "outside the cone angle edge, softening the boundary outward",
+      "B": "inside the cone angle edge, narrowing the lit region inward",
+      "C": "uniformly from the centre of the cone to the outer edge",
+      "D": "only at the very centre of the cone in a focused spot"
+    },
+    "correct_answer": "B",
+    "lecture_number": 14
+  },
+  {
+    "number": 4,
+    "question": "Which statement correctly describes the difference between Drop Off and Penumbra Angle on a spotlight?",
+    "answers": {
+      "A": "Drop Off changes intensity gradually from the centre outward; Penumbra only changes from its angle to the edge",
+      "B": "Penumbra changes intensity gradually from the centre outward; Drop Off only changes from its angle to the edge",
+      "C": "Drop Off defines the cone boundary range in degrees; Penumbra defines the intensity falloff as a scalar",
+      "D": "Penumbra defines the barn door attenuation range; Drop Off defines the cone boundary in degrees"
+    },
+    "correct_answer": "A",
+    "lecture_number": 14
+  },
+  {
+    "number": 5,
+    "question": "A volume light set to \"Inward\" direction means that:",
+    "answers": {
+      "A": "the centre of the volume is the light source radiating outward like a point light",
+      "B": "the edge of the volume is the light source and light travels toward the centre",
+      "C": "the light travels along the volume's local axis similar to a directional light",
+      "D": "the volume emits light in the opposite direction of its transform orientation"
+    },
+    "correct_answer": "B",
+    "lecture_number": 14
+  },
+  {
+    "number": 6,
+    "question": "A lighter sets a virtual light to 4100 K to replicate a specific real-world source. Which source are they matching?",
+    "answers": {
+      "A": "an incandescent tungsten lamp at typical household brightness",
+      "B": "a standard studio light used for professional photography",
+      "C": "moonlight illuminating an outdoor night scene",
+      "D": "average daylight on a clear afternoon"
+    },
+    "correct_answer": "C",
+    "lecture_number": 14
+  },
+  {
+    "number": 7,
+    "question": "A fluorescent lamp has a Colour Rendering Index (CRI) of 70. According to the slides, this lamp would be classified as:",
+    "answers": {
+      "A": "below the manufacturer threshold for good colour rendering",
+      "B": "within the manufacturer range classified as good or very good",
+      "C": "equivalent to a perfect blackbody source for colour accuracy",
+      "D": "outside the typical CRI range for fluorescent lamp technology"
+    },
+    "correct_answer": "A",
+    "lecture_number": 14
+  },
+  {
+    "number": 8,
+    "question": "Which statement about light linking is NOT correct?",
+    "answers": {
+      "A": "Light linking can improve rendering efficiency by reducing lighting calculations",
+      "B": "A newly created light source illuminates all surfaces in the scene by default",
+      "C": "Light linking allows a specific light to illuminate only specific surfaces",
+      "D": "Light linking changes the colour temperature of linked lights automatically"
+    },
+    "correct_answer": "D",
+    "lecture_number": 14
+  },
+  {
+    "number": 9,
+    "question": "In Image-Based Lighting, the requirement that pixel values be \"linearly proportional\" to real-world light means that:",
+    "answers": {
+      "A": "the dynamic range must be compressed to fit standard 8-bit RGB channels",
+      "B": "each pixel value must directly correspond to the actual amount of light measured",
+      "C": "the image must be tone-mapped before it can serve as a light source",
+      "D": "the pixel values must follow a gamma curve matching the display device"
+    },
+    "correct_answer": "B",
+    "lecture_number": 15
+  },
+  {
+    "number": 10,
+    "question": "All of the following are valid methods for capturing an omni-directional image for IBL EXCEPT:",
+    "answers": {
+      "A": "taking images of a mirrored ball placed in the scene",
+      "B": "using a fish-eye lens covering the full field in as few as two images",
+      "C": "rendering a cube map from six virtual cameras positioned at a single point",
+      "D": "using a panoramic camera with a rotating vertical row of image sensors"
+    },
+    "correct_answer": "C",
+    "lecture_number": 15
+  },
+  {
+    "number": 11,
+    "question": "With 16 bits per channel, the number of distinct brightness values available per channel is:",
+    "answers": {
+      "A": "4,096 values derived from 2 raised to the 12th power",
+      "B": "32,768 values derived from 2 raised to the 15th power",
+      "C": "65,536 values derived from 2 raised to the 16th power",
+      "D": "16,777,216 values derived from 2 raised to the 24th power"
+    },
+    "correct_answer": "C",
+    "lecture_number": 15
+  },
+  {
+    "number": 12,
+    "question": "A reflectance field of a human face is captured using hundreds of lights. The primary purpose of this capture is to:",
+    "answers": {
+      "A": "generate a high dynamic range environment map of the surrounding scene",
+      "B": "determine reflectance properties from every angle so the face can be relit under any lighting",
+      "C": "create a volumetric model of the face geometry for subsurface scattering simulation",
+      "D": "produce a light probe image that replaces traditional IBL environment spheres"
+    },
+    "correct_answer": "B",
+    "lecture_number": 15
+  },
+  {
+    "number": 13,
+    "question": "The Phong reflection model computes the final shade value for a surface point as:",
+    "answers": {
+      "A": "the product of ambient, diffuse, and specular components multiplied together",
+      "B": "the ambient term plus a summation over all lights of diffuse and specular contributions",
+      "C": "the maximum of the ambient, diffuse, and specular terms selected per light",
+      "D": "the weighted average of ambient and diffuse terms plus a separate specular pass"
+    },
+    "correct_answer": "B",
+    "lecture_number": 16
+  },
+  {
+    "number": 14,
+    "question": "In the specular reflection equation S = ks * is * cos^alpha(phi), the angle phi represents:",
+    "answers": {
+      "A": "the angle between the surface normal and the incoming light direction",
+      "B": "the angle between the incoming light direction and the reflected light direction",
+      "C": "the deviation of the camera position from the ideal mirror reflection direction",
+      "D": "the angle between the surface tangent and the half-angle bisector vector"
+    },
+    "correct_answer": "C",
+    "lecture_number": 16
+  },
+  {
+    "number": 15,
+    "question": "The Blinn reflection model differs from Phong primarily in that Blinn is better suited for modelling:",
+    "answers": {
+      "A": "matte surfaces such as chalk and unfinished plaster",
+      "B": "metallic surfaces such as brass or polished aluminum",
+      "C": "glossy plastic surfaces and automotive body panels",
+      "D": "micro-grooved surfaces such as CDs and brushed metal"
+    },
+    "correct_answer": "B",
+    "lecture_number": 16
+  },
+  {
+    "number": 16,
+    "question": "Which reflection model is specifically designed for surfaces that are directionally dependent, such as hair and brushed metal?",
+    "answers": {
+      "A": "Phong-E model with extended roughness and highlight size controls",
+      "B": "Blinn model using the half-angle vector for specular computation",
+      "C": "Anisotropic model mimicking properties of micro-grooved surfaces",
+      "D": "Lambert model combined with a high diffuse reflection coefficient"
+    },
+    "correct_answer": "C",
+    "lecture_number": 16
+  },
+  {
+    "number": 17,
+    "question": "A BRDF has the property of Helmholtz Reciprocity. This means that:",
+    "answers": {
+      "A": "the total outgoing energy is constrained to be less than or equal to the incoming energy",
+      "B": "the function value remains identical when the input and output angles are swapped",
+      "C": "the reflectance changes proportionally with the wavelength of the incident light",
+      "D": "the function produces the same result regardless of the surface normal orientation"
+    },
+    "correct_answer": "B",
+    "lecture_number": 16
+  },
+  {
+    "number": 18,
+    "question": "Which statement correctly describes the relationship between BRDF and BSSRDF?",
+    "answers": {
+      "A": "BRDF handles light entering and exiting a surface at different points; BSSRDF handles same-point reflection",
+      "B": "BRDF describes same-point surface reflection; BSSRDF extends this to include subsurface scattering at different exit points",
+      "C": "BRDF is used exclusively for metallic surfaces; BSSRDF is used exclusively for dielectric surfaces",
+      "D": "BRDF models wavelength-dependent refraction; BSSRDF models wavelength-independent diffuse transport"
+    },
+    "correct_answer": "B",
+    "lecture_number": 16
+  },
+  {
+    "number": 19,
+    "question": "When rendering human skin using subsurface scattering, a multilayered model uses three layers. Which set of layers is correct?",
+    "answers": {
+      "A": "epidermis, dermis, and the bloody dermis with scattering parameters from medical data",
+      "B": "epidermis, subcutaneous fat, and bone marrow with parameters from optical imaging",
+      "C": "outer keratin, melanin layer, and collagen base with parameters from spectroscopy",
+      "D": "cuticle, cortex, and medulla layers with parameters from hair fibre measurements"
+    },
+    "correct_answer": "A",
+    "lecture_number": 16
+  },
+  {
+    "number": 20,
+    "question": "The Kubelka-Munk pigment model for subsurface scattering was originally developed to describe:",
+    "answers": {
+      "A": "light scattering through multiple tissue layers of human skin",
+      "B": "light bouncing off wall paint to determine pigment requirements",
+      "C": "photon transport through translucent gemstones and crystals",
+      "D": "subsurface diffusion in highly scattering materials like milk"
+    },
+    "correct_answer": "B",
+    "lecture_number": 16
+  },
+  {
+    "number": 21,
+    "question": "A translucent material with Focus set to 0.0 will scatter translucent light:",
+    "answers": {
+      "A": "primarily in the forward direction through the object like a thin leaf",
+      "B": "in all directions equally with no directional preference",
+      "C": "only along the surface normal direction with minimal lateral spread",
+      "D": "backward toward the light source creating a backlit glow effect"
+    },
+    "correct_answer": "B",
+    "lecture_number": 16
+  },
+  {
+    "number": 22,
+    "question": "In 2D texture mapping, if both U and V coordinates are set to 2.0 on an explicit surface, the texture will:",
+    "answers": {
+      "A": "display a subsection of the original texture covering one quarter of the image",
+      "B": "stretch the full texture to cover twice the surface area in each direction",
+      "C": "repeat the full texture image four times across the surface if repeating is enabled",
+      "D": "clamp the texture to a single instance and leave the remaining area untextured"
+    },
+    "correct_answer": "C",
+    "lecture_number": 17
+  },
+  {
+    "number": 23,
+    "question": "What is the fundamental difference between bump mapping and normal mapping?",
+    "answers": {
+      "A": "Bump mapping replaces the surface normal entirely; normal mapping only perturbs the existing normal",
+      "B": "Bump mapping perturbs the existing surface normal; normal mapping replaces the normal entirely",
+      "C": "Bump mapping modifies the actual surface geometry; normal mapping only affects the shading normal",
+      "D": "Bump mapping uses RGB colour values as normals; normal mapping uses grayscale height values"
+    },
+    "correct_answer": "B",
+    "lecture_number": 17
+  },
+  {
+    "number": 24,
+    "question": "A normal map stores a normal vector of [-1.0, 0.0, 1.0]. When encoded as an 8-bit per component RGB value, this becomes:",
+    "answers": {
+      "A": "[0, 128, 255] where the range -1 to +1 maps to 0 to 255",
+      "B": "[0, 127, 255] where the range -1 to +1 maps to 0 to 255",
+      "C": "[255, 127, 0] where the components are stored in reverse order",
+      "D": "[128, 0, 128] where the range -1 to +1 maps to 0 to 128"
+    },
+    "correct_answer": "B",
+    "lecture_number": 17
+  },
+  {
+    "number": 25,
+    "question": "Which of the following is a key disadvantage of bump mapping that displacement mapping overcomes?",
+    "answers": {
+      "A": "Bump mapping requires a multi-pass rendering pipeline while displacement uses a single pass",
+      "B": "Bump mapping cannot produce self-occlusion or correct silhouettes because geometry is unchanged",
+      "C": "Bump mapping needs pre-generated normal data from high-poly geometry to function properly",
+      "D": "Bump mapping is incompatible with the Phong reflection model used in most renderers"
+    },
+    "correct_answer": "B",
+    "lecture_number": 17
+  },
+  {
+    "number": 26,
+    "question": "Each mipmap level is generated by taking half the size of the previous level and applying a filter. For a base texture of 64x64, the total number of mipmap levels (including the base) is:",
+    "answers": {
+      "A": "6 levels from 64x64 down to 2x2",
+      "B": "7 levels from 64x64 down to 1x1",
+      "C": "8 levels from 64x64 down to a single pixel plus one extra",
+      "D": "5 levels from 64x64 down to 4x4"
+    },
+    "correct_answer": "B",
+    "lecture_number": 17
+  },
+  {
+    "number": 27,
+    "question": "A skybox works by remaining stationary with respect to the viewer as they move. This imitates the real-world perception that:",
+    "answers": {
+      "A": "nearby objects parallax against the background creating depth through motion",
+      "B": "distant objects like clouds and mountains appear stationary when the viewpoint changes by small distances",
+      "C": "the environment wraps around the viewer in a spherical projection at close range",
+      "D": "all background elements shift uniformly in the opposite direction of camera movement"
+    },
+    "correct_answer": "B",
+    "lecture_number": 17
+  },
+  {
+    "number": 28,
+    "question": "Parallax mapping achieves its depth illusion by:",
+    "answers": {
+      "A": "perturbing the surface normals based on a height map to change how light reflects",
+      "B": "displacing actual vertex positions along the surface normal using GPU tessellation",
+      "C": "displacing texture coordinates based on the view angle and height map value at each point",
+      "D": "replacing surface normals with stored XYZ vectors encoded as RGB colour values"
+    },
+    "correct_answer": "C",
+    "lecture_number": 18
+  },
+  {
+    "number": 29,
+    "question": "Which statement about displacement mapping is correct?",
+    "answers": {
+      "A": "It perturbs the surface normal at each pixel but leaves the geometric surface unchanged",
+      "B": "It modifies the actual geometric positions of surface points based on a height map or procedural texture",
+      "C": "It stores pre-computed normal vectors as RGB values to replace the geometric normal entirely",
+      "D": "It displaces texture coordinates at render time based on the viewing angle in tangent space"
+    },
+    "correct_answer": "B",
+    "lecture_number": 18
+  },
+  {
+    "number": 30,
+    "question": "Procedural textures used in displacement mapping are generally not stored as images because:",
+    "answers": {
+      "A": "they require floating-point precision that standard image formats cannot support",
+      "B": "a 3D texture stored as an image volume would be too large in file size",
+      "C": "procedural textures must be recalculated every frame for animation purposes",
+      "D": "they produce random results that differ each time and cannot be saved deterministically"
+    },
+    "correct_answer": "B",
+    "lecture_number": 18
+  },
+  {
+    "number": 31,
+    "question": "A light map applied to an already-textured surface requires a multi-pass algorithm because:",
+    "answers": {
+      "A": "the light map must be rendered at a different resolution than the surface texture",
+      "B": "one pass renders the surface texture and another modulates its intensity with the light map",
+      "C": "light maps require a separate Z-buffer pass to determine shadow depth correctly",
+      "D": "each light source in the scene requires its own dedicated rendering pass for accuracy"
+    },
+    "correct_answer": "B",
+    "lecture_number": 18
+  },
+  {
+    "number": 32,
+    "question": "Spherical environment mapping has a known limitation that cubic environment mapping addresses. That limitation is:",
+    "answers": {
+      "A": "spherical maps cannot represent the full 360-degree field of view around an object",
+      "B": "spherical maps have an abrupt point of singularity on the rear of mapped objects",
+      "C": "spherical maps require six separate texture images instead of a single unified image",
+      "D": "spherical maps produce higher memory overhead due to their non-uniform pixel distribution"
+    },
+    "correct_answer": "B",
+    "lecture_number": 18
+  },
+  {
+    "number": 33,
+    "question": "A drawback of reflection mapping compared to true ray tracing is that:",
+    "answers": {
+      "A": "reflection mapping cannot simulate any form of specular reflection on curved surfaces",
+      "B": "reflection mapping does only a one-bounce reflection and cannot show self-reflections of the object",
+      "C": "reflection mapping requires a separate rendering pass for every polygon in the scene",
+      "D": "reflection mapping is limited to planar surfaces and cannot be applied to curved geometry"
+    },
+    "correct_answer": "B",
+    "lecture_number": 18
+  },
+  {
+    "number": 34,
+    "question": "In OpenPBR, a material with metalness = 1.0 will exhibit all of the following properties EXCEPT:",
+    "answers": {
+      "A": "coloured specular reflections that take on the base colour of the material",
+      "B": "very high specular reflectivity compared to dielectric materials",
+      "C": "a visible diffuse component contributing to the overall surface appearance",
+      "D": "almost zero light penetration into the material surface"
+    },
+    "correct_answer": "C",
+    "lecture_number": 19
+  },
+  {
+    "number": 35,
+    "question": "In OpenPBR, roughness at the microfacet scale controls how reflections appear. A roughness value of 0.0 produces:",
+    "answers": {
+      "A": "a matte surface appearance with no visible specular highlights",
+      "B": "a blurry reflection with strongly varied microfacet alignment",
+      "C": "a mirror-like reflection with perfectly aligned microfacets",
+      "D": "a glossy reflection with slightly varied microfacet alignment"
+    },
+    "correct_answer": "C",
+    "lecture_number": 19
+  },
+  {
+    "number": 36,
+    "question": "Snell's Law governs the relationship between angles when light passes between two media. According to the slides, this law specifically describes:",
+    "answers": {
+      "A": "how light reflects off a surface with the angle of incidence equalling the angle of reflection",
+      "B": "how the angle of incidence relates to the angle of refraction when crossing media boundaries",
+      "C": "how light intensity attenuates with the square of the distance from the source",
+      "D": "how the wavelength of light determines the amount of energy absorbed by a medium"
+    },
+    "correct_answer": "B",
+    "lecture_number": 19
+  },
+  {
+    "number": 37,
+    "question": "The Beer-Lambert Law in OpenPBR's transmission model describes how:",
+    "answers": {
+      "A": "different wavelengths of light bend by different amounts when entering a transparent material",
+      "B": "the refractive index of a material changes as a function of the viewing angle at the surface",
+      "C": "light absorption depends on both the distance light travels through a medium and the medium's density",
+      "D": "reflected and transmitted light intensities are balanced according to the Fresnel equations"
+    },
+    "correct_answer": "C",
+    "lecture_number": 19
+  },
+  {
+    "number": 38,
+    "question": "The Abbe number describes the strength of chromatic dispersion in a material. A higher Abbe number indicates:",
+    "answers": {
+      "A": "stronger dispersion where different wavelengths separate more dramatically",
+      "B": "weaker dispersion where the refractive index varies less across wavelengths",
+      "C": "a higher overall refractive index with stronger total light bending",
+      "D": "a wider absorption spectrum with more wavelengths being filtered out"
+    },
+    "correct_answer": "B",
+    "lecture_number": 19
+  },
+  {
+    "number": 39,
+    "question": "In OpenPBR, the Fuzz component models materials like velvet and suede. These materials exhibit:",
+    "answers": {
+      "A": "sharp specular highlights that appear at the normal incidence viewing angle",
+      "B": "iridescent colour shifts caused by thin-film interference between surface layers",
+      "C": "a soft glow near grazing angles caused by tiny surface fibres scattering light",
+      "D": "a clear transparent coating layer that adds reflective highlights on top of the base"
+    },
+    "correct_answer": "C",
+    "lecture_number": 19
+  },
+  {
+    "number": 40,
+    "question": "Thin Film effects in OpenPBR produce iridescent colours because of:",
+    "answers": {
+      "A": "subsurface scattering within a very thin translucent layer that tints the exiting light",
+      "B": "interference between reflected light waves from the top and bottom of a thin transparent layer",
+      "C": "chromatic dispersion caused by a high Abbe number splitting white light into components",
+      "D": "diffraction of light at the edges of micro-grooves aligned on the material surface"
+    },
+    "correct_answer": "B",
+    "lecture_number": 19
+  },
+  {
+    "number": 41,
+    "question": "The Fresnel effect in OpenPBR explains why water observed at a steep glancing angle appears:",
+    "answers": {
+      "A": "more transparent because refraction dominates at shallow viewing angles",
+      "B": "darker because absorption increases with the path length through the medium",
+      "C": "more reflective because Fresnel equations shift the balance from refraction to reflection",
+      "D": "more colourful because dispersion increases as the angle of incidence grows"
+    },
+    "correct_answer": "C",
+    "lecture_number": 19
+  },
+  {
+    "number": 42,
+    "question": "In OpenPBR, albedo specifically refers to:",
+    "answers": {
+      "A": "the total amount of light a surface reflects including specular highlights and glossy reflections",
+      "B": "the fraction of incoming light that a surface reflects diffusely, independent of lighting conditions",
+      "C": "the base colour multiplied by the metalness parameter to determine the overall surface tint",
+      "D": "the combined emission and reflection properties stored in the material's base colour map"
+    },
+    "correct_answer": "B",
+    "lecture_number": 19
+  },
+  {
+    "number": 43,
+    "question": "According to the slides, which statement about shaders and materials is correct?",
+    "answers": {
+      "A": "A shader is the set of parameter values while a material is the algorithm that interprets them",
+      "B": "A material is the data describing surface properties while a shader is the algorithm interpreting that data",
+      "C": "A shader and a material are interchangeable terms referring to the same rendering component",
+      "D": "A material contains only texture maps while a shader contains only mathematical lighting equations"
+    },
+    "correct_answer": "B",
+    "lecture_number": 19
+  },
+  {
+    "number": 44,
+    "question": "The rendering equation by Kajiya (1986) is an approximation of Maxwell's equations for electromagnetics. Which optical phenomena can it NOT simulate?",
+    "answers": {
+      "A": "reflection, refraction, and caustic light concentration through transparent objects",
+      "B": "diffraction, interference, and polarisation of light waves",
+      "C": "dispersion of light into component wavelengths through a prism",
+      "D": "ambient occlusion, soft shadows, and indirect diffuse illumination"
+    },
+    "correct_answer": "B",
+    "lecture_number": 20
+  },
+  {
+    "number": 45,
+    "question": "In forward ray tracing, rays are traced from the eye through each pixel into the scene. This approach is preferred over tracing from lights because:",
+    "answers": {
+      "A": "light-based rays produce less accurate colour calculations at intersection points",
+      "B": "many light-based rays never reach the camera, wasting computational resources",
+      "C": "eye-based rays can simulate refraction while light-based rays are limited to reflection",
+      "D": "light-based rays cannot interact with transparent or translucent material surfaces"
+    },
+    "correct_answer": "B",
+    "lecture_number": 20
+  },
+  {
+    "number": 46,
+    "question": "When a ray in a ray tracer hits an object, a shadow ray is cast directly to the light source. If this shadow ray intersects another object before reaching the light, the original intersection point is:",
+    "answers": {
+      "A": "rendered using only the ambient component of the lighting model",
+      "B": "determined to be in shadow because the shadow ray was occluded",
+      "C": "re-traced with an additional bounce to find an alternative light path",
+      "D": "coloured using the material properties of the occluding object instead"
+    },
+    "correct_answer": "B",
+    "lecture_number": 20
+  },
+  {
+    "number": 47,
+    "question": "In ray tracing, when a ray intersects more than one object, the ray tracer selects the intersection point that is:",
+    "answers": {
+      "A": "farthest from the ray origin to ensure all objects contribute to the final colour",
+      "B": "closest to the ray origin to determine which object is the occluding surface",
+      "C": "most perpendicular to the surface normal for the best shading accuracy",
+      "D": "nearest to the light source to maximize the diffuse illumination component"
+    },
+    "correct_answer": "B",
+    "lecture_number": 20
+  },
+  {
+    "number": 48,
+    "question": "Ray tracing makes which of the following traditional rendering steps redundant?",
+    "answers": {
+      "A": "texture coordinate interpolation across polygon surfaces during scan conversion",
+      "B": "hidden surface determination and z-buffer visibility testing for occlusion",
+      "C": "projection of polygons from world coordinates into the canonical view volume",
+      "D": "computation of surface normals at vertices for per-pixel shading calculations"
+    },
+    "correct_answer": "B",
+    "lecture_number": 20
+  },
+  {
+    "number": 49,
+    "question": "Each time a reflected ray hits a partially transparent object, the ray tracer spawns both a reflected ray and a refracted ray. This recursive spawning creates:",
+    "answers": {
+      "A": "a linked list of rays ordered by intersection distance from the camera",
+      "B": "a tree of rays where each node is a reflected or refracted sub-ray",
+      "C": "a stack of rays processed in last-in first-out order for depth priority",
+      "D": "a queue of rays processed in first-in first-out order for breadth coverage"
+    },
+    "correct_answer": "B",
+    "lecture_number": 20
+  },
+  {
+    "number": 50,
+    "question": "Radiosity rendering tracks only diffuse light transport, while basic ray tracing tracks only specular transport. A consequence of this difference is that:",
+    "answers": {
+      "A": "radiosity results are view-dependent and must be recalculated when the camera moves",
+      "B": "ray tracing results are view-independent and can be used for real-time walkthroughs",
+      "C": "radiosity results are view-independent and can be pre-processed for real-time traversal",
+      "D": "ray tracing produces softer shadows while radiosity produces sharper shadow boundaries"
+    },
+    "correct_answer": "C",
+    "lecture_number": 20
+  },
+  {
+    "number": 51,
+    "question": "In the radiosity method, the scene is first divided into flat polygons called patches. The algorithm then computes form factors that describe:",
+    "answers": {
+      "A": "the geometric complexity of each patch relative to the total polygon count in the scene",
+      "B": "the fraction of light leaving one patch that arrives at and illuminates another patch",
+      "C": "the specular reflection coefficient of each patch based on its material properties",
+      "D": "the angle between each patch normal and the primary directional light source"
+    },
+    "correct_answer": "B",
+    "lecture_number": 20
+  },
+  {
+    "number": 52,
+    "question": "In photon mapping, after a photon intersects a surface the intersection point, incoming direction, and energy are stored. The new reflection direction is then chosen using:",
+    "answers": {
+      "A": "the surface normal vector to compute a perfect mirror reflection direction",
+      "B": "Snell's Law of refraction to determine the transmitted ray angle",
+      "C": "the surface's bidirectional reflectance distribution function (BRDF)",
+      "D": "a fixed set of pre-computed bounce directions stored in a lookup table"
+    },
+    "correct_answer": "C",
+    "lecture_number": 20
+  },
+  {
+    "number": 53,
+    "question": "In photon mapping, the \"Russian Roulette\" technique determines when a photon stops reflecting by:",
+    "answers": {
+      "A": "decreasing the photon's energy at each intersection until it falls below a fixed threshold",
+      "B": "assigning a probability of continuation at each intersection that decreases with each bounce",
+      "C": "counting the total number of reflections and terminating after a fixed maximum depth",
+      "D": "comparing the photon's current wavelength against the material's absorption spectrum"
+    },
+    "correct_answer": "B",
+    "lecture_number": 20
+  },
+  {
+    "number": 54,
+    "question": "A scan-line renderer has a performance advantage over ray tracing for pixels that do not intersect any geometry because:",
+    "answers": {
+      "A": "scan-line rendering skips projection calculations for polygons outside the view frustum",
+      "B": "scan-line rendering requires no computation for pixels without geometry intersection",
+      "C": "ray tracing cannot detect empty pixels without first casting a ray for each one",
+      "D": "ray tracing must perform a z-buffer comparison even when no geometry is present"
+    },
+    "correct_answer": "B",
+    "lecture_number": 20
+  },
+  {
+    "number": 55,
+    "question": "Path tracing differs from traditional ray tracing in that path tracing inherently simulates:",
+    "answers": {
+      "A": "only specular reflections and refractions through perfectly smooth surfaces",
+      "B": "depth of field, soft shadows, caustics, motion blur, and indirect lighting without special additions",
+      "C": "shadow volumes and stencil buffer operations for volumetric shadow calculation",
+      "D": "form factors between surface patches for view-independent diffuse illumination"
+    },
+    "correct_answer": "B",
+    "lecture_number": 21
+  },
+  {
+    "number": 56,
+    "question": "The random element in path tracing causes rendering noise. This noise is reduced by:",
+    "answers": {
+      "A": "increasing the number of light bounces computed per ray path",
+      "B": "increasing the total number of samples computed per pixel",
+      "C": "decreasing the resolution of the output image to average more rays",
+      "D": "decreasing the maximum path depth to simplify the calculation"
+    },
+    "correct_answer": "B",
+    "lecture_number": 21
+  },
+  {
+    "number": 57,
+    "question": "Metropolis Light Transport has an advantage over standard bidirectional path tracing because once a valid light path is found, the algorithm can:",
+    "answers": {
+      "A": "cache the path permanently so it never needs to be recalculated for any future frame",
+      "B": "explore nearby paths by modifying nodes, allowing obscure light paths to be determined more thoroughly",
+      "C": "convert the path into a form factor for radiosity-style view-independent pre-computation",
+      "D": "split the path into separate reflection and refraction components processed in parallel"
+    },
+    "correct_answer": "B",
+    "lecture_number": 21
+  },
+  {
+    "number": 58,
+    "question": "Final Gather calculates diffuse irradiance from indirect light but does NOT produce:",
+    "answers": {
+      "A": "illumination from surfaces that reflect ambient light in the scene",
+      "B": "illumination from environment images used as background shading",
+      "C": "specular highlights on glossy or mirror-like surfaces in the scene",
+      "D": "illumination from surfaces that emit their own radiance via shaders"
+    },
+    "correct_answer": "C",
+    "lecture_number": 21
+  },
+  {
+    "number": 59,
+    "question": "Final Gather is described as a two-stage process. The correct sequence of these stages is:",
+    "answers": {
+      "A": "first render the scene, then distribute FG points to gather residual irradiance",
+      "B": "first distribute FG points and gather irradiance, then interpolate those values during rendering",
+      "C": "first emit photons from light sources, then collect them at surface intersection points",
+      "D": "first trace rays from the camera, then reflect those rays back toward light sources"
+    },
+    "correct_answer": "B",
+    "lecture_number": 21
+  },
+  {
+    "number": 60,
+    "question": "Importons differ from photons in that importons are:",
+    "answers": {
+      "A": "emitted from light sources and carry energy values representing radiant flux",
+      "B": "emitted from the camera and carry importance values representing contribution to the final image",
+      "C": "stored in a photon map and used to estimate direct illumination at surface points",
+      "D": "used exclusively for caustic calculations involving refraction through transparent materials"
+    },
+    "correct_answer": "B",
+    "lecture_number": 21
+  },
+  {
+    "number": 61,
+    "question": "Caustics in rendering simulate light that has been concentrated by reflection or refraction. The most common method for generating caustics is:",
+    "answers": {
+      "A": "radiosity with high patch subdivision near transparent surfaces",
+      "B": "photon mapping where photons are traced from lights through refractive and reflective objects",
+      "C": "ambient occlusion with increased hemispherical ray sampling density",
+      "D": "final gather with additional irradiance particles placed near glass surfaces"
+    },
+    "correct_answer": "B",
+    "lecture_number": 21
+  },
+  {
+    "number": 62,
+    "question": "In the ambient occlusion algorithm, a surface point sends out a hemispherical spray of rays. If 2 out of 6 rays are occluded, the occlusion ratio is 1/3, and the ambient term for that point becomes:",
+    "answers": {
+      "A": "1/3 of the maximum ambient value, representing the fraction that is blocked",
+      "B": "2/3 of the maximum ambient value, representing the fraction that is unblocked",
+      "C": "zero because any occlusion eliminates the ambient contribution entirely",
+      "D": "the full ambient value because fewer than half the rays were occluded"
+    },
+    "correct_answer": "B",
+    "lecture_number": 21
+  },
+  {
+    "number": 63,
+    "question": "Ambient occlusion was introduced in 2002 by:",
+    "answers": {
+      "A": "Pixar Animation Studios for use in their RenderMan pipeline",
+      "B": "Industrial Light and Magic as a method for quick grounded realism",
+      "C": "Mental Images as part of the Mental Ray global illumination system",
+      "D": "Solid Angle as a feature of the Arnold path tracing renderer"
+    },
+    "correct_answer": "B",
+    "lecture_number": 21
+  },
+  {
+    "number": 64,
+    "question": "A billboard polygon in image-based rendering always orients itself to face the viewer. This technique is called:",
+    "answers": {
+      "A": "impostering where complex geometry is replaced by a pre-rendered texture at runtime",
+      "B": "billboarding where a textured polygon rotates to maintain its orientation toward the camera",
+      "C": "sprite rendering where a fixed 2D image is scaled based on distance from the viewport",
+      "D": "decal projection where a texture is projected onto nearby geometry in screen space"
+    },
+    "correct_answer": "B",
+    "lecture_number": 21
+  },
+  {
+    "number": 65,
+    "question": "Which billboarding technique is commonly used for displaying trees by rotating around a fixed world-space axis?",
+    "answers": {
+      "A": "screen-aligned billboarding with the camera's up vector",
+      "B": "world-oriented billboarding with the world's up vector",
+      "C": "axial billboarding with the tree trunk axis as the fixed rotation axis",
+      "D": "imposter billboarding with on-the-fly texture generation from the current viewpoint"
+    },
+    "correct_answer": "C",
+    "lecture_number": 21
+  },
+  {
+    "number": 66,
+    "question": "A lens flare effect consists of two components. The halo is caused by:",
+    "answers": {
+      "A": "density fluctuations in the lens producing radiating rays from the light point",
+      "B": "the lens refracting different wavelengths by different amounts, similar to a prism",
+      "C": "overexposure of the camera sensor creating a uniform bright circle on the image",
+      "D": "multiple internal reflections between the front and rear lens element surfaces"
+    },
+    "correct_answer": "B",
+    "lecture_number": 21
+  },
+  {
+    "number": 67,
+    "question": "In toon shading, the two-tone (hard shading) approach determines whether a surface point is lit or shadowed by evaluating:",
+    "answers": {
+      "A": "the dot product of the surface normal and light vector, checking if the result is below zero",
+      "B": "the distance from the surface point to the nearest light source against a threshold",
+      "C": "the specular reflection intensity compared to the diffuse reflection intensity",
+      "D": "the angle between the surface normal and the camera view direction for silhouette detection"
+    },
+    "correct_answer": "A",
+    "lecture_number": 22
+  },
+  {
+    "number": 68,
+    "question": "In non-photorealistic rendering, all of the following are types of edges used in toon rendering EXCEPT:",
+    "answers": {
+      "A": "a boundary edge that is not shared by two polygons, such as a paper edge",
+      "B": "a crease edge shared by two polygons where the angle between them exceeds a threshold",
+      "C": "a material edge where two polygons sharing an edge differ in their assigned material",
+      "D": "a specular edge where the highlight intensity exceeds a luminance threshold value"
+    },
+    "correct_answer": "D",
+    "lecture_number": 22
+  },
+  {
+    "number": 69,
+    "question": "The surface angle silhouetting technique determines silhouette edges by computing the dot product between the view direction and the surface normal. An edge is likely a silhouette when this dot product is:",
+    "answers": {
+      "A": "close to positive one, indicating the surface faces directly toward the camera",
+      "B": "close to negative one, indicating the surface faces directly away from the camera",
+      "C": "close to zero, indicating the surface is nearly edge-on to the viewing direction",
+      "D": "exactly equal to the cosine of the cone angle defined for the edge detection"
+    },
+    "correct_answer": "C",
+    "lecture_number": 22
+  },
+  {
+    "number": 70,
+    "question": "Procedural geometry silhouetting renders silhouette edges by first drawing front-faces normally, then:",
+    "answers": {
+      "A": "applying an edge detection filter to the z-buffer to find depth discontinuities",
+      "B": "turning on front-face culling and turning off back-face culling to display only back-faces",
+      "C": "re-rendering the entire scene with a thicker wireframe overlay in a contrasting colour",
+      "D": "computing form factors between adjacent polygons to identify orientation boundaries"
+    },
+    "correct_answer": "B",
+    "lecture_number": 22
+  },
+  {
+    "number": 71,
+    "question": "Silhouetting by image processing finds edges by looking for discontinuities in which data?",
+    "answers": {
+      "A": "the colour buffer values between adjacent pixels in the rendered frame",
+      "B": "neighbouring z-buffer depth values and neighbouring surface normal values",
+      "C": "the texture coordinate gradients across polygon boundaries in UV space",
+      "D": "the stencil buffer counts that track shadow volume entry and exit crossings"
+    },
+    "correct_answer": "B",
+    "lecture_number": 22
+  },
+  {
+    "number": 72,
+    "question": "Rotoscoping is a technique where animators:",
+    "answers": {
+      "A": "capture an actor's motion using sensors and translate it into skeletal animation data",
+      "B": "sketch over live-action film frame-by-frame to create animated or composited imagery",
+      "C": "apply non-photorealistic shaders to photorealistic renders to achieve a hand-drawn look",
+      "D": "generate mattes automatically using chromakey to separate foreground from background"
+    },
+    "correct_answer": "B",
+    "lecture_number": 22
+  },
+  {
+    "number": 73,
+    "question": "In network rendering, the group of machines that render individual frames is called a:",
+    "answers": {
+      "A": "cluster, where each machine processes a bucket of a single frame simultaneously",
+      "B": "farm, where each machine (node) renders complete frames assigned by a master",
+      "C": "grid, where machines volunteer idle cycles to process portions of the rendering queue",
+      "D": "pipeline, where each machine handles one specific stage of the rendering process"
+    },
+    "correct_answer": "B",
+    "lecture_number": 22
+  },
+  {
+    "number": 74,
+    "question": "The total render time equation is T_TRT = T_APF x C_RR x T_AL x FPS. In this equation, C_RR represents:",
+    "answers": {
+      "A": "the count of rendering cores available across all nodes in the render farm",
+      "B": "the count of re-renders required per frame due to revisions and corrections",
+      "C": "the compression ratio applied to each rendered frame for storage optimization",
+      "D": "the cumulative resolution factor based on the output image dimensions"
+    },
+    "correct_answer": "B",
+    "lecture_number": 22
+  },
+  {
+    "number": 75,
+    "question": "A key limitation of network rendering that distributed rendering overcomes is:",
+    "answers": {
+      "A": "network rendering cannot handle scenes with more than a fixed number of texture maps",
+      "B": "network rendering cannot handle inter-frame dependencies from dynamic simulations like cloth or fluid",
+      "C": "network rendering produces lower quality results due to lossy frame compression during transfer",
+      "D": "network rendering requires all slave machines to use identical hardware specifications"
+    },
+    "correct_answer": "B",
+    "lecture_number": 22
+  },
+  {
+    "number": 76,
+    "question": "Distributed rendering differs from network rendering in that distributed rendering:",
+    "answers": {
+      "A": "sends complete frames to individual machines and assembles the results afterward",
+      "B": "breaks each frame into buckets and sends each bucket to a different machine simultaneously",
+      "C": "uses only GPU-based renderers while network rendering relies on CPU-based computation",
+      "D": "requires fewer machines but assigns multiple sequential frames to each available node"
+    },
+    "correct_answer": "B",
+    "lecture_number": 22
+  },
+  {
+    "number": 77,
+    "question": "When rendering uncompressed frames for a Blu-Ray resolution output (1080x1920, 3 channels), the approximate size of each raw frame is:",
+    "answers": {
+      "A": "approximately 2 million bytes based on the total pixel count alone",
+      "B": "approximately 6 million bytes based on total pixels multiplied by three colour channels",
+      "C": "approximately 12 million bytes based on total pixels multiplied by six data components",
+      "D": "approximately 24 million bytes based on total pixels at four bytes per channel"
+    },
+    "correct_answer": "B",
+    "lecture_number": 22
+  },
+  {
+    "number": 78,
+    "question": "In shadow mapping, the scene is first rendered from the position of the light source to generate a depth buffer. A point in the final render is determined to be in shadow when:",
+    "answers": {
+      "A": "its distance from the light equals the stored depth value in the shadow map exactly",
+      "B": "its distance from the light is greater than the stored depth value in the shadow map",
+      "C": "its distance from the light is less than the stored depth value in the shadow map",
+      "D": "its surface normal points away from the light source direction at the sample point"
+    },
+    "correct_answer": "B",
+    "lecture_number": 23
+  },
+  {
+    "number": 79,
+    "question": "Shadow volumes determine whether a point is in shadow by tracking a counter as a ray passes through shadow volume boundaries. The point is in shadow when:",
+    "answers": {
+      "A": "the counter equals zero after passing through all front and back faces of shadow volumes",
+      "B": "the counter is greater than zero after incrementing on front faces and decrementing on back faces",
+      "C": "the counter is negative after decrementing on front faces and incrementing on back faces",
+      "D": "the counter equals the total number of shadow-casting polygons visible from the camera"
+    },
+    "correct_answer": "B",
+    "lecture_number": 23
+  },
+  {
+    "number": 80,
+    "question": "A shadow map does NOT need to be re-rendered when:",
+    "answers": {
+      "A": "the light source moves to a different position in the scene between frames",
+      "B": "the camera moves to a new viewpoint while the light and shadow-casting objects remain static",
+      "C": "the shadow-casting object changes its geometry or position in the scene",
+      "D": "a new occluding object is added to the scene between the light and the receiver"
+    },
+    "correct_answer": "B",
+    "lecture_number": 23
+  },
+  {
+    "number": 81,
+    "question": "Soft planar shadows can be approximated by sampling an area light with multiple point lights. The final soft shadow is produced by:",
+    "answers": {
+      "A": "selecting the darkest shadow image from all the point light samples for maximum contrast",
+      "B": "averaging the shadow images rendered from each point light sample on the area surface",
+      "C": "blurring a single hard shadow using a Gaussian filter proportional to the light area",
+      "D": "tracing additional shadow rays from the penumbra region toward random positions on the light"
+    },
+    "correct_answer": "B",
+    "lecture_number": 23
+  },
+  {
+    "number": 82,
+    "question": "Projection shadows work by rendering a 3D object a second time using a matrix that:",
+    "answers": {
+      "A": "scales the object to zero height along the Y axis and translates it to the shadow receiver plane",
+      "B": "projects the object's vertices onto a plane using the light position and similar triangles",
+      "C": "rotates the object geometry to align with the light direction and flattens it along that axis",
+      "D": "creates a z-buffer depth image from the light's viewpoint for later shadow comparison"
+    },
+    "correct_answer": "B",
+    "lecture_number": 23
+  },
+  {
+    "number": 83,
+    "question": "Fog effects using colour blending determine how much fog colour to add to each pixel based on:",
+    "answers": {
+      "A": "the surface normal direction relative to the camera creating angular fog density variation",
+      "B": "a linear or exponential function of the distance between the pixel and the eye-point",
+      "C": "a 3D volumetric texture sampled along the ray from the camera to the surface point",
+      "D": "the object's material transparency value combined with a global fog density parameter"
+    },
+    "correct_answer": "B",
+    "lecture_number": 23
+  },
+  {
+    "number": 84,
+    "question": "Which fog rendering technique can create non-uniform patchy fog AND allows the appearance to change as the eye-point moves?",
+    "answers": {
+      "A": "colour blending using distance-based weighting factors for each pixel",
+      "B": "texture mapping using pre-generated fog depth textures selected by distance",
+      "C": "volumetric rendering using a 3D volume applied between primitives and the eye",
+      "D": "procedural noise functions applied as a post-processing filter to the rendered image"
+    },
+    "correct_answer": "C",
+    "lecture_number": 23
+  },
+  {
+    "number": 85,
+    "question": "A surface appears very bright at grazing angles but relatively dark when viewed head-on. Which phenomenon from the course material best explains this behaviour?",
+    "answers": {
+      "A": "subsurface scattering where light enters the material and exits at distant surface points",
+      "B": "the Fresnel effect where reflectivity increases as the viewing angle becomes more glancing",
+      "C": "anisotropic roughness where the surface microfacets are aligned in a preferred direction",
+      "D": "the Beer-Lambert law where light absorption increases with path length through the medium"
+    },
+    "correct_answer": "B",
+    "lecture_number": 19
+  },
+  {
+    "number": 86,
+    "question": "An artist wants a material that shows a clear reflective layer over a coloured base, like car paint. In OpenPBR, the correct component to configure is:",
+    "answers": {
+      "A": "the Fuzz component with high weight to create grazing-angle glow over the base colour",
+      "B": "the Coat component representing a thin transparent specular layer on top of the base material",
+      "C": "the Thin Film component creating interference-based iridescent colours over the surface",
+      "D": "the Transmission component with a high IOR to create a glass-like layer above the pigment"
+    },
+    "correct_answer": "B",
+    "lecture_number": 19
+  },
+  {
+    "number": 87,
+    "question": "A rendering needs to show light focused through a glass sphere onto a surface behind it. Standard ray tracing alone will NOT produce this effect because:",
+    "answers": {
+      "A": "ray tracing cannot simulate refraction through transparent objects with different indices of refraction",
+      "B": "ray tracing traces rays from the eye, so concentrated light patterns from the light source are not captured",
+      "C": "ray tracing does not support recursive ray spawning for both reflected and refracted ray paths",
+      "D": "ray tracing can only handle specular reflections and cannot compute diffuse light transport"
+    },
+    "correct_answer": "B",
+    "lecture_number": 21
+  },
+  {
+    "number": 88,
+    "question": "Which of the following correctly orders the rendering techniques from fastest to slowest for a complex scene?",
+    "answers": {
+      "A": "direct illumination, ambient occlusion, ray tracing, path tracing with full GI",
+      "B": "path tracing with full GI, ray tracing, ambient occlusion, direct illumination",
+      "C": "ambient occlusion, direct illumination, path tracing with full GI, ray tracing",
+      "D": "ray tracing, path tracing with full GI, direct illumination, ambient occlusion"
+    },
+    "correct_answer": "A",
+    "lecture_number": 20
+  },
+  {
+    "number": 89,
+    "question": "The RGBE format (Red-Green-Blue Exponent) developed by Greg Ward is used to store HDR images. Its advantage over standard 8-bit RGB is that it can:",
+    "answers": {
+      "A": "compress image data losslessly to reduce file sizes for network transmission",
+      "B": "store a wider range of luminance values using a shared exponent with less storage than full floating-point",
+      "C": "encode the full visible spectrum including ultraviolet and infrared wavelength data",
+      "D": "preserve alpha channel transparency information alongside high dynamic range colour"
+    },
+    "correct_answer": "B",
+    "lecture_number": 15
+  },
+  {
+    "number": 90,
+    "question": "When creating an HDRI light probe using a regular camera, the photographer takes multiple exposures at different shutter speeds. The purpose of varying the exposure is to:",
+    "answers": {
+      "A": "capture different colour temperatures from the scene at each exposure level",
+      "B": "properly image both the darkest and brightest regions to solve for the full illumination range",
+      "C": "increase the spatial resolution by stitching together multiple images of the same field",
+      "D": "compensate for lens distortion that varies with the aperture setting of the camera"
+    },
+    "correct_answer": "B",
+    "lecture_number": 15
+  },
+  {
+    "number": 91,
+    "question": "In the Phong model, the diffuse energy D = kd * id * cos(theta). An equivalent formulation using vectors replaces cos(theta) with:",
+    "answers": {
+      "A": "the cross product of the normal vector N and the light vector L",
+      "B": "the dot product of the normalised normal vector N and the normalised light vector L",
+      "C": "the dot product of the view vector V and the ideal reflection vector R",
+      "D": "the cross product of the view vector V and the surface tangent vector T"
+    },
+    "correct_answer": "B",
+    "lecture_number": 16
+  },
+  {
+    "number": 92,
+    "question": "An object is rendered using only the Lambert reflection model. Compared to the full Phong model, the rendered object will appear:",
+    "answers": {
+      "A": "identical because Lambert and Phong produce the same ambient and diffuse components",
+      "B": "flat and without highlights because the Lambert model lacks specular reflection",
+      "C": "brighter overall because Lambert concentrates all light energy into the diffuse term",
+      "D": "darker overall because Lambert ignores the ambient component of the lighting equation"
+    },
+    "correct_answer": "B",
+    "lecture_number": 16
+  },
+  {
+    "number": 93,
+    "question": "Which of the following is true about the relationship between transparency and translucency as described in the slides?",
+    "answers": {
+      "A": "Transparency follows Snell's Law of refraction while translucency does not necessarily follow it",
+      "B": "Translucency follows Snell's Law of refraction while transparency scatters light within the material",
+      "C": "Both transparency and translucency scatter light equally but differ only in the degree of scattering",
+      "D": "Both transparency and translucency follow Snell's Law but differ in their absorption coefficients"
+    },
+    "correct_answer": "A",
+    "lecture_number": 16
+  },
+  {
+    "number": 94,
+    "question": "OpenPBR lists several organizations that collaborated on its development. Which of the following is NOT listed as a contributing organization?",
+    "answers": {
+      "A": "Adobe and its digital content creation division",
+      "B": "Autodesk and its rendering technology team",
+      "C": "Epic Games and its Unreal Engine development team",
+      "D": "Pixar and the Academy Software Foundation"
+    },
+    "correct_answer": "C",
+    "lecture_number": 19
+  },
+  {
+    "number": 95,
+    "question": "In OpenPBR, subsurface scattering anisotropy set to +1 means light scatters primarily:",
+    "answers": {
+      "A": "backward toward the light source, typical of dense crystalline materials",
+      "B": "in all directions equally with no directional preference whatsoever",
+      "C": "forward through the material, typical of skin and biological tissue",
+      "D": "perpendicular to the surface normal, typical of thin flat materials"
+    },
+    "correct_answer": "C",
+    "lecture_number": 19
+  },
+  {
+    "number": 96,
+    "question": "A desert scene uses displacement mapping with procedural textures to simulate approximately 1x10^12 polygons. The input geometry actually contains:",
+    "answers": {
+      "A": "approximately 30 million polygons with per-vertex height offsets pre-computed",
+      "B": "approximately 110 thousand polygons with the GPU displacing geometry from the procedural texture",
+      "C": "approximately 4,860 polygons using an adaptive tessellation scheme at render time",
+      "D": "approximately 20 triangles from a base icosahedron subdivided by the displacement map"
+    },
+    "correct_answer": "B",
+    "lecture_number": 18
+  },
+  {
+    "number": 97,
+    "question": "The rendering equation cannot be solved exactly in finite time on a computer. Different GI renderers approach this by:",
+    "answers": {
+      "A": "solving the equation analytically for simple scenes and using lookup tables for complex ones",
+      "B": "finding approximate solutions that are reasonably close within a reasonable amount of time",
+      "C": "replacing the integral with a closed-form summation that converges to the exact answer",
+      "D": "splitting the equation into independent spectral components solved sequentially per wavelength"
+    },
+    "correct_answer": "B",
+    "lecture_number": 20
+  },
+  {
+    "number": 98,
+    "question": "Which rendering system was first used by Pixar for path tracing in the film Monster's University?",
+    "answers": {
+      "A": "Arnold Renderer developed by Solid Angle for path-traced GI",
+      "B": "RenderMan which Pixar reworked to include path tracing capabilities",
+      "C": "Mental Ray developed by Mental Images with integrated path tracing",
+      "D": "V-Ray developed by Chaos Group with adaptive path tracing sampling"
+    },
+    "correct_answer": "B",
+    "lecture_number": 21
+  },
+  {
+    "number": 99,
+    "question": "Network rendering stores rendered frames as raw uncompressed files (like TIFF or TARGA) for two specific reasons. Which pair of reasons is correct?",
+    "answers": {
+      "A": "compression takes valuable render time, and uncompressed files avoid compression artefacts",
+      "B": "uncompressed files are smaller than compressed formats, and they load faster into compositing software",
+      "C": "raw formats preserve alpha channels better, and they are compatible with more operating systems",
+      "D": "uncompressed files enable faster network transfer, and they require less disk space per frame"
+    },
+    "correct_answer": "A",
+    "lecture_number": 22
+  },
+  {
+    "number": 100,
+    "question": "A scene has dynamic cloth simulation with inter-frame dependency. This scene cannot be rendered using:",
+    "answers": {
+      "A": "distributed rendering because it processes one frame at a time in sequential order",
+      "B": "network rendering because frames are sent to different machines without guaranteed order",
+      "C": "a single workstation because it lacks the processing power for cloth simulation calculations",
+      "D": "any global illumination method because cloth materials are incompatible with ray-based rendering"
+    },
+    "correct_answer": "B",
+    "lecture_number": 22
+  }
+]
