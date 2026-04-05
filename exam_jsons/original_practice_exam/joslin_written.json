@@ -2,171 +2,205 @@
   {
     "number": 108,
     "question": "How is noise reduced in path tracing?",
-    "answer": "By increasing the number of samples"
+    "answer": "By increasing the number of samples",
+    "lecture_number": 21
   },
   {
     "number": 109,
     "question": "What real-world data is captured for IBL?",
-    "answer": "Environmental lighting information (e.g., sky, reflections, indirect light)"
+    "answer": "Environmental lighting information (e.g., sky, reflections, indirect light)",
+    "lecture_number": 15
   },
   {
     "number": 110,
     "question": "What is texture mapping?",
-    "answer": "Mapping a 2D image onto a 3D surface to provide colour/detail"
+    "answer": "Mapping a 2D image onto a 3D surface to provide colour/detail",
+    "lecture_number": 17
   },
   {
     "number": 111,
     "question": "Why are textures used instead of complex geometry?",
-    "answer": "They provide visual detail without increasing geometric complexity"
+    "answer": "They provide visual detail without increasing geometric complexity",
+    "lecture_number": 17
   },
   {
     "number": 112,
     "question": "What is light decay?",
-    "answer": "The reduction of light intensity over distance; it applies to lights with position (e.g., point lights)"
+    "answer": "The reduction of light intensity over distance; it applies to lights with position (e.g., point lights)",
+    "lecture_number": 14
   },
   {
     "number": 113,
     "question": "Name two OpenPBR parameters besides metalness",
-    "answer": "Roughness, specular, transmission, subsurface, emission, or coat"
+    "answer": "Roughness, specular, transmission, subsurface, emission, or coat",
+    "lecture_number": 19
   },
   {
     "number": 114,
     "question": "What is a silhouette edge?",
-    "answer": "An edge where one polygon faces the viewer and the adjacent one faces away"
+    "answer": "An edge where one polygon faces the viewer and the adjacent one faces away",
+    "lecture_number": 22
   },
   {
     "number": 115,
     "question": "What limitation does basic parallax mapping have?",
-    "answer": "It does not handle occlusion or self-shadowing accurately"
+    "answer": "It does not handle occlusion or self-shadowing accurately",
+    "lecture_number": 18
   },
   {
     "number": 116,
     "question": "What does specular reflection represent?",
-    "answer": "Mirror-like reflection producing highlights"
+    "answer": "Mirror-like reflection producing highlights",
+    "lecture_number": 16
   },
   {
     "number": 117,
     "question": "What is Image-Based Lighting (IBL)?",
-    "answer": "A technique that uses real-world images as light sources to illuminate a 3D scene."
+    "answer": "A technique that uses real-world images as light sources to illuminate a 3D scene.",
+    "lecture_number": 15
   },
   {
     "number": 118,
     "question": "Difference between direct and global illumination?",
-    "answer": "Direct uses one light bounce; global uses multiple bounces"
+    "answer": "Direct uses one light bounce; global uses multiple bounces",
+    "lecture_number": 20
   },
   {
     "number": 119,
     "question": "Why doesn’t texture mapping change geometry?",
-    "answer": "It only affects surface appearance (colour), not vertex positions"
+    "answer": "It only affects surface appearance (colour), not vertex positions",
+    "lecture_number": 17
   },
   {
     "number": 120,
     "question": "Difference between bump and displacement mapping?",
-    "answer": "Bump mapping fakes surface detail via shading; displacement mapping actually modifies geometry"
+    "answer": "Bump mapping fakes surface detail via shading; displacement mapping actually modifies geometry",
+    "lecture_number": 18
   },
   {
     "number": 121,
     "question": "Why are shadow volumes called “volumetric”?",
-    "answer": "They define a 3D volume of space where light is blocked"
+    "answer": "They define a 3D volume of space where light is blocked",
+    "lecture_number": 23
   },
   {
     "number": 122,
     "question": "What problem does OpenPBR solve?",
-    "answer": "Inconsistency of material appearance across different rendering systems"
+    "answer": "Inconsistency of material appearance across different rendering systems",
+    "lecture_number": 19
   },
   {
     "number": 123,
     "question": "What is the purpose of ambient light, and why does it produce no shadows?",
-    "answer": "What is the purpose of ambient light, and why does it produce no shadows?"
+    "answer": "What is the purpose of ambient light, and why does it produce no shadows?",
+    "lecture_number": 14
   },
   {
     "number": 124,
     "question": "What are the three components of illumination?",
-    "answer": "Ambient, diffuse, and specular"
+    "answer": "Ambient, diffuse, and specular",
+    "lecture_number": 16
   },
   {
     "number": 125,
     "question": "Why is IBL easy to set up?",
-    "answer": "It only requires an image of real-world lighting rather than manually placing multiple lights"
+    "answer": "It only requires an image of real-world lighting rather than manually placing multiple lights",
+    "lecture_number": 15
   },
   {
     "number": 126,
     "question": "How does IBL improve realism?",
-    "answer": "It captures real environmental lighting, allowing CG objects to match real-world lighting conditions."
+    "answer": "It captures real environmental lighting, allowing CG objects to match real-world lighting conditions.",
+    "lecture_number": 15
   },
   {
     "number": 127,
     "question": "What property of directional light makes light decay irrelevant?",
-    "answer": "It has no position (only direction), so distance does not affect intensity"
+    "answer": "It has no position (only direction), so distance does not affect intensity",
+    "lecture_number": 14
   },
   {
     "number": 128,
     "question": "Why does ambient-only lighting look flat?",
-    "answer": "Because there is no directional variation or shading—every surface receives equal light."
+    "answer": "Because there is no directional variation or shading—every surface receives equal light.",
+    "lecture_number": 14
   },
   {
     "number": 129,
     "question": "What factors influence renderer choice?",
-    "answer": "Quality, rendering time, features, and cost"
+    "answer": "Quality, rendering time, features, and cost",
+    "lecture_number": 20
   },
   {
     "number": 130,
     "question": "Why is path tracing noisy?",
-    "answer": "Due to random sampling of rays"
+    "answer": "Due to random sampling of rays",
+    "lecture_number": 21
   },
   {
     "number": 131,
     "question": "How does a directional light differ from a point light?",
-    "answer": "A directional light has direction but no position (like the sun), while a point light has a position and emits light in all directions."
+    "answer": "A directional light has direction but no position (like the sun), while a point light has a position and emits light in all directions.",
+    "lecture_number": 14
   },
   {
     "number": 132,
     "question": "How does parallax mapping improve realism?",
-    "answer": "By offsetting texture coordinates based on view angle to simulate depth"
+    "answer": "By offsetting texture coordinates based on view angle to simulate depth",
+    "lecture_number": 18
   },
   {
     "number": 133,
     "question": "What does metalness control?",
-    "answer": "Whether a material behaves like a metal (reflective) or dielectric (non-metal)"
+    "answer": "Whether a material behaves like a metal (reflective) or dielectric (non-metal)",
+    "lecture_number": 19
   },
   {
     "number": 134,
     "question": "What is a shadow map?",
-    "answer": "A depth map generated from the light’s perspective used to determine shadowed regions"
+    "answer": "A depth map generated from the light’s perspective used to determine shadowed regions",
+    "lecture_number": 23
   },
   {
     "number": 135,
     "question": "You are building a real-time application where shadows must be rendered quickly for moving objects and lights.",
-    "answer": "A practical choice would usually be shadow maps. Shadow maps use a Z-buffer-based approach: first render the scene from the light’s perspective to create a depth map, then compare points during rendering from the viewer’s perspective to determine whether they are in shadow., Why choose them: They are widely used and well suited to dynamic scenes. They work on arbitrary objects. They are often more practical in real-time systems than shadow volumes., The trade-off is: Shadow maps are generally faster and more flexible, but can have quality issues such as aliasing or resolution limits. Shadow volumes can give very accurate shadow boundaries and use stencil logic with entering/exiting shadow regions, but they are often more complex and can be more expensive for dynamic scenes."
+    "answer": "A practical choice would usually be shadow maps. Shadow maps use a Z-buffer-based approach: first render the scene from the light’s perspective to create a depth map, then compare points during rendering from the viewer’s perspective to determine whether they are in shadow., Why choose them: They are widely used and well suited to dynamic scenes. They work on arbitrary objects. They are often more practical in real-time systems than shadow volumes., The trade-off is: Shadow maps are generally faster and more flexible, but can have quality issues such as aliasing or resolution limits. Shadow volumes can give very accurate shadow boundaries and use stencil logic with entering/exiting shadow regions, but they are often more complex and can be more expensive for dynamic scenes.",
+    "lecture_number": 23
   },
   {
     "number": 136,
     "question": "You need accurate silhouettes for a rocky terrain. Describe how you would achieve this without increasing the polygon count...",
-    "answer": "Use displacement mapping, because it modifies actual geometry. Bump mapping only affects shading and cannot change silhouettes."
+    "answer": "Use displacement mapping, because it modifies actual geometry. Bump mapping only affects shading and cannot change silhouettes.",
+    "lecture_number": 18
   },
   {
     "number": 137,
     "question": "A scene rendered with direct illumination shows harsh shadows and completely dark corners. What rendering change would fix this, and why?",
-    "answer": "Use global illumination, which simulates multiple light bounces. This adds indirect lighting, illuminating shadowed regions and softening contrast."
+    "answer": "Use global illumination, which simulates multiple light bounces. This adds indirect lighting, illuminating shadowed regions and softening contrast.",
+    "lecture_number": 20
   },
   {
     "number": 138,
     "question": "A shiny object shows no specular highlight from a certain viewpoint. Why?",
-    "answer": "Specular reflection depends on the view direction matching the reflection direction. If the viewer is not aligned with the reflection vector, the highlight is not visible, even if the light is present."
+    "answer": "Specular reflection depends on the view direction matching the reflection direction. If the viewer is not aligned with the reflection vector, the highlight is not visible, even if the light is present.",
+    "lecture_number": 16
   },
   {
     "number": 139,
     "question": "You are designing a game environment and must choose between:",
-    "answer": "For a real-time game, texture mapping with parallax mapping is usually the more efficient choice. Standard texture mapping adds visual detail without increasing the actual geometric complexity of the model., Parallax mapping improves on basic texturing by offsetting texture coordinates based on the view angle and a height map, which creates a stronger illusion of depth and surface relief., The trade-off is: High-polygon geometry gives more physically correct shape and silhouettes, but costs more in memory and rendering. Parallax mapping is cheaper than dense geometry and looks more realistic than flat texturing, but it is still an illusion and can be slower than simpler bump/normal mapping. It also has limitations with occlusion unless enhanced methods are used."
+    "answer": "For a real-time game, texture mapping with parallax mapping is usually the more efficient choice. Standard texture mapping adds visual detail without increasing the actual geometric complexity of the model., Parallax mapping improves on basic texturing by offsetting texture coordinates based on the view angle and a height map, which creates a stronger illusion of depth and surface relief., The trade-off is: High-polygon geometry gives more physically correct shape and silhouettes, but costs more in memory and rendering. Parallax mapping is cheaper than dense geometry and looks more realistic than flat texturing, but it is still an illusion and can be slower than simpler bump/normal mapping. It also has limitations with occlusion unless enhanced methods are used.",
+    "lecture_number": 18
   },
   {
     "number": 140,
     "question": "Your shadows flicker when the camera moves, but rendering speed is acceptable. What is likely causing this and what would you change?",
-    "answer": "Likely shadow map aliasing or resolution issues. Fix by increasing shadow map resolution or switching to a more stable method (e.g., better filtering or shadow volumes)"
+    "answer": "Likely shadow map aliasing or resolution issues. Fix by increasing shadow map resolution or switching to a more stable method (e.g., better filtering or shadow volumes)",
+    "lecture_number": 23
   },
   {
     "number": 141,
     "question": "You render a scene using only a point light, and you notice that objects far from the light appear very dim while nearby objects are extremely bright.",
-    "answer": "This happens because a point light has a position and its intensity can decrease over distance due to decay. Objects close to the light receive much more illumination, while distant objects receive less., Two reasonable fixes are: Reduce or disable decay so the light intensity falls off less aggressively. Add other lights such as an ambient light or additional fill lights so distant parts of the scene are not underlit. Ambient light is useful because it adds uniform brightness across the scene."
+    "answer": "This happens because a point light has a position and its intensity can decrease over distance due to decay. Objects close to the light receive much more illumination, while distant objects receive less., Two reasonable fixes are: Reduce or disable decay so the light intensity falls off less aggressively. Add other lights such as an ambient light or additional fill lights so distant parts of the scene are not underlit. Ambient light is useful because it adds uniform brightness across the scene.",
+    "lecture_number": 14
   }
 ]

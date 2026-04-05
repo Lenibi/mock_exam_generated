@@ -422,7 +422,8 @@ function startWrittenExam(data) {
 
 function wRender() {
   const q = wQuestions[wCurrent];
-  document.getElementById('wqNumber').textContent = `Question ${q.number} of ${wQuestions[wQuestions.length - 1].number} (${wCurrent + 1}/${wQuestions.length})`;
+  const wLecturePart = q.lecture_number ? `  (Lecture ${q.lecture_number})` : '';
+  document.getElementById('wqNumber').textContent = `Question ${q.number} of ${wQuestions[wQuestions.length - 1].number} (${wCurrent + 1}/${wQuestions.length})${wLecturePart}`;
   document.getElementById('wqText').textContent = q.question;
   document.getElementById('progressDisplay').textContent = `Q ${wCurrent + 1} / ${wQuestions.length}`;
   document.getElementById('scoreDisplay').textContent = 'Written — no scoring';
