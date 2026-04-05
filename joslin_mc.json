@@ -1,0 +1,1179 @@
+[
+  {
+    "number": 1,
+    "question": "Transparency in materials means:",
+    "answers": {
+      "A": "Light refracts strongly inside the object",
+      "B": "Light passes through without refraction",
+      "C": "Light is absorbed completely",
+      "D": "Light passes through but scatters inside the object"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 2,
+    "question": "In 2D texture mapping, which coordinates represent positions in the texture?",
+    "answers": {
+      "A": "A and B",
+      "B": "S and T",
+      "C": "U and V",
+      "D": "X and Y"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "number": 3,
+    "question": "What is the purpose of a light map?",
+    "answers": {
+      "A": "To increase geometry detail",
+      "B": "To simulate lighting effects using textures",
+      "C": "To simulate reflections",
+      "D": "To generate shadows dynamically"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 4,
+    "question": "In network rendering, what is a \"node\"?",
+    "answers": {
+      "A": "A single frame",
+      "B": "A machine that renders frames",
+      "C": "A texture buffer",
+      "D": "A rendering algorithm"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 5,
+    "question": "In shadow mapping, when is a point in shadow?",
+    "answers": {
+      "A": "When it has no texture",
+      "B": "When it is farther from the light than stored depth",
+      "C": "When it is closer to the light than stored depth",
+      "D": "When it matches the shadow map value"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 6,
+    "question": "What does Metropolis Light Transport improve?",
+    "answers": {
+      "A": "Texture resolution",
+      "B": "Sampling of difficult light paths",
+      "C": "Geometry complexity",
+      "D": "GPU performance"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 7,
+    "question": "What happens when a ray hits a reflective surface?",
+    "answers": {
+      "A": "It spawns a reflected ray",
+      "B": "It stops",
+      "C": "It disappears",
+      "D": "It creates a refracted ray only"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 8,
+    "question": "Which environment mapping technique stores the scene on the six faces of a cube?",
+    "answers": {
+      "A": "Parallax mapping",
+      "B": "Cubic environment mapping",
+      "C": "Spherical environment mapping",
+      "D": "Height mapping"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 9,
+    "question": "Which of the following is a Global Illumination method?",
+    "answers": {
+      "A": "Scan-line rendering",
+      "B": "Painter's algorithm",
+      "C": "Z-buffering",
+      "D": "Path tracing"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 10,
+    "question": "What is photon mapping used for?",
+    "answers": {
+      "A": "Texture baking",
+      "B": "Polygon rendering",
+      "C": "Simulating light interactions like refraction and diffusion",
+      "D": "Animation"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "number": 11,
+    "question": "What is a shadow map?",
+    "answers": {
+      "A": "A normal map",
+      "B": "A color buffer",
+      "C": "A texture atlas",
+      "D": "A Z-buffer from the light's perspective"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 12,
+    "question": "What type of map is commonly used in parallax mapping?",
+    "answers": {
+      "A": "Height map",
+      "B": "Colour map",
+      "C": "Reflection map",
+      "D": "Specular map"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 13,
+    "question": "Which type of light uniformly adds brightness to all objects in a scene?",
+    "answers": {
+      "A": "Ambient light",
+      "B": "Point light",
+      "C": "Directional light",
+      "D": "Spot light"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 14,
+    "question": "Why is radiosity useful for walkthroughs?",
+    "answers": {
+      "A": "It is faster than ray tracing",
+      "B": "It is view-independent after preprocessing",
+      "C": "It ignores lighting",
+      "D": "It uses GPU acceleration"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 15,
+    "question": "What is the primary reason for using network/distributed rendering?",
+    "answers": {
+      "A": "To reduce memory usage",
+      "B": "To reduce rendering time",
+      "C": "To simplify animation pipelines",
+      "D": "To improve image quality"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 16,
+    "question": "An anisotropic reflection model is useful for materials such as:",
+    "answers": {
+      "A": "Brushed metal or CDs",
+      "B": "Matte paint",
+      "C": "Chalk",
+      "D": "Smooth glass"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 17,
+    "question": "What does emission represent?",
+    "answers": {
+      "A": "Reflected light",
+      "B": "Light absorbed",
+      "C": "Light refracted",
+      "D": "Light generated by the material itself"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 18,
+    "question": "Why are shadows important in rendering?",
+    "answers": {
+      "A": "They improve texture resolution",
+      "B": "They simplify lighting",
+      "C": "They provide realism and spatial cues",
+      "D": "They reduce computation"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "number": 19,
+    "question": "A skybox is typically constructed by mapping textures onto which shape?",
+    "answers": {
+      "A": "Cylinder",
+      "B": "Cube",
+      "C": "Pyramid",
+      "D": "Sphere"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 20,
+    "question": "What does the Abbe number describe?",
+    "answers": {
+      "A": "Light intensity",
+      "B": "Dispersion of light by wavelength",
+      "C": "Surface roughness",
+      "D": "Material density"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 21,
+    "question": "What type of light transport does radiosity simulate?",
+    "answers": {
+      "A": "Diffuse only",
+      "B": "Refraction only",
+      "C": "Specular only",
+      "D": "Emission only"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 22,
+    "question": "What problem does mipmapping help reduce?",
+    "answers": {
+      "A": "Geometry errors",
+      "B": "Camera distortion",
+      "C": "Texture flickering and aliasing",
+      "D": "Lighting calculations"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "number": 23,
+    "question": "What is the basic idea of projection shadows?",
+    "answers": {
+      "A": "Use texture mapping",
+      "B": "Render object again projected onto a plane",
+      "C": "Use ray tracing to simulate light",
+      "D": "Blur the object"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 24,
+    "question": "Texture mapping can occur in how many domains?",
+    "answers": {
+      "A": "One",
+      "B": "Four",
+      "C": "Two",
+      "D": "Three"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 25,
+    "question": "What is a render farm?",
+    "answers": {
+      "A": "A GPU cluster for gaming",
+      "B": "A texture storage system",
+      "C": "A lighting algorithm",
+      "D": "A group of machines rendering frames in parallel"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 26,
+    "question": "Which property of BRDF states that the incoming and outgoing light directions can be swapped with the same result?",
+    "answers": {
+      "A": "Helmholtz reciprocity",
+      "B": "Vector reflection",
+      "C": "Energy conservation",
+      "D": "Diffuse symmetry"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 27,
+    "question": "Which method applies textures by supplying coordinates directly to object vertices?",
+    "answers": {
+      "A": "Procedural mapping",
+      "B": "Direct coordinate mapping",
+      "C": "Environment mapping",
+      "D": "Functional mapping"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 28,
+    "question": "What problem does ambient occlusion address?",
+    "answers": {
+      "A": "Texture distortion",
+      "B": "Lack of specular highlights",
+      "C": "Low polygon count",
+      "D": "Flat lighting from uniform ambient light"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 29,
+    "question": "In the specular reflection equation, the shininess constant (α) controls:",
+    "answers": {
+      "A": "The sharpness of the specular highlight",
+      "B": "The intensity of ambient light",
+      "C": "The direction of the light vector",
+      "D": "The colour of the reflection"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 30,
+    "question": "What happens when UV coordinates larger than 1.0 are used?",
+    "answers": {
+      "A": "The texture repeats across the surface",
+      "B": "The texture disappears",
+      "C": "Lighting is disabled",
+      "D": "The geometry is modified"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 31,
+    "question": "Why is manually distributing rendering jobs inefficient?",
+    "answers": {
+      "A": "Frames take equal time",
+      "B": "It reduces image quality",
+      "C": "It requires special hardware",
+      "D": "It is tedious and hard to manage failures or timing differences"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 32,
+    "question": "Why is direct illumination fast?",
+    "answers": {
+      "A": "Uses no lighting",
+      "B": "Uses GPU only",
+      "C": "Only computes one light bounce",
+      "D": "Ignores geometry"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "number": 33,
+    "question": "Which of the following is TRUE for metals?",
+    "answers": {
+      "A": "They have colored reflections",
+      "B": "They allow significant light penetration",
+      "C": "They reflect neutral (white) light",
+      "D": "They have only diffuse components"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 34,
+    "question": "Why does path tracing produce noisy images?",
+    "answers": {
+      "A": "Random ray sampling",
+      "B": "Incorrect lighting models",
+      "C": "Lack of textures",
+      "D": "Low polygon count"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 35,
+    "question": "What is subsurface scattering (SSS)?",
+    "answers": {
+      "A": "Light emitted from objects",
+      "B": "Light entering, scattering, and exiting elsewhere",
+      "C": "Light reflecting off surfaces",
+      "D": "Light absorbed completely"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 36,
+    "question": "Realistic light decay in the physical world typically follows which rule?",
+    "answers": {
+      "A": "Linear decay (1/d)",
+      "B": "No decay",
+      "C": "Quadratic decay (1/d²)",
+      "D": "Cubic decay (1/d³)"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "number": 37,
+    "question": "Which reflection model produces flat surfaces without specular highlights?",
+    "answers": {
+      "A": "Blinn",
+      "B": "Lambert",
+      "C": "Phong",
+      "D": "Anisotropic"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 38,
+    "question": "Which light type behaves like sunlight and illuminates objects from a constant direction?",
+    "answers": {
+      "A": "Directional light",
+      "B": "Area light",
+      "C": "Point light",
+      "D": "Volume light"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 39,
+    "question": "What is the primary advantage of area lights compared to point lights?",
+    "answers": {
+      "A": "They create sharper shadows",
+      "B": "They have no direction",
+      "C": "They produce softer shadows due to their surface area",
+      "D": "They require less computation"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "number": 40,
+    "question": "What does roughness represent physically?",
+    "answers": {
+      "A": "Surface color variation",
+      "B": "Geometry scale",
+      "C": "Micro-surface irregularities",
+      "D": "Light intensity"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "number": 41,
+    "question": "Texture mapping creates a correspondence between which two domains?",
+    "answers": {
+      "A": "Camera space and world space",
+      "B": "Screen space and raster space",
+      "C": "Polygon space and lighting space",
+      "D": "Texture space and 3D scene space"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 42,
+    "question": "What reduces noise in path tracing?",
+    "answers": {
+      "A": "Decreasing light sources",
+      "B": "Increasing polygon count",
+      "C": "Using shaders",
+      "D": "Increasing sampling"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 43,
+    "question": "What does transmission = 1 mean?",
+    "answers": {
+      "A": "Fully reflective",
+      "B": "Fully emissive",
+      "C": "Fully transparent",
+      "D": "Fully opaque"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "number": 44,
+    "question": "Parallax mapping is best described as:",
+    "answers": {
+      "A": "A method for generating geometry",
+      "B": "An enhancement of bump or normal mapping",
+      "C": "A texture compression algorithm",
+      "D": "A lighting technique"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 45,
+    "question": "Specular reflection is best described as:",
+    "answers": {
+      "A": "Equal reflection in all directions",
+      "B": "Reflection independent of the viewer position",
+      "C": "Reflection of light from inside an object",
+      "D": "Mirror-like reflection producing bright highlights"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 46,
+    "question": "In computer graphics, incandescence refers to:",
+    "answers": {
+      "A": "Self-emission or glow of a material",
+      "B": "Refraction through transparent materials",
+      "C": "The scattering of light through objects",
+      "D": "The absorption of light"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 47,
+    "question": "What is a “render farm”?",
+    "answers": {
+      "A": "A group of computers used for rendering",
+      "B": "A database of textures",
+      "C": "A rendering algorithm",
+      "D": "A GPU cluster inside one machine"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 48,
+    "question": "What is the key difference between bump mapping and displacement mapping?",
+    "answers": {
+      "A": "Bump mapping perturbs normals while displacement mapping modifies geometry",
+      "B": "Bump mapping modifies geometry while displacement mapping changes colour",
+      "C": "Displacement mapping uses fewer polygons",
+      "D": "Bump mapping only works on spheres"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 49,
+    "question": "What is the main advantage of Bidirectional Path Tracing (BDPT)?",
+    "answers": {
+      "A": "Eliminates noise completely",
+      "B": "Uses fewer rays",
+      "C": "Faster rendering of direct lighting",
+      "D": "Better handling of indirect lighting"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 50,
+    "question": "What does BRDF stand for?",
+    "answers": {
+      "A": "Balanced Reflection Diffusion Function",
+      "B": "Basic Rendering Distribution Formula",
+      "C": "Bidirectional Reflectance Distribution Function",
+      "D": "Binary Reflectance Direction Function"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "number": 51,
+    "question": "What is OpenPBR primarily designed for?",
+    "answers": {
+      "A": "GPU optimization",
+      "B": "Universal material representation across renderers",
+      "C": "Texture compression",
+      "D": "Real-time physics simulation"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 52,
+    "question": "What is the goal of NPR?",
+    "answers": {
+      "A": "Physics accuracy",
+      "B": "Stylized, non-realistic visuals",
+      "C": "Maximum realism",
+      "D": "Faster rendering only"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 53,
+    "question": "What is a skybox used for in 3D graphics?",
+    "answers": {
+      "A": "Rendering realistic character animation",
+      "B": "Simulating distant environments using textures",
+      "C": "Simulating physics",
+      "D": "Creating detailed foreground models"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 54,
+    "question": "What happens after a node finishes rendering a frame?",
+    "answers": {
+      "A": "It sends data back to the GPU",
+      "B": "It shuts down",
+      "C": "It deletes the frame",
+      "D": "It stores the frame and waits for another job"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 55,
+    "question": "What law governs refraction between materials?",
+    "answers": {
+      "A": "Lambert's Law",
+      "B": "Fresnel Law",
+      "C": "Newton's Law",
+      "D": "Snell's Law"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 56,
+    "question": "What are importons?",
+    "answers": {
+      "A": "Texture samples",
+      "B": "Particles traced from the camera representing importance",
+      "C": "Rays used for shadows",
+      "D": "Light particles emitted from lights"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 57,
+    "question": "A BRDF describes:",
+    "answers": {
+      "A": "How light is reflected from a surface depending on incoming and outgoing directions",
+      "B": "How shaders render textures",
+      "C": "How light is refracted through transparent materials",
+      "D": "How objects emit light"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 58,
+    "question": "What does the “metalness” parameter control?",
+    "answers": {
+      "A": "Emission intensity",
+      "B": "Whether a material behaves like metal or dielectric",
+      "C": "Transparency",
+      "D": "Surface roughness"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 59,
+    "question": "In shadow volumes, what happens when a ray enters the shadow volume?",
+    "answers": {
+      "A": "Counter increases",
+      "B": "Rendering stops",
+      "C": "Shadow is removed",
+      "D": "Counter decreases"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 60,
+    "question": "What does the ambient reflection component represent in lighting models?",
+    "answers": {
+      "A": "Refraction through transparent objects",
+      "B": "Mirror reflection from surfaces",
+      "C": "Light coming directly from a spotlight",
+      "D": "Light scattered uniformly from the environment"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 61,
+    "question": "What is the rendering equation used for?",
+    "answers": {
+      "A": "Modeling light transport in a scene",
+      "B": "Geometry creation",
+      "C": "Texture compression",
+      "D": "Animation"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 62,
+    "question": "What type of materials use fuzz?",
+    "answers": {
+      "A": "Metals",
+      "B": "Glass",
+      "C": "Water",
+      "D": "Velvet or cloth"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 63,
+    "question": "In UV mapping, what range do U and V coordinates typically fall within?",
+    "answers": {
+      "A": "0 to 255",
+      "B": "-1.0 to +1.0",
+      "C": "0.0 to 1.0",
+      "D": "1 to 100"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "number": 64,
+    "question": "What is a limitation of IBR?",
+    "answers": {
+      "A": "Too slow",
+      "B": "Requires high polygon counts",
+      "C": "Cannot render shadows",
+      "D": "Errors with sparse image sampling"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 65,
+    "question": "What is the role of the “Master” node?",
+    "answers": {
+      "A": "Render frames only",
+      "B": "Store textures",
+      "C": "Distribute jobs and manage failures",
+      "D": "Perform shading"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "number": 66,
+    "question": "What is the key difference between Direct Illumination and Global Illumination?",
+    "answers": {
+      "A": "GI is faster",
+      "B": "Direct uses multiple bounces, GI uses one",
+      "C": "GI includes multiple light bounces",
+      "D": "Direct uses textures, GI does not"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "number": 67,
+    "question": "How are mipmaps generated?",
+    "answers": {
+      "A": "By applying lighting calculations",
+      "B": "By halving the texture size at each level",
+      "C": "By increasing the resolution of textures",
+      "D": "By duplicating textures"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 68,
+    "question": "Which type of light allows parameters such as cone angle, penumbra angle, and drop-off?",
+    "answers": {
+      "A": "Directional light",
+      "B": "Spot light",
+      "C": "Area light",
+      "D": "Ambient light"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 69,
+    "question": "What is toon shading characterized by?",
+    "answers": {
+      "A": "Solid colors and sharp edges",
+      "B": "High noise levels",
+      "C": "Complex lighting gradients",
+      "D": "Realistic reflections"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 70,
+    "question": "What defines anisotropic materials?",
+    "answers": {
+      "A": "Same properties in all directions",
+      "B": "Direction-dependent properties",
+      "C": "No reflections",
+      "D": "Only diffuse lighting"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 71,
+    "question": "What does Final Gather primarily compute?",
+    "answers": {
+      "A": "Shadows only",
+      "B": "Caustics",
+      "C": "Specular highlights",
+      "D": "Diffuse indirect illumination"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 72,
+    "question": "A point light differs from a directional light because it:",
+    "answers": {
+      "A": "Has no position",
+      "B": "Emits light only in one direction",
+      "C": "Cannot produce shadows",
+      "D": "Radiates light in all directions from a single point"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 73,
+    "question": "How is ambient occlusion calculated?",
+    "answers": {
+      "A": "Light intensity",
+      "B": "Shadow maps",
+      "C": "Ratio of ray hits to total rays",
+      "D": "Number of textures"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "number": 74,
+    "question": "How are soft shadows approximated?",
+    "answers": {
+      "A": "Using a single light source",
+      "B": "Sampling multiple point lights over an area",
+      "C": "Using shadow maps only",
+      "D": "Increasing polygon count"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 75,
+    "question": "What causes soft shadows in reality?",
+    "answers": {
+      "A": "High-resolution textures",
+      "B": "High polygon counts",
+      "C": "Strong reflections",
+      "D": "Area light sources"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 76,
+    "question": "What causes thin film interference effects?",
+    "answers": {
+      "A": "Multiple light sources",
+      "B": "Interference in thin transparent layers",
+      "C": "Surface roughness",
+      "D": "Subsurface scattering"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 77,
+    "question": "What does the Index of Refraction (IOR) control?",
+    "answers": {
+      "A": "Light bending through materials",
+      "B": "Surface colour",
+      "C": "Shadow intensity",
+      "D": "Reflection roughness"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 78,
+    "question": "What is texture mapping in computer graphics?",
+    "answers": {
+      "A": "The process of converting 3D models into polygons",
+      "B": "The addition of a 2D texture onto a 3D surface",
+      "C": "The removal of lighting from surfaces",
+      "D": "The creation of new geometry using textures"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 79,
+    "question": "What problem does OpenPBR aim to solve?",
+    "answers": {
+      "A": "Lighting performance issues",
+      "B": "Shader compilation errors",
+      "C": "Different material behavior across tools",
+      "D": "Low polygon counts"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "number": 80,
+    "question": "What are caustics?",
+    "answers": {
+      "A": "Light patterns formed by reflection/refraction",
+      "B": "Ambient lighting effects",
+      "C": "Shadows from multiple lights",
+      "D": "Texture distortions"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 81,
+    "question": "What method is commonly used to generate caustics?",
+    "answers": {
+      "A": "Rasterization",
+      "B": "Photon mapping",
+      "C": "Z-buffering",
+      "D": "Scanline rendering"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 82,
+    "question": "Why is rendering feature-length animation extremely time-consuming?",
+    "answers": {
+      "A": "High frame count and complex lighting (e.g., GI)",
+      "B": "Due to low GPU power",
+      "C": "Because of large textures",
+      "D": "Lack of memory"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 83,
+    "question": "What is stored in a particle map?",
+    "answers": {
+      "A": "Direct illumination information",
+      "B": "Geometry data",
+      "C": "Shadow maps",
+      "D": "Texture coordinates"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 84,
+    "question": "Diffuse reflection depends primarily on:",
+    "answers": {
+      "A": "Angle between the light vector and the surface normal",
+      "B": "Camera position",
+      "C": "Surface transparency",
+      "D": "Colour temperature of the light"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 85,
+    "question": "Final Gather uses which technique instead of photons?",
+    "answers": {
+      "A": "Scanline rendering",
+      "B": "Rasterization",
+      "C": "Backward ray tracing",
+      "D": "Forward ray tracing"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "number": 86,
+    "question": "What is the purpose of the coat layer?",
+    "answers": {
+      "A": "Add diffuse shading",
+      "B": "Add a thin reflective layer",
+      "C": "Remove reflections",
+      "D": "Increase transparency"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 87,
+    "question": "Which three components contribute to the final illumination of an object in the Phong reflection model?",
+    "answers": {
+      "A": "Direct, indirect, global",
+      "B": "Ambient, diffuse, specular",
+      "C": "Reflection, absorption, scattering",
+      "D": "Transparency, translucency, reflection"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 88,
+    "question": "What is the key idea behind practical ray tracing?",
+    "answers": {
+      "A": "Trace rays from light sources",
+      "B": "Ignore reflections",
+      "C": "Trace rays from camera to scene",
+      "D": "Use only diffuse shading"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "number": 89,
+    "question": "When is a pixel considered in shadow using shadow volumes?",
+    "answers": {
+      "A": "Counter = 0",
+      "B": "Counter > 0",
+      "C": "Counter < 0",
+      "D": "Counter = 1 only"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 90,
+    "question": "What is stored in a normal map?",
+    "answers": {
+      "A": "Height values only",
+      "B": "Polygon coordinates",
+      "C": "Surface normal vectors",
+      "D": "Colour intensity"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "number": 91,
+    "question": "What does bump mapping primarily modify?",
+    "answers": {
+      "A": "The actual geometry",
+      "B": "Surface normals used for lighting",
+      "C": "Surface colour",
+      "D": "Texture resolution"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 92,
+    "question": "Which reflection model is commonly used to simulate shiny surfaces like glass or glossy plastic?",
+    "answers": {
+      "A": "Kubelka-Munk",
+      "B": "Anisotropic",
+      "C": "Lambert",
+      "D": "Phong"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 93,
+    "question": "What is ray tracing primarily simulating?",
+    "answers": {
+      "A": "Texture mapping",
+      "B": "Light ray paths",
+      "C": "Polygon edges",
+      "D": "Object collisions"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 94,
+    "question": "What is the main idea behind network rendering?",
+    "answers": {
+      "A": "Splitting polygons across GPUs",
+      "B": "Rendering only visible objects",
+      "C": "Sharing textures over the internet",
+      "D": "Splitting frames across multiple machines"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 95,
+    "question": "What is a key difference between path tracing and traditional ray tracing?",
+    "answers": {
+      "A": "Path tracing is deterministic",
+      "B": "Path tracing only uses direct lighting",
+      "C": "Path tracing includes effects like indirect lighting automatically",
+      "D": "Ray tracing includes more randomness"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "number": 96,
+    "question": "What does reflection mapping simulate?",
+    "answers": {
+      "A": "Particle effects",
+      "B": "Mirror-like reflections of the environment",
+      "C": "Dynamic shadows",
+      "D": "Subsurface scattering"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 97,
+    "question": "What happens at roughness = 0.0?",
+    "answers": {
+      "A": "Blurry reflections",
+      "B": "No reflection",
+      "C": "Perfect mirror reflection",
+      "D": "Matte appearance"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "number": 98,
+    "question": "What is a shadow volume?",
+    "answers": {
+      "A": "A 2D projection of light",
+      "B": "A 3D region where light is blocked",
+      "C": "A buffer storing shadows",
+      "D": "A texture used for shadows"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 99,
+    "question": "What is Image-Based Rendering (IBR)?",
+    "answers": {
+      "A": "Rendering new images from existing images",
+      "B": "Rendering using only geometry",
+      "C": "Rendering without lighting",
+      "D": "Rendering only textures"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 100,
+    "question": "What do Fresnel equations describe?",
+    "answers": {
+      "A": "Reflection vs refraction depending on angle",
+      "B": "Color blending",
+      "C": "Texture mapping",
+      "D": "Light absorption"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 101,
+    "question": "Ambient occlusion simulates:",
+    "answers": {
+      "A": "Spotlights",
+      "B": "A dome light surrounding the scene",
+      "C": "Refraction",
+      "D": "Direct sunlight"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 102,
+    "question": "What is a billboarding method?",
+    "answers": {
+      "A": "Rendering shadows",
+      "B": "Mapping UV coordinates",
+      "C": "Rendering textures on curved surfaces",
+      "D": "Orienting a polygon to always face the camera"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 103,
+    "question": "Why is it called “Final Gather”?",
+    "answers": {
+      "A": "It gathers geometry",
+      "B": "It gathers irradiance before final rendering",
+      "C": "It renders final textures",
+      "D": "It gathers shadows only"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "number": 104,
+    "question": "What does applying a standard texture usually influence?",
+    "answers": {
+      "A": "The number of polygons in the model",
+      "B": "The geometry of the surface",
+      "C": "The smoothness of the surface",
+      "D": "The colour values of the surface"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 105,
+    "question": "What determines which object a ray “sees”?",
+    "answers": {
+      "A": "Closest intersection",
+      "B": "Largest object",
+      "C": "First rendered object",
+      "D": "Brightest object"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "number": 106,
+    "question": "In the rendering pipeline described, what does the master node do?",
+    "answers": {
+      "A": "Stores textures",
+      "B": "Renders all frames",
+      "C": "Calculates lighting only",
+      "D": "Distributes frames to client machines"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "number": 107,
+    "question": "Why is forward ray tracing inefficient?",
+    "answers": {
+      "A": "Rays may never reach the camera",
+      "B": "Requires textures",
+      "C": "Uses too little memory",
+      "D": "Too many reflections"
+    },
+    "correct_answer": "A"
+  }
+]

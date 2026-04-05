@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>3002 Mock Exam</title>
+<title>Mock Exam</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
@@ -73,7 +73,7 @@
     align-items: center;
   }
 
-  /* Quiz screen */
+  /* Quiz screen (multiple choice) */
   #quiz {
     flex: 1;
     display: none;
@@ -137,6 +137,51 @@
   .btn-file { background: #0f3460; }
 
   .hidden-input { display: none; }
+
+  /* Written quiz screen */
+  #writtenQuiz {
+    flex: 1;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    gap: 24px;
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .written-answer-box {
+    width: 100%;
+    max-width: 600px;
+    min-height: 120px;
+    background: #16213e;
+    border: 2px solid #0f3460;
+    color: #eee;
+    padding: 14px 18px;
+    border-radius: 8px;
+    font-size: 1.05rem;
+    font-family: inherit;
+    resize: vertical;
+  }
+  .written-answer-box:focus { outline: none; border-color: #533483; }
+
+  .model-answer {
+    width: 100%;
+    max-width: 600px;
+    background: #0f3460;
+    border: 2px solid #533483;
+    border-radius: 8px;
+    padding: 16px 20px;
+    font-size: 1.05rem;
+    line-height: 1.6;
+  }
+  .model-answer-label {
+    font-weight: 700;
+    color: #c9a800;
+    margin-bottom: 6px;
+  }
 </style>
 </head>
 <body>
@@ -149,16 +194,12 @@
 
 <!-- Home -->
 <div id="home">
-  <h1>3002 Mock Exam</h1>
+  <h1>Mock Exam</h1>
   <p>Choose a practice exam or load your own</p>
 
   <div class="exam-list">
-    <button class="exam-btn" onclick="loadExam('exam_mock_jsons/BIT2002B_mock_final_exam.json')">Practice Mock Exam 1</button>
-    <button class="exam-btn" onclick="loadExam('exam_mock_jsons/BIT2002B_mock_final_exam_variant2.json')">Practice Mock Exam 2</button>
-    <button class="exam-btn" onclick="loadExam('exam_mock_jsons/BIT2002B_mock_final_exam_variant3_with_lecture_numbers.json')">Practice Mock Exam 3</button>
-    <button class="exam-btn" onclick="loadExam('exam_mock_jsons/BIT2002B_mock_final_exam_variant4_lectures8to10.json')">Practice Mock Exam 4 (Lectures 8–10 only)</button>
-    <button class="exam-btn" onclick="loadExam('exam_mock_jsons/BIT2002B_mock_final_exam_variant5_terms_from_slides.json')">Practice Mock Exam 5 (exact wording and terms from slides, lectures 1 to 10)</button>
-    <button class="exam-btn" onclick="loadExam('exam_mock_jsons/BIT2002B_mock_final_exam_variant6_lectures8to10_terms_from_slides.json')">Practice Mock Exam 6 (exact wording and terms from slides, lectures 8 to 10 only)</button>
+    <button class="exam-btn" onclick="loadExam('joslin_mc.json')">Joslin Exam — Multiple Choice (107 Qs)</button>
+    <button class="exam-btn" onclick="loadWrittenExam('joslin_written.json')">Joslin Exam — Written (34 Qs)</button>
   </div>
 
   <div class="divider">— or —</div>
@@ -169,7 +210,7 @@
   </div>
 </div>
 
-<!-- Quiz -->
+<!-- Multiple Choice Quiz -->
 <div id="quiz">
   <div class="q-number" id="qNumber"></div>
   <div class="q-text" id="qText"></div>
@@ -181,12 +222,28 @@
   </div>
 </div>
 
+<!-- Written Quiz -->
+<div id="writtenQuiz">
+  <div class="q-number" id="wqNumber"></div>
+  <div class="q-text" id="wqText"></div>
+  <textarea class="written-answer-box" id="wqAnswer" placeholder="Type your answer here..."></textarea>
+  <div id="wqModelAnswer" style="display:none;" class="model-answer">
+    <div class="model-answer-label">Model Answer</div>
+    <div id="wqModelText"></div>
+  </div>
+  <div class="nav-row">
+    <button id="wPrevBtn" onclick="wGo(-1)">&larr; Prev</button>
+    <button class="btn-show" id="wShowBtn" onclick="toggleModelAnswer()">Show Answer</button>
+    <button id="wNextBtn" onclick="wGo(1)">Next &rarr;</button>
+  </div>
+</div>
+
 <script>
+// ===================== MULTIPLE CHOICE =====================
 let questions = [];
 let current = 0;
 let userAnswers = [];
 
-// --- JSON parsing (flexible) ---
 function parseQuestions(raw) {
   let data = typeof raw === 'string' ? JSON.parse(raw) : raw;
   if (!Array.isArray(data)) {
@@ -200,7 +257,6 @@ function parseQuestions(raw) {
   return data.map((q, i) => {
     let answers = q.answers || q.options || q.choices || [];
     if (answers && !Array.isArray(answers)) {
-      // handle {"A": "...", "B": "...", ...} object format
       answers = ['A','B','C','D'].map(k => answers[k]).filter(Boolean);
     }
     if (!answers || answers.length === 0) {
@@ -247,7 +303,11 @@ function goHome() {
   questions = [];
   userAnswers = [];
   current = 0;
+  wQuestions = [];
+  wUserAnswers = [];
+  wCurrent = 0;
   document.getElementById('quiz').style.display = 'none';
+  document.getElementById('writtenQuiz').style.display = 'none';
   document.getElementById('topbar').style.display = 'none';
   document.getElementById('home').style.display = 'flex';
 }
@@ -272,7 +332,6 @@ document.getElementById('fileInput').addEventListener('change', e => {
   e.target.value = '';
 });
 
-// --- Rendering ---
 function render() {
   const q = questions[current];
   const lecturePart = q.lecture ? `  (Lecture ${q.lecture})` : '';
@@ -330,17 +389,90 @@ function updateScore() {
   document.getElementById('scoreDisplay').textContent = `${pct}% — ${correct}/${answered} answered`;
 }
 
+// ===================== WRITTEN QUIZ =====================
+let wQuestions = [];
+let wCurrent = 0;
+let wUserAnswers = [];
+
+async function loadWrittenExam(url) {
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error('File not found: ' + url);
+    const data = await res.json();
+    startWrittenExam(data);
+  } catch (e) {
+    alert(e.message);
+  }
+}
+
+function startWrittenExam(data) {
+  wQuestions = typeof data === 'string' ? JSON.parse(data) : data;
+  wUserAnswers = new Array(wQuestions.length).fill('');
+  wCurrent = 0;
+  document.getElementById('home').style.display = 'none';
+  document.getElementById('writtenQuiz').style.display = 'flex';
+  document.getElementById('topbar').style.display = 'flex';
+  wRender();
+}
+
+function wRender() {
+  const q = wQuestions[wCurrent];
+  document.getElementById('wqNumber').textContent = `Question ${q.number} of ${wQuestions[wQuestions.length - 1].number} (${wCurrent + 1}/${wQuestions.length})`;
+  document.getElementById('wqText').textContent = q.question;
+  document.getElementById('progressDisplay').textContent = `Q ${wCurrent + 1} / ${wQuestions.length}`;
+  document.getElementById('scoreDisplay').textContent = 'Written — no scoring';
+  document.getElementById('wPrevBtn').disabled = wCurrent === 0;
+  document.getElementById('wNextBtn').disabled = wCurrent === wQuestions.length - 1;
+
+  document.getElementById('wqAnswer').value = wUserAnswers[wCurrent];
+  document.getElementById('wqModelAnswer').style.display = 'none';
+  document.getElementById('wShowBtn').textContent = 'Show Answer';
+}
+
+function toggleModelAnswer() {
+  const el = document.getElementById('wqModelAnswer');
+  if (el.style.display === 'none') {
+    document.getElementById('wqModelText').textContent = wQuestions[wCurrent].answer;
+    el.style.display = 'block';
+    document.getElementById('wShowBtn').textContent = 'Hide Answer';
+  } else {
+    el.style.display = 'none';
+    document.getElementById('wShowBtn').textContent = 'Show Answer';
+  }
+}
+
+function wGo(dir) {
+  // save current typed answer
+  wUserAnswers[wCurrent] = document.getElementById('wqAnswer').value;
+  wCurrent += dir;
+  if (wCurrent < 0) wCurrent = 0;
+  if (wCurrent >= wQuestions.length) wCurrent = wQuestions.length - 1;
+  wRender();
+}
+
 // keyboard shortcuts
 document.addEventListener('keydown', e => {
-  if (document.getElementById('quiz').style.display === 'none') return;
-  if (e.key === 'ArrowRight' || e.key === 'd') go(1);
-  else if (e.key === 'ArrowLeft' || e.key === 'a') go(-1);
-  else if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); flashAnswer(); }
-  else if (e.key === '1') selectAnswer(0);
-  else if (e.key === '2') selectAnswer(1);
-  else if (e.key === '3') selectAnswer(2);
-  else if (e.key === '4') selectAnswer(3);
-  else if (e.key === 'Escape') goHome();
+  const mcVisible = document.getElementById('quiz').style.display !== 'none';
+  const wVisible = document.getElementById('writtenQuiz').style.display !== 'none';
+
+  if (mcVisible) {
+    if (e.key === 'ArrowRight' || e.key === 'd') go(1);
+    else if (e.key === 'ArrowLeft' || e.key === 'a') go(-1);
+    else if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); flashAnswer(); }
+    else if (e.key === '1') selectAnswer(0);
+    else if (e.key === '2') selectAnswer(1);
+    else if (e.key === '3') selectAnswer(2);
+    else if (e.key === '4') selectAnswer(3);
+    else if (e.key === 'Escape') goHome();
+  } else if (wVisible) {
+    // only handle nav keys when textarea is NOT focused
+    if (document.activeElement !== document.getElementById('wqAnswer')) {
+      if (e.key === 'ArrowRight' || e.key === 'd') wGo(1);
+      else if (e.key === 'ArrowLeft' || e.key === 'a') wGo(-1);
+      else if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); toggleModelAnswer(); }
+    }
+    if (e.key === 'Escape') goHome();
+  }
 });
 </script>
 </body>
