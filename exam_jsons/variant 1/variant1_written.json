@@ -1,0 +1,152 @@
+[
+  {
+    "number": 101,
+    "question": "List the six main types of lights available in most 3D graphics systems.",
+    "answer": "Ambient Light, Directional/Distant Light, Point/Omni Light, Spot Light, Area Light, and Volume Light."
+  },
+  {
+    "number": 102,
+    "question": "Explain why ambient lights produce no shadows or shading on objects in a scene.",
+    "answer": "Ambient lights have no position and no direction; they uniformly add brightness to all surfaces. Without a position or direction, there is no way to determine which areas would be occluded from the light, and no angular variation in illumination exists to create shading differences."
+  },
+  {
+    "number": 103,
+    "question": "Describe the four decay options available for point lights and state which one models real-world light behaviour.",
+    "answer": "The four decay options are: No Decay (off), Linear (1/d), Quadratic (1/d^2), and Cubic (1/d^3). Quadratic decay (1/d^2) models how real-world light behaves, following the inverse square law."
+  },
+  {
+    "number": 104,
+    "question": "Explain the difference between the Penumbra Angle and the Drop Off parameters on a spot light.",
+    "answer": "Both control how light intensity decreases, but they differ in where the change occurs. Drop Off produces a gradual change from the centre of the spot outward, while Penumbra Angle only affects the intensity from the specified penumbra angle to the edge of the cone. Penumbra is specified in degrees (typically -10 to +10), whereas Drop Off is a separate numeric value."
+  },
+  {
+    "number": 105,
+    "question": "What is light linking and why is it useful for both artistic control and rendering efficiency?",
+    "answer": "Light linking allows specific lights to illuminate only specific surfaces (and vice versa). Artistically, it provides fine control over which objects receive illumination from which lights. For efficiency, it reduces the lighting calculation because fewer light-surface interactions need to be computed."
+  },
+  {
+    "number": 106,
+    "question": "A cinematographer wants to replicate candlelight in a virtual scene. What colour temperature should they use, and why does matching colour temperature matter for live/3D compositing?",
+    "answer": "Candlelight has a colour temperature of approximately 1850 K. Matching colour temperature is critical for compositing because if the virtual scene's lights do not match the real scene's colour temperature, the audience will perceive a mismatch between the real and CG elements, breaking the illusion of integration."
+  },
+  {
+    "number": 107,
+    "question": "Describe the step-by-step process for producing an Image-Based Lighting (IBL) environment.",
+    "answer": "1) Capture the lighting from an environment as an omni-directional, high-dynamic range image (HDRI). 2) Map the captured image onto a representation of the environment (usually a sphere). 3) Place the CG scene into the environment. 4) Render the light from the environment using a technique that accounts for the light coming from that environment (such as Final Gather or other GI methods)."
+  },
+  {
+    "number": 108,
+    "question": "Why is a High Dynamic Range Image (HDRI) necessary for IBL rather than a standard 8-bit image?",
+    "answer": "A standard 8-bit image only has 256 brightness values per channel, which cannot capture the full range of real-world illumination. Lighter and darker values get saturated (clipped). An HDRI uses 16 or 32 bits per channel (65,536 or over 4 billion values), allowing it to store the complete range from very dark to very bright, which is essential for realistic lighting calculations."
+  },
+  {
+    "number": 109,
+    "question": "Write out the complete Phong Reflection Model equation and define each variable.",
+    "answer": "Ip = ia*ka + sum over all lights of [id*kd*(L dot N) + is*ks*(R dot V)^alpha]. Where: Ip = shade value for each surface point; ia, id, is = light intensity for ambient, diffuse, and specular; ka, kd, ks = ambient, diffuse, and specular reflection coefficients; alpha = shininess constant; N = surface normal vector; L = light vector; V = view vector; R = ideal reflection vector."
+  },
+  {
+    "number": 110,
+    "question": "Explain how the BRDF generalises the Phong model. What happens when Ks becomes a variable?",
+    "answer": "In the Phong model, Ks (specular reflection coefficient) is assumed constant, meaning reflection is the same regardless of viewing direction. When Ks becomes variable depending on the incoming and outgoing light directions, we are dealing with a Bidirectional Reflectance Distribution Function (BRDF). The BRDF describes how the amount of reflected energy changes based on both the light direction and the viewer direction, making it more physically accurate for materials whose appearance changes when viewed from different angles."
+  },
+  {
+    "number": 111,
+    "question": "Compare and contrast subsurface scattering (SSS) with simple Lambert diffuse reflection. Give an example material where SSS is essential.",
+    "answer": "In Lambert reflection, light hits a surface and bounces off at the same point, producing a simple diffuse shade. In subsurface scattering, light penetrates the surface, scatters internally through different layers, and exits at a different point. This creates a softer, more translucent appearance. Human skin is an essential example: light enters the skin, scatters through the epidermis, dermis, and bloody dermis layers, and some exits at different locations, giving skin its characteristic soft, warm glow that Lambert alone cannot reproduce."
+  },
+  {
+    "number": 112,
+    "question": "Explain the difference between 'repeat' and 'clamp' when UV texture coordinates exceed 1.0.",
+    "answer": "When UV values exceed 1.0 with repeat mode, the texture is tiled (applied multiple times) based on the factor of 1.0. For example, a value of 2.0 repeats the texture twice. With clamp mode, the texture is applied only once in the specified area; pixels beyond the texture boundary take the value of the nearest edge pixel, which can produce strange visual artefacts."
+  },
+  {
+    "number": 113,
+    "question": "Describe how mipmapping works and explain why it reduces flickering during texture rendering.",
+    "answer": "Mipmapping pre-generates a set of filtered texture maps at decreasing resolutions from a single high-resolution source (each level is half the size of the previous: 64x64, 32x32, 16x16, etc.). When rendering, the appropriate resolution level is selected based on the distance of the textured surface from the camera. This avoids the need to shrink the original texture in real-time (a decimation process that causes flickering), because a pre-filtered version matched to the required detail level is already available."
+  },
+  {
+    "number": 114,
+    "question": "Compare bump mapping, normal mapping, and displacement mapping. What does each modify, and what are the trade-offs?",
+    "answer": "Bump mapping perturbs the surface normal used in the lighting equation without changing actual geometry, giving an illusion of surface detail but with smooth silhouettes. Normal mapping replaces the normal entirely with values from a pre-computed map (stored as RGB), offering speed advantages but requiring generated maps. Displacement mapping actually modifies the geometric positions of surface points based on a height map, producing true geometric detail including correct silhouettes and self-shadowing, but at much higher computational cost due to the large amount of additional geometry."
+  },
+  {
+    "number": 115,
+    "question": "What is parallax mapping and how does it achieve apparent depth without modifying geometry?",
+    "answer": "Parallax mapping displaces texture coordinates at a point on the rendered polygon based on the view angle in tangent space and the value of a height map at that point. At steeper view angles, the texture coordinates are displaced more, creating an illusion of depth through parallax effects. Unlike displacement mapping, it does not add geometry, so it is faster, though it does not handle occlusion or silhouettes without additional enhancements."
+  },
+  {
+    "number": 116,
+    "question": "Explain how reflection mapping (environment mapping) works, and describe the difference between spherical and cubic environment mapping.",
+    "answer": "Reflection mapping renders the scene from the viewpoint of the reflective surface and stores this as a texture that is then mapped onto the object to simulate mirror-like reflections. Spherical environment mapping uses a single texture containing the surrounding scene as reflected on a mirror ball, but has a singularity problem at the rear of the object. Cubic environment mapping unfolds the environment onto the six faces of a cube (six square textures), eliminating the singularity and producing seamless reflections."
+  },
+  {
+    "number": 117,
+    "question": "In OpenPBR, explain the physical difference between metals and dielectrics in terms of reflection colour, diffuse component, and specular reflectivity.",
+    "answer": "Dielectrics (non-metals like plastic, wood, skin) have neutral (white) reflection colour, a present diffuse component, moderate specular reflectivity, and allow some light penetration. Metals (gold, copper, aluminum) have coloured reflections (the reflected light takes on the material's colour), no diffuse component (absent), very high specular reflectivity, and almost zero light penetration."
+  },
+  {
+    "number": 118,
+    "question": "What is the rendering equation, who introduced it, and what are its limitations?",
+    "answer": "The rendering equation was introduced by James T. Kajiya in 1986. It mathematically models how light behaves in a scene: the light arriving at a point is the sum of emitted light plus all light reflected from other surfaces toward that point. It is an approximation of Maxwell's equations for electromagnetics and only models geometric optics. It cannot simulate diffraction, interference, or polarisation, though it can be modified to model dispersion."
+  },
+  {
+    "number": 119,
+    "question": "Explain why 'Forward Ray Tracing' (eye-based) is more practical than tracing rays from the light source.",
+    "answer": "When tracing from the light source, many rays never reach the camera. They may shoot off into space or become so attenuated that they contribute nothing to the image, wasting computation. By tracing from the eye back through the scene, every ray is guaranteed to either reach a light source or disappear into the background. This ensures that all computed rays directly contribute to determining pixel colours in the final image."
+  },
+  {
+    "number": 120,
+    "question": "Describe the two-pass process of photon mapping and the two methods for terminating photon reflections.",
+    "answer": "In the first pass, photons are emitted from light sources into the scene; at each surface intersection, the photon's position, direction, and energy are stored in a photon map. The second pass connects camera rays to the photon map to produce luminance values. For termination, the first method decreases photon energy at each bounce until it reaches a low-energy threshold. The second method is Russian Roulette, a Monte Carlo technique where each photon has a probability of continuing that decreases with each reflection."
+  },
+  {
+    "number": 121,
+    "question": "Compare radiosity and ray tracing in terms of the type of light transport they handle, view dependence, and suitability for real-time walkthroughs.",
+    "answer": "Radiosity tracks only diffuse light transport and produces softly lit scenes with subtle colour bleeding. It is view-independent after preprocessing, making it ideal for real-time walkthroughs. Ray tracing handles specular transport and produces sharp shadows and accurate reflections, but is view-dependent (results change with camera position) and must be recomputed for each new viewpoint, making it unsuitable for real-time applications."
+  },
+  {
+    "number": 122,
+    "question": "What are 'form factors' in radiosity and how are they used?",
+    "answer": "Form factors describe how much light reflects diffusely from one patch to another. For each pair of patches in the scene, the form factor measures the fraction of light leaving one patch that illuminates the other. Once computed, these form factors are used in a system of linear equations (calculated separately for Red, Green, and Blue) to determine the illumination level of each patch."
+  },
+  {
+    "number": 123,
+    "question": "Explain how ambient occlusion is calculated. Use the example of 6 sample rays with 2 intersections.",
+    "answer": "Ambient occlusion sends a hemispherical spray of rays from each surface point, biased toward the surface normal. Each ray tests for intersections with other geometry. The occlusion value is the ratio of intersecting rays to total sample rays. With 6 rays and 2 intersections, the ratio is 2/6 = 1/3. Subtracting from 1.0 gives an ambient term of approximately 0.67, meaning the point receives about 67% of the ambient light. Fully occluded points are darker; fully exposed points receive full ambient light."
+  },
+  {
+    "number": 124,
+    "question": "Describe the four types of billboarding discussed in the course and give a use case for each.",
+    "answer": "1) Screen-Aligned: The billboard is always parallel to the screen with a constant up vector from the camera; used for annotation text. 2) World-Oriented: Similar to screen-aligned but uses the world up vector instead of the camera's; used for clouds. 3) Axial Billboard: Rotates around a fixed world-space axis to face the viewer; commonly used for trees. 4) Imposters: A complex object is rendered into a texture from the current viewpoint and mapped onto a billboard; used for level-of-detail optimisation of complex objects."
+  },
+  {
+    "number": 125,
+    "question": "What is Cel/Toon shading? Describe the two-tone approach and how silhouette edges are typically rendered.",
+    "answer": "Cel/Toon shading is a non-photorealistic rendering style identified with cartoons. In the two-tone (hard-shading) approach, polygons are shaded using only two colour levels (lit and shadowed areas), determined by remapping the diffuse dot product (n dot l) to a one-dimensional texture map containing just a few colours. Silhouette edges are typically rendered explicitly in black to amplify the cartoon look, using techniques such as rendering back-face edges or detecting edges where one neighbouring polygon is front-facing and the other is back-facing."
+  },
+  {
+    "number": 126,
+    "question": "Explain the difference between network rendering and distributed rendering. What is an advantage of each?",
+    "answer": "Network rendering splits a scene into individual frames and sends each frame to a different machine (node) in a farm. Its advantage is simplicity and efficiency for independent frames. Distributed rendering splits each frame into sections called 'buckets' and sends them to multiple machines that all work on the same frame simultaneously. Its advantage is handling inter-frame dependencies (e.g., fluid or cloth simulations) because frames are rendered sequentially, and individual frames are completed faster, allowing quicker error detection."
+  },
+  {
+    "number": 127,
+    "question": "Describe the shadow volumes technique, including how the counter mechanism determines whether a point is in shadow.",
+    "answer": "Shadow volumes create an infinite truncated pyramid from a light source through the vertices of each shadow-casting polygon. A ray is projected through each pixel, and a counter tracks shadow state: it increments when the ray crosses a front-facing side of a shadow volume (entering shadow) and decrements when crossing a back-facing side (exiting shadow). When the ray reaches the surface to be rendered, if the counter is greater than zero, the point is in shadow; if zero, it is lit. This works correctly even with multiple overlapping shadow volumes."
+  },
+  {
+    "number": 128,
+    "question": "Explain how shadow mapping works in two passes and under what condition the shadow map does NOT need to be re-rendered.",
+    "answer": "First pass: the scene is rendered from the light source's position using a Z-buffer, creating a depth map (the shadow map) that stores the distance to the closest object for each pixel from the light's perspective. Second pass: the scene is rendered from the camera's perspective, and each point's distance from the light is compared to the shadow map value. If the point is farther than the stored depth, it is in shadow. The shadow map does not need re-rendering if only the camera moves, because the shadow map depends only on the light's position and the geometry, not the viewer's position."
+  },
+  {
+    "number": 129,
+    "question": "Describe the three fog techniques (colour blending, texture mapping, volumetric rendering) and compare their ability to produce non-uniform and animated fog effects.",
+    "answer": "Colour blending blends a fog colour into pixels based on distance from the eye-point; it produces only uniform, non-animated fog. Texture mapping uses pre-generated texture maps for different fog depths, allowing non-uniform (patchy) fog but not animated fog, and it does not change appearance as the eye-point moves. Volumetric rendering uses a 3D volume to model fog and allows both non-uniform fog and correct appearance changes with eye-point movement, but it does not easily support animation and requires expensive GPU hardware."
+  },
+  {
+    "number": 130,
+    "question": "What is rotoscoping and how was it used in the original Star Wars films?",
+    "answer": "Rotoscoping is a technique where animators sketch over live-action film frame by frame. In the original Star Wars films, it was used to create lightsaber effects: animators drew the glowing lightsaber blades over the actual footage of actors wielding prop swords, frame by frame, to produce the iconic light effect."
+  }
+]

@@ -30,7 +30,7 @@
       "C": "To simulate reflections",
       "D": "To generate shadows dynamically"
     },
-    "correct_answer": "A"
+    "correct_answer": "B"
   },
   {
     "number": 4,
@@ -41,7 +41,7 @@
       "C": "A texture buffer",
       "D": "A rendering algorithm"
     },
-    "correct_answer": "A"
+    "correct_answer": "B"
   },
   {
     "number": 5,
@@ -52,7 +52,7 @@
       "C": "When it is closer to the light than stored depth",
       "D": "When it matches the shadow map value"
     },
-    "correct_answer": "A"
+    "correct_answer": "B"
   },
   {
     "number": 6,
@@ -63,7 +63,7 @@
       "C": "Geometry complexity",
       "D": "GPU performance"
     },
-    "correct_answer": "A"
+    "correct_answer": "B"
   },
   {
     "number": 7,
@@ -85,7 +85,7 @@
       "C": "Spherical environment mapping",
       "D": "Height mapping"
     },
-    "correct_answer": "A"
+    "correct_answer": "B"
   },
   {
     "number": 9,

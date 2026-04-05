@@ -198,8 +198,13 @@
   <p>Choose a practice exam or load your own</p>
 
   <div class="exam-list">
-    <button class="exam-btn" onclick="loadExam('joslin_mc.json')">Joslin Exam — Multiple Choice (107 Qs)</button>
-    <button class="exam-btn" onclick="loadWrittenExam('joslin_written.json')">Joslin Exam — Written (34 Qs)</button>
+    <div class="divider">— Original Practice Exam —</div>
+    <button class="exam-btn" onclick="loadExam('exam_jsons/original_practice_exam/joslin_mc.json')">Original — Multiple Choice (107 Qs)</button>
+    <button class="exam-btn" onclick="loadWrittenExam('exam_jsons/original_practice_exam/joslin_written.json')">Original — Written (34 Qs)</button>
+
+    <div class="divider">— Variant 1 (from slides) —</div>
+    <button class="exam-btn" onclick="loadExam('exam_jsons/variant 1/variant1_mc.json')">Variant 1 — Multiple Choice (105 Qs)</button>
+    <button class="exam-btn" onclick="loadWrittenExam('exam_jsons/variant 1/variant1_written.json')">Variant 1 — Written (30 Qs)</button>
   </div>
 
   <div class="divider">— or —</div>
