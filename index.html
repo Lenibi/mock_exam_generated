@@ -468,8 +468,8 @@ function wGo(dir) {
 
 // keyboard shortcuts
 document.addEventListener('keydown', e => {
-  const mcVisible = document.getElementById('quiz').style.display !== 'none';
-  const wVisible = document.getElementById('writtenQuiz').style.display !== 'none';
+  const wVisible = getComputedStyle(document.getElementById('writtenQuiz')).display !== 'none';
+  const mcVisible = !wVisible && getComputedStyle(document.getElementById('quiz')).display !== 'none';
 
   if (mcVisible) {
     if (e.key === 'ArrowRight' || e.key === 'd') go(1);
