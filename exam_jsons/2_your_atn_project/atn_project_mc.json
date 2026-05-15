@@ -1,0 +1,206 @@
+[
+  {
+    "number": 1,
+    "question": "What is the scope name of your Audit Trail Narrator app?",
+    "answers": {
+      "A": "x_audit_trail",
+      "B": "x_2043467_atn",
+      "C": "atn_demo",
+      "D": "altorra_atn"
+    },
+    "correct_answer": "B",
+    "lecture_number": 2
+  },
+  {
+    "number": 2,
+    "question": "Which Anthropic model does the app use for generating narrations?",
+    "answers": {
+      "A": "Claude Opus 4.7",
+      "B": "Claude Sonnet 4.5",
+      "C": "Claude Sonnet 4.6",
+      "D": "Claude Haiku 4.5"
+    },
+    "correct_answer": "C",
+    "lecture_number": 2
+  },
+  {
+    "number": 3,
+    "question": "What is the approximate cost of one cold-call narration (no cache hit) in the app?",
+    "answers": {
+      "A": "$0.001",
+      "B": "$0.08",
+      "C": "$0.50",
+      "D": "$2.00"
+    },
+    "correct_answer": "B",
+    "lecture_number": 2
+  },
+  {
+    "number": 4,
+    "question": "Which table is the Narrate audit trail button (UI Action) bound to?",
+    "answers": {
+      "A": "task",
+      "B": "sys_audit",
+      "C": "incident",
+      "D": "problem"
+    },
+    "correct_answer": "C",
+    "lecture_number": 2
+  },
+  {
+    "number": 5,
+    "question": "What is the role required to see the Narrate audit trail button?",
+    "answers": {
+      "A": "admin",
+      "B": "itil",
+      "C": "x_2043467_atn.narrator (or x_2043467_atn.admin or admin)",
+      "D": "itil_admin"
+    },
+    "correct_answer": "C",
+    "lecture_number": 2
+  },
+  {
+    "number": 6,
+    "question": "What's the cache freshness key — i.e., what triggers cache invalidation?",
+    "answers": {
+      "A": "Time-based TTL set in a system property",
+      "B": "Manual cache flush by admin",
+      "C": "The source record's sys_updated_on timestamp — if it has changed since the cached row was generated, regenerate",
+      "D": "The cache never invalidates"
+    },
+    "correct_answer": "C",
+    "lecture_number": 2
+  },
+  {
+    "number": 7,
+    "question": "Why was the React-based BYOUI (direct=true) approach abandoned during the build?",
+    "answers": {
+      "A": "React was too slow to build",
+      "B": "The bundle URL at /uxasset/externals/{scope}/main.jsdbx returned ERR_FAILED — the UX Framework runtime needed for direct=true isn't fully configured on a vanilla Zurich PDI",
+      "C": "It violated ServiceNow licensing",
+      "D": "The team didn't know React"
+    },
+    "correct_answer": "B",
+    "lecture_number": 2
+  },
+  {
+    "number": 8,
+    "question": "What rendering pattern ended up being used for the narration UI Page?",
+    "answers": {
+      "A": "Client-side React rendering",
+      "B": "Server-side Jelly templating with <g:evaluate> running GlideRecord queries on the cache row and rendering directly into HTML",
+      "C": "Service Portal widget",
+      "D": "Plain static HTML with iframe"
+    },
+    "correct_answer": "B",
+    "lecture_number": 2
+  },
+  {
+    "number": 9,
+    "question": "What schema-enforcement mechanism does the Anthropic call use to guarantee structured output?",
+    "answers": {
+      "A": "JSON-mode (response_format: json_object)",
+      "B": "A regular expression validator after the call returns",
+      "C": "Forced tool_use schema — the API is told it MUST call a specific tool with a specific JSON shape (citations array + risks array)",
+      "D": "No enforcement, raw text is parsed best-effort"
+    },
+    "correct_answer": "C",
+    "lecture_number": 2
+  },
+  {
+    "number": 10,
+    "question": "Which Anthropic feature reduces per-call cost on warm calls by approximately 70%?",
+    "answers": {
+      "A": "Batch API",
+      "B": "Prompt caching (cache_control: ephemeral)",
+      "C": "Streaming responses",
+      "D": "Lower max_tokens"
+    },
+    "correct_answer": "B",
+    "lecture_number": 2
+  },
+  {
+    "number": 11,
+    "question": "How many tables does the app declare CrossScopePrivilege read access to?",
+    "answers": {
+      "A": "1",
+      "B": "3",
+      "C": "5",
+      "D": "10"
+    },
+    "correct_answer": "C",
+    "lecture_number": 2
+  },
+  {
+    "number": 12,
+    "question": "Which of these is NOT one of the tables the AuditNarrator ScriptInclude reads from?",
+    "answers": {
+      "A": "sys_audit",
+      "B": "sys_journal_field",
+      "C": "sys_user_preference",
+      "D": "task_sla"
+    },
+    "correct_answer": "C",
+    "lecture_number": 2
+  },
+  {
+    "number": 13,
+    "question": "What's the name of the cache table where narration results are stored?",
+    "answers": {
+      "A": "atn_cache",
+      "B": "x_2043467_atn_narration_cache",
+      "C": "incident_summary",
+      "D": "ai_audit_results"
+    },
+    "correct_answer": "B",
+    "lecture_number": 2
+  },
+  {
+    "number": 14,
+    "question": "On the demo incident, how many citations and risks did Claude produce?",
+    "answers": {
+      "A": "5 citations, 2 risks",
+      "B": "18 citations, 6 risks",
+      "C": "30 citations, 10 risks",
+      "D": "0 citations, 1 risk"
+    },
+    "correct_answer": "B",
+    "lecture_number": 2
+  },
+  {
+    "number": 15,
+    "question": "What is the demo incident number, and what kind of fault does it model?",
+    "answers": {
+      "A": "INC0001234 — printer offline",
+      "B": "INC0010002 — production switch port 14 hardware fault",
+      "C": "INC0099999 — laptop boot failure",
+      "D": "INC0000001 — generic test incident"
+    },
+    "correct_answer": "B",
+    "lecture_number": 2
+  },
+  {
+    "number": 16,
+    "question": "The demo incident contains a 'killer finding' — a high-severity risk Claude flagged independently. What is it?",
+    "answers": {
+      "A": "A duplicate caller record",
+      "B": "An approval that was granted retroactively, after resolution had already occurred (sysapproval_approver entry recorded ~2 hours post-resolution)",
+      "C": "A network outage during a maintenance window",
+      "D": "An unauthorized configuration item change"
+    },
+    "correct_answer": "B",
+    "lecture_number": 2
+  },
+  {
+    "number": 17,
+    "question": "Why was a UI Action chosen over a Business Rule for triggering narration?",
+    "answers": {
+      "A": "Business Rules can't make outbound API calls",
+      "B": "To make narration user-triggered (and thus cost-predictable) instead of auto-firing on every record change, which would scale costs unpredictably",
+      "C": "The Fluent SDK doesn't support Business Rules",
+      "D": "Business Rules require admin role to create"
+    },
+    "correct_answer": "B",
+    "lecture_number": 2
+  }
+]

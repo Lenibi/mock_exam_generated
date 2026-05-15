@@ -1,0 +1,302 @@
+[
+  {
+    "number": 1,
+    "question": "SLA stands for?",
+    "answers": {
+      "A": "System Logic Authority",
+      "B": "Service Level Agreement",
+      "C": "Standard Logging API",
+      "D": "Server Lifecycle Action"
+    },
+    "correct_answer": "B",
+    "lecture_number": 1
+  },
+  {
+    "number": 2,
+    "question": "Which ServiceNow table stores the audit history of every field change on every record?",
+    "answers": {
+      "A": "sys_journal_field",
+      "B": "sys_history_line",
+      "C": "sys_audit",
+      "D": "sys_log"
+    },
+    "correct_answer": "C",
+    "lecture_number": 1
+  },
+  {
+    "number": 3,
+    "question": "Which table stores work notes and comments (journal entries) for task-extended records?",
+    "answers": {
+      "A": "sys_audit",
+      "B": "sys_journal_field",
+      "C": "sys_notes",
+      "D": "task_comments"
+    },
+    "correct_answer": "B",
+    "lecture_number": 1
+  },
+  {
+    "number": 4,
+    "question": "What is a Business Rule in ServiceNow?",
+    "answers": {
+      "A": "A user-defined macro that runs only when a user clicks a button on a form",
+      "B": "A static configuration that describes a workflow",
+      "C": "A server-side script that fires automatically on table CRUD events (insert/update/delete/query)",
+      "D": "A client-side script that runs in the browser"
+    },
+    "correct_answer": "C",
+    "lecture_number": 1
+  },
+  {
+    "number": 5,
+    "question": "What is a UI Action in ServiceNow?",
+    "answers": {
+      "A": "An automated script that runs without user input on a schedule",
+      "B": "A button, link, or menu item on a form or list that runs a script when clicked",
+      "C": "A reusable interface component shared between portals",
+      "D": "A permission record controlling who can read a field"
+    },
+    "correct_answer": "B",
+    "lecture_number": 1
+  },
+  {
+    "number": 6,
+    "question": "What is an ACL in ServiceNow?",
+    "answers": {
+      "A": "Application Configuration Layer",
+      "B": "API Call Limit",
+      "C": "Access Control List — row/field-level permission record",
+      "D": "Audit Compliance Log"
+    },
+    "correct_answer": "C",
+    "lecture_number": 1
+  },
+  {
+    "number": 7,
+    "question": "Which of the following is TRUE about scoped app ACLs vs. the system 'admin' role?",
+    "answers": {
+      "A": "The system admin role automatically bypasses all scoped app ACLs",
+      "B": "Scoped ACLs always require the scoped role and never the system admin role",
+      "C": "Scoped ACLs do NOT automatically grant access to the system admin role — admin must be explicitly listed or the user must have the scoped role",
+      "D": "ACLs are not enforced for users with admin role anywhere on the platform"
+    },
+    "correct_answer": "C",
+    "lecture_number": 1
+  },
+  {
+    "number": 8,
+    "question": "What is an Update Set?",
+    "answers": {
+      "A": "A patch released by ServiceNow to upgrade the instance",
+      "B": "A package that tracks customizations and is used to move changes between instances (dev → test → prod)",
+      "C": "A snapshot of the database used for backups",
+      "D": "A scheduled job that updates records in bulk"
+    },
+    "correct_answer": "B",
+    "lecture_number": 1
+  },
+  {
+    "number": 9,
+    "question": "ATF stands for?",
+    "answers": {
+      "A": "Application Transaction Framework",
+      "B": "Automated Test Framework",
+      "C": "Audit Trail Format",
+      "D": "Asynchronous Task Flow"
+    },
+    "correct_answer": "B",
+    "lecture_number": 1
+  },
+  {
+    "number": 10,
+    "question": "What is the difference between Polaris UI and Classic UI in ServiceNow?",
+    "answers": {
+      "A": "Classic is for mobile, Polaris is for desktop",
+      "B": "Polaris is the newer Now Experience UI used in workspaces; Classic is the older form/list-based admin interface",
+      "C": "Polaris is the customer-facing portal; Classic is for agents",
+      "D": "They are the same thing under different marketing names"
+    },
+    "correct_answer": "B",
+    "lecture_number": 1
+  },
+  {
+    "number": 11,
+    "question": "What is Service Portal used for?",
+    "answers": {
+      "A": "An internal agent workspace for handling tickets",
+      "B": "A customer-facing portal framework for self-service experiences (employees / external users submitting and tracking tickets)",
+      "C": "The system administrator console",
+      "D": "A logging dashboard for system events"
+    },
+    "correct_answer": "B",
+    "lecture_number": 1
+  },
+  {
+    "number": 12,
+    "question": "What is GlideRecord in ServiceNow scripting?",
+    "answers": {
+      "A": "A logging utility that writes to the system event log",
+      "B": "A reference data type for storing record IDs",
+      "C": "A server-side API for querying, iterating, and modifying records in any table",
+      "D": "A UI component that displays related records"
+    },
+    "correct_answer": "C",
+    "lecture_number": 1
+  },
+  {
+    "number": 13,
+    "question": "What does `gs.getProperty('some.property.name')` do?",
+    "answers": {
+      "A": "Returns the value of a record field",
+      "B": "Returns the value of a system property (configuration value stored in sys_properties table)",
+      "C": "Returns a session-scoped user preference",
+      "D": "Returns a JavaScript object property by name"
+    },
+    "correct_answer": "B",
+    "lecture_number": 1
+  },
+  {
+    "number": 14,
+    "question": "What is `sn_ws.RESTMessageV2` used for?",
+    "answers": {
+      "A": "Sending email messages from ServiceNow",
+      "B": "Logging REST API errors",
+      "C": "Making outbound REST API calls from server-side scripts",
+      "D": "Validating WebSocket connections"
+    },
+    "correct_answer": "C",
+    "lecture_number": 1
+  },
+  {
+    "number": 15,
+    "question": "What is a 'task-extended' table?",
+    "answers": {
+      "A": "Any table whose name starts with 'task_'",
+      "B": "A table that extends the `task` base table — inherits its fields and ACLs (e.g., incident, problem, change, sc_request all extend task)",
+      "C": "A table that requires a task to be assigned before records can be created",
+      "D": "An archived task table that's no longer in active use"
+    },
+    "correct_answer": "B",
+    "lecture_number": 1
+  },
+  {
+    "number": 16,
+    "question": "What is a ScriptInclude in ServiceNow?",
+    "answers": {
+      "A": "A server-side JavaScript class/library that can be called from other scripts (Business Rules, UI Actions, etc.)",
+      "B": "A client-side script that runs only on form load",
+      "C": "An imported third-party JavaScript file",
+      "D": "A scheduled script that runs daily"
+    },
+    "correct_answer": "A",
+    "lecture_number": 1
+  },
+  {
+    "number": 17,
+    "question": "What is the current ServiceNow major release as of May 2026?",
+    "answers": {
+      "A": "Tokyo",
+      "B": "Utah",
+      "C": "Vancouver",
+      "D": "Zurich"
+    },
+    "correct_answer": "D",
+    "lecture_number": 1
+  },
+  {
+    "number": 18,
+    "question": "What is `sys_id` in ServiceNow?",
+    "answers": {
+      "A": "A user's login ID",
+      "B": "The unique 32-character hexadecimal identifier for every record on every table",
+      "C": "A system-generated session token",
+      "D": "The version number of a record"
+    },
+    "correct_answer": "B",
+    "lecture_number": 1
+  },
+  {
+    "number": 19,
+    "question": "What does CMDB stand for in ServiceNow?",
+    "answers": {
+      "A": "Customer Master Data Backbone",
+      "B": "Centralized Management Database",
+      "C": "Configuration Management Database",
+      "D": "Content Modeling Distributed Bridge"
+    },
+    "correct_answer": "C",
+    "lecture_number": 1
+  },
+  {
+    "number": 20,
+    "question": "What is Flow Designer used for in ServiceNow?",
+    "answers": {
+      "A": "Designing form layouts visually",
+      "B": "A no-code/low-code automation tool for building multi-step workflows triggered by events or schedules",
+      "C": "Building data visualizations and dashboards",
+      "D": "Diagramming network architectures"
+    },
+    "correct_answer": "B",
+    "lecture_number": 1
+  },
+  {
+    "number": 21,
+    "question": "What's the most important difference between a scoped application and a global application?",
+    "answers": {
+      "A": "Scoped apps run faster",
+      "B": "Global apps have access to more tables by default",
+      "C": "Scoped apps have a namespace prefix and isolated ACL boundary — code in a scoped app can't freely access other scopes' data without explicit cross-scope privileges",
+      "D": "Scoped apps cannot use server-side JavaScript"
+    },
+    "correct_answer": "C",
+    "lecture_number": 1
+  },
+  {
+    "number": 22,
+    "question": "What is Now Assist?",
+    "answers": {
+      "A": "ServiceNow's customer support team",
+      "B": "ServiceNow's first-party generative AI offering — built-in AI features for summarization, code assist, agent productivity",
+      "C": "A third-party Chrome extension for ServiceNow developers",
+      "D": "An automated chatbot trained on ServiceNow documentation"
+    },
+    "correct_answer": "B",
+    "lecture_number": 1
+  },
+  {
+    "number": 23,
+    "question": "Which table stores SLA instances attached to records (start/stop/breach timestamps)?",
+    "answers": {
+      "A": "sys_sla",
+      "B": "contract_sla",
+      "C": "task_sla",
+      "D": "sla_definition"
+    },
+    "correct_answer": "C",
+    "lecture_number": 1
+  },
+  {
+    "number": 24,
+    "question": "What is an Approval record in ServiceNow (sysapproval_approver)?",
+    "answers": {
+      "A": "A record stored on the user's profile listing their delegations",
+      "B": "A row tracking a single approval decision (approver, state, comments, source record) attached to a task or change",
+      "C": "A system property controlling whether approvals are required",
+      "D": "A workflow that automatically approves all requests"
+    },
+    "correct_answer": "B",
+    "lecture_number": 1
+  },
+  {
+    "number": 25,
+    "question": "What is the Fluent SDK in the context of ServiceNow development?",
+    "answers": {
+      "A": "A JavaScript framework for writing UI components",
+      "B": "ServiceNow's TypeScript-as-source SDK for defining scoped app artifacts in code (vs the older Studio/XML approach)",
+      "C": "A REST API client library",
+      "D": "A database query optimizer"
+    },
+    "correct_answer": "B",
+    "lecture_number": 1
+  }
+]

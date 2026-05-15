@@ -194,23 +194,28 @@
 
 <!-- Home -->
 <div id="home">
-  <h1>Altorra Call Prep — ServiceNow Quiz</h1>
-  <p>Three sections: ServiceNow basics, your ATN project, positioning answers. Pass criteria: every answer in under 90 seconds, conversationally, without notes.</p>
+  <h1>Mock Exam</h1>
+  <p>Choose a practice exam or load your own</p>
 
   <div class="exam-list">
-    <div class="divider">— 1. ServiceNow Basics (terminology + platform fundamentals) —</div>
-    <button class="exam-btn" onclick="loadExam('exam_jsons/1_servicenow_basics/snow_basics_mc.json')">SN Basics — Multiple Choice (25 Qs)</button>
-    <button class="exam-btn" onclick="loadWrittenExam('exam_jsons/1_servicenow_basics/snow_basics_written.json')">SN Basics — Written (8 Qs)</button>
+    <div class="divider">— Original Practice Exam —</div>
+    <button class="exam-btn" onclick="loadExam('exam_jsons/original_practice_exam/joslin_mc.json?v=2')">Original — Multiple Choice (107 Qs)</button>
+    <button class="exam-btn" onclick="loadWrittenExam('exam_jsons/original_practice_exam/joslin_written.json?v=2')">Original — Written (34 Qs)</button>
 
-    <div class="divider">— 2. Your ATN Project (Audit Trail Narrator) —</div>
-    <button class="exam-btn" style="border-color:#00c896;" onclick="loadExam('exam_jsons/2_your_atn_project/atn_project_mc.json')">ATN Project — Multiple Choice (17 Qs)</button>
-    <button class="exam-btn" style="border-color:#00c896;" onclick="loadWrittenExam('exam_jsons/2_your_atn_project/atn_project_written.json')">ATN Project — Written (8 Qs)</button>
+    <div class="divider">— Variant 1 (from slides) —</div>
+    <button class="exam-btn" onclick="loadExam('exam_jsons/variant 1/variant1_mc.json?v=2')">Variant 1 — Multiple Choice (105 Qs)</button>
+    <button class="exam-btn" onclick="loadWrittenExam('exam_jsons/variant 1/variant1_written.json?v=2')">Variant 1 — Written (30 Qs)</button>
 
-    <div class="divider">— 3. Altorra Positioning (interview-style answers) —</div>
-    <button class="exam-btn" style="border-color:#d4a27f;" onclick="loadWrittenExam('exam_jsons/3_altorra_positioning/positioning_written.json')">Positioning — Written (7 Qs)</button>
+    <div class="divider">— Variant 2 (HARD MODE) —</div>
+    <button class="exam-btn" style="border-color:#e94560;" onclick="loadExam('exam_jsons/variant 2 - hard/variant2_mc.json')">Variant 2 HARD — Multiple Choice (100 Qs)</button>
+    <button class="exam-btn" style="border-color:#e94560;" onclick="loadWrittenExam('exam_jsons/variant 2 - hard/variant2_written.json')">Variant 2 HARD — Written (30 Qs)</button>
+
+    <div class="divider">— Variant 3 (Exact Exam Format — 105pts) —</div>
+    <button class="exam-btn" style="border-color:#c9a800;" onclick="loadExam('exam_jsons/variant 3 - exam format/examformat_mc.json')">Exam Format — Multiple Choice (30 Qs, 30pts)</button>
+    <button class="exam-btn" style="border-color:#c9a800;" onclick="loadWrittenExam('exam_jsons/variant 3 - exam format/examformat_written.json')">Exam Format — Written + Calc (11 Qs, 75pts)</button>
   </div>
 
-  <div class="divider">— or load any other quiz —</div>
+  <div class="divider">— or —</div>
 
   <div class="file-upload-row">
     <button class="btn-file" onclick="document.getElementById('fileInput').click()">Load JSON File</button>

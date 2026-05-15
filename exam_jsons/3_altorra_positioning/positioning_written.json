@@ -1,0 +1,44 @@
+[
+  {
+    "number": 301,
+    "question": "Why ServiceNow specifically? What drew you to this platform vs other dev paths (web dev, mobile, data, etc.)?",
+    "answer": "Three reasons: (1) ServiceNow has structured enterprise data already — sys_audit rows on every record give you a clean substrate for AI applications without first having to build a data layer. AI tools elsewhere often spend 80% of effort just normalizing data; ServiceNow hands you that for free. (2) The Fluent SDK is a real modern dev environment — TypeScript-as-source, npm-based tooling, git-friendly — not the historical XML/Studio mess. That made it learnable in 5 days. (3) The customer base is willing to pay for AI integrations that solve real audit/IT pain. Web dev has saturated AI tooling; ServiceNow doesn't yet, and the customers have budget. It's where a small builder with AI skills can carve out unfair leverage.",
+    "lecture_number": 3
+  },
+  {
+    "number": 302,
+    "question": "Why Altorra specifically? Be specific — generic flattery is worse than no answer.",
+    "answer": "Three specific reasons: (1) You're a ServiceNow Build Partner — that means I'd be exposed to real customer engagements, Update Set distribution, ATF testing, ServiceNow Store dynamics — exactly the productization gap my project doesn't yet cover. At a non-partner shop, I'd just be writing internal scripts. (2) Victoria, your dual role as a Build Partner co-owner AND a Deputy Director at the House of Commons gives the firm a unique vantage point: federal-grade compliance and audit reality, which is the same domain my Audit Trail Narrator project lives in. There's product-market fit between what I built and what your customers likely need. (3) Altorra is small enough that a junior developer would own meaningful work end-to-end, not be filtered through layers of management. I'd learn faster here in 12 months than at a Big-4 consulting firm.",
+    "lecture_number": 3
+  },
+  {
+    "number": 303,
+    "question": "What would you want to learn at Altorra in your first year, and what would you want to be excellent at by the end?",
+    "answer": "Year-one learning goals: (1) Customer-facing ServiceNow consulting — gathering requirements, scoping engagements, delivering Update Sets that customers actually install, doing post-deployment support. (2) The deeper ServiceNow surface — Business Rules at scale, ATF test suites, Flow Designer for complex multi-step automations, CMDB modeling, ITOM/ITSM/IRM module specifics. (3) Sales-engineering muscle — being in the room when customers describe pain, learning to translate that into solution architectures. By end of year 1: I want to be excellent at landing AI integrations that are productionizable — not just demos but installed customer features with metering, ACLs, ATF coverage, and a maintenance plan. Specifically, I'd want at least one customer to have my code live in their production instance.",
+    "lecture_number": 3
+  },
+  {
+    "number": 304,
+    "question": "What gaps do you have right now that you'd want to fill at Altorra? Be honest — pretending you have no gaps hurts you.",
+    "answer": "Honest list: (1) Business Rules — I know what they are, I haven't built a non-trivial one. (2) ATF — same, I know the framework exists, haven't written tests. (3) Flow Designer — never touched it, only know about it conceptually. (4) Service Portal widget development — only worked on Classic UI Pages. (5) Customer-facing consulting — I've never been in the room with a real customer requirements gathering, never scoped an engagement, never written a statement of work. (6) The Now Assist / first-party AI features — I should know how my custom approach compares to and complements what ServiceNow ships natively. (7) The CMDB and ITOM modules — I know they exist, haven't worked inside them. Most of these are 1-2 week learning curves with a real codebase to apply them on. None are 6-month gaps. That's the kind of profile I'm bringing.",
+    "lecture_number": 3
+  },
+  {
+    "number": 305,
+    "question": "What was the hardest part of the 5-day build, and what did you learn from it?",
+    "answer": "The UI rendering pivot — going from React BYOUI (which broke because the bundle URL didn't serve on Zurich PDIs) to a direct=true UI Page (which was blank because the UX Framework runtime isn't fully configured on vanilla PDIs) to finally landing on server-side Jelly templating (the 2010-era pattern that just works). I burned ~4 hours debugging before I built a 2-minute bisect (two minimal sibling test pages, one in each mode) that immediately isolated the problem. The lesson: when you've burned more than 2-3 hypothesis-test cycles without converging, stop hypothesizing and build the smallest possible reproducer. The bisect crystallizes the search space in a way that hypothesis-driven debugging doesn't. I'll bake that into my workflow forever.",
+    "lecture_number": 3
+  },
+  {
+    "number": 306,
+    "question": "What questions do YOU have for Victoria / Altorra? (A candidate who asks zero questions on a 30-minute call signals low interest.)",
+    "answer": "Three I'd actually ask: (1) 'What does a typical Altorra engagement look like — are you mostly delivering Update Sets to customers, building integrations between ServiceNow and other systems, or doing strategic consulting/architecture work? I want to understand where developer hours go.' (2) 'What's your read on Now Assist as a competitor or complement to custom AI integrations like the one I built? Should partners like Altorra be building parallel AI solutions, or layering on top of ServiceNow's first-party AI?' (3) 'If I joined as a junior developer, what would you want me to be excellent at by end of year 1, and where would my time actually go — writing code, in front of customers, or both?' These probe Altorra's business model, your strategic positioning in the AI shift, and what a real career path looks like in your team.",
+    "lecture_number": 3
+  },
+  {
+    "number": 307,
+    "question": "If Victoria asks 'why should we hire you over a more experienced ServiceNow developer with 5 years of platform experience?' — how do you answer honestly?",
+    "answer": "Don't pretend to outclass them on platform depth — you don't. Real answer: 'You probably shouldn't hire me over someone with 5 years of platform depth if that's what the role needs. But here's what I bring that the 5-year ServiceNow developer often doesn't: native fluency with AI tooling — I built and shipped a Claude API integration in 5 days because I think in Anthropic Messages API, prompt caching, tool_use schemas, the same way a 5-year ServiceNow dev thinks in Business Rules. ServiceNow is shifting into the AI era. Customers will increasingly ask for AI features in their ServiceNow deployments. I'd be a force multiplier on those engagements — the experienced ServiceNow dev knows where the data is, I know how to turn it into useful AI features. We'd ship something neither of us could ship alone.' That answer respects the senior dev's depth while staking your own claim on a real, valuable, and underserved skill.",
+    "lecture_number": 3
+  }
+]

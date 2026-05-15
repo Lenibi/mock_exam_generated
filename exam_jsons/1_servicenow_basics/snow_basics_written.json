@@ -1,0 +1,50 @@
+[
+  {
+    "number": 101,
+    "question": "Explain the difference between `sys_audit` and `sys_journal_field`. Which would you query to get a history of state transitions vs work notes?",
+    "answer": "sys_audit stores a row for every field-value change on every audited record (old_value, new_value, fieldname, user, timestamp). It's the canonical record of *what* changed and *when*. sys_journal_field stores work notes and comments — text added by users into journal-type fields. For state transitions: query sys_audit (filter on fieldname='state', tablename='incident', documentkey=incident_sys_id). For work notes: query sys_journal_field with element='work_notes' or 'comments'.",
+    "lecture_number": 1
+  },
+  {
+    "number": 102,
+    "question": "What is a Business Rule, and how is it different from a UI Action? When would you choose one over the other?",
+    "answer": "Both run server-side scripts, but they have different triggers. A Business Rule fires automatically on database events (insert/update/delete/query) — it runs whenever the platform touches that record. A UI Action is user-triggered — it only runs when someone clicks a button, link, or menu item on a form or list. Choose a Business Rule when the logic must run for every change (e.g., auto-populate a field, validate before save, send notification on state change). Choose a UI Action when the logic should only run on explicit user request (e.g., 'Resolve incident,' 'Generate report,' or a custom AI narration like ours).",
+    "lecture_number": 1
+  },
+  {
+    "number": 103,
+    "question": "Explain how scoped app ACLs interact with the system 'admin' role. Why is this important when building a scoped application?",
+    "answer": "Scoped app ACLs do NOT automatically grant access to users with the system 'admin' role. Inside a scoped app, the admin user only has access if 'admin' is explicitly listed in the ACL's roles array, OR the user has the scoped-app's specific role (e.g., x_2043467_atn.admin). This matters because it's a common gotcha during development: an admin building a scoped app can build records without issue (build-time grants are different from runtime ACL checks), but at runtime — like a REST API call or a UI Page reading data — the admin user can be blocked. The fix is to either include 'admin' in the role list of the ACL, or ensure end users hold the scoped role.",
+    "lecture_number": 1
+  },
+  {
+    "number": 104,
+    "question": "What is an Update Set and how is it used in a typical ServiceNow consulting deployment?",
+    "answer": "An Update Set is a record that tracks customizations made on a ServiceNow instance — every change to a Business Rule, UI Page, table, Field, ACL, etc. is captured in the currently-active Update Set. Workflow: developer sets their current Update Set on a dev instance ('Sprint 12 Audit Improvements'), makes changes, marks the set Complete, exports it as XML, and that XML is imported onto a test or production instance. Test reviews changes in preview, then commits. This is how most ServiceNow consulting projects deliver work — the deliverable is the Update Set XML the customer can install on their instance.",
+    "lecture_number": 1
+  },
+  {
+    "number": 105,
+    "question": "What is Cross-Scope Privilege and why is it needed in a scoped application?",
+    "answer": "A scoped app cannot freely read or write tables in other scopes by default — that's the isolation guarantee. A CrossScopePrivilege record (sys_scope_privilege) explicitly grants a scoped app the ability to access a specific table or API in another scope (typically the global scope). For example: my Audit Trail Narrator app (x_2043467_atn) needs to read sys_audit, sys_history_line, sys_journal_field, sysapproval_approver, and task_sla — all in the global scope. Without explicit CrossScopePrivilege records for read access to each, my ScriptInclude would fail to query those tables. It's the platform's way of making cross-scope access auditable and intentional.",
+    "lecture_number": 1
+  },
+  {
+    "number": 106,
+    "question": "Why would a developer choose a classic Jelly UI Page over a 'direct=true' (BYOUI/React) UI Page on a vanilla ServiceNow PDI?",
+    "answer": "Jelly UI Pages (direct=false, the original 2010-era pattern) are the bulletproof rendering path that works on every ServiceNow release including vanilla developer instances (PDIs). direct=true UI Pages are a newer mode for React-based 'Bring Your Own UI' apps — they depend on the UX Framework runtime being fully configured on the instance, including bundle hosting at /uxasset/externals/{scope}/. On a vanilla Zurich PDI, that infrastructure isn't fully wired up — bundle URLs return ERR_FAILED, and direct=true UI Pages render a blank body. So for guaranteed compatibility across instances, especially personal dev or smaller customer instances, Jelly mode is the safer default.",
+    "lecture_number": 1
+  },
+  {
+    "number": 107,
+    "question": "What is prompt caching in the Anthropic API and why is it worth using for ServiceNow integrations?",
+    "answer": "Anthropic's prompt caching feature lets you mark stable prefix portions of a request (system prompt, schema definition, few-shot examples) with a cache_control hint. On subsequent requests within the cache TTL (5 minutes by default), the API charges a fraction of the normal input-token price for the cached portion. For ServiceNow integrations where you make many API calls with the same system prompt and tool schema but variable record data, this can reduce per-call cost by ~70%+ on warm hits. It's a real savings: a $0.08 cold call becomes ~$0.025 on cache hit. For productized apps with steady call volume, prompt caching keeps unit economics sane.",
+    "lecture_number": 1
+  },
+  {
+    "number": 108,
+    "question": "Walk through the typical lifecycle of an ITSM Incident record from creation to closure. Name the key fields that change.",
+    "answer": "Lifecycle phases: (1) Created — caller, short_description, category, impact/urgency/priority are set; state=New. (2) Triage — assignment_group, assigned_to are set; state=In Progress. (3) Resolution — work_notes added documenting steps; close_code, close_notes set; state=Resolved; resolved_by + resolved_at timestamped. (4) Closure — typically after a customer confirmation window; state=Closed; closed_by + closed_at set. Along the way SLA records (task_sla rows) track response and resolution timers. Approval records may be created if the incident triggers change-management. The audit trail (sys_audit) tracks every field change for compliance.",
+    "lecture_number": 1
+  }
+]

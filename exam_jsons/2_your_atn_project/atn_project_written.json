@@ -1,0 +1,50 @@
+[
+  {
+    "number": 201,
+    "question": "Walk through, step by step, what happens when a user clicks the 'Narrate audit trail' button on an incident form.",
+    "answer": "(1) The UI Action's server-side script fires. It instantiates the AuditNarrator ScriptInclude and calls narrator.narrate(current.getTableName(), current.getValue('sys_id'), false). (2) The ScriptInclude checks the x_2043467_atn_narration_cache table for an existing narration whose target_sys_id matches and whose target_updated_on equals the current sys_updated_on of the record. If hit, it returns the cached sys_id immediately (~2s round-trip). (3) On cache miss, the script gathers audit data: sys_audit field changes, sys_journal_field work notes, sysapproval_approver records, task_sla rows. It resolves choice values (priority '1' → 'Critical'). (4) It builds a structured timeline payload and calls Anthropic's Messages API via sn_ws.RESTMessageV2, with prompt caching and a forced tool_use schema demanding citations + risks JSON arrays. (5) The response is parsed and stored as a new row in the cache table with narrative, mermaid timeline, citations_json, risks_json, model_used, token counts, cost_estimate. (6) The UI Action sets a redirect URL to x_2043467_atn_view.do?narration_sys_id={new_row_sys_id}. (7) The UI Page renders the cached row via server-side Jelly templating — no client fetch needed.",
+    "lecture_number": 2
+  },
+  {
+    "number": 202,
+    "question": "Why did you choose a UI Action instead of a Business Rule for triggering the narration?",
+    "answer": "A Business Rule would fire automatically on every incident state change, generating narrations for every ticket whether anyone reads them or not. That scales API costs unpredictably — a single Priority 1 outage with 200 status updates could trigger 200 narrations, each costing ~$0.08. A UI Action makes narration user-triggered: the auditor or assignee only generates a narration when they actually want to read one. This keeps costs predictable, eliminates API spend on tickets nobody reviews, and matches the actual usage pattern (audit review is sample-based, not exhaustive).",
+    "lecture_number": 2
+  },
+  {
+    "number": 203,
+    "question": "Explain the freshness-aware cache invalidation. Why is it more useful than a simple time-based TTL?",
+    "answer": "The cache table x_2043467_atn_narration_cache stores target_updated_on as a column — the value of sys_updated_on at the time the narration was generated. On every click, the ScriptInclude compares the cache row's target_updated_on against the source record's current sys_updated_on. If equal, the cache is fresh — return it instantly. If the source record has been updated since, the cache is stale — regenerate. This is more useful than a TTL because: (1) it respects actual data freshness, not arbitrary clock time — a static record never wastes API calls re-narrating itself even after a year, (2) it ensures changes are always reflected — if someone resolves the ticket, the next narration sees the new state, (3) it's free correctness — no race conditions, no stale data displayed to users.",
+    "lecture_number": 2
+  },
+  {
+    "number": 204,
+    "question": "What was the hardest debugging session you hit during the build, and how did you crack it?",
+    "answer": "The UI layer rendering blank. Day 4: I built the React-based BYOUI flow per the Fluent SDK 4.6 docs, but the bundle URL /uxasset/externals/x_2043467_atn/main.jsdbx returned ERR_FAILED in the browser. I pivoted to a 'direct=true' UI Page with vanilla HTML — also blank. Console logs showed Jelly's full page lifecycle ran (runBeforeRender, runAfterAllLoaded, etc.) — the framework processed our page successfully — yet the rendered body was empty. The breakthrough was a bisect: I shipped two minimal sibling test pages, one in classic Jelly mode and one in direct=true mode, each rendering only an <h1>. Jelly mode rendered the green text. direct=true mode rendered blank. That isolated the bug: direct=true UI Pages are broken on vanilla Zurich PDIs because the UX Framework runtime that direct mode depends on isn't fully configured. From there, I pivoted to server-side Jelly templating using <g:evaluate> + <j:if> + <j:forEach>, which is the original 2010-era ServiceNow UI Page pattern. It worked. Took about 4 hours of misdirected debugging before I built the bisect, and after that it was 2 hours to ship.",
+    "lecture_number": 2
+  },
+  {
+    "number": 205,
+    "question": "Why is the forced tool_use schema in the Anthropic API call important for output quality?",
+    "answer": "Without tool_use, Claude returns free-form text — even when instructed to follow a schema, output drifts: extra prose, missing fields, hallucinated keys. For an auditor-facing tool, that's unacceptable — they need to trust every claim is grounded in a specific audit row. By forcing tool_use with an explicit JSON Schema (citations: array of {field, from_value, to_value, changed_by, changed_on}; risks: array of {severity, description, evidence}), the API guarantees the response shape. The schema also defines required fields, enums for severity ('high'|'medium'|'low'), and prevents the model from inventing fields. The result: every claim in the narrative is traceable to a citation; every risk has a defined severity; the cache row deserializes cleanly into JSON. That predictability is what makes the output auditor-grade instead of marketing-fluff.",
+    "lecture_number": 2
+  },
+  {
+    "number": 206,
+    "question": "Why did you build this as a scoped application instead of in the global scope?",
+    "answer": "Three reasons. (1) Namespace isolation — every record I create (tables, ACLs, system properties, UI Pages) is prefixed with x_2043467_atn_, so the app can't collide with other customizations. (2) ACL boundary — scoped ACLs are explicit; my app's tables aren't accessible to other apps unless I grant cross-scope privilege, which keeps the security model auditable. (3) Portability — a scoped app can be exported as an Update Set or published to the ServiceNow Store and installed cleanly on any customer instance. Global scope changes are messier to deploy because they intermingle with everything else on the instance. For any productization or partner-built app, scoped is the correct default.",
+    "lecture_number": 2
+  },
+  {
+    "number": 207,
+    "question": "What's the productization roadmap to go from your personal demo to a customer-ready installation?",
+    "answer": "Five workstreams, ~2-3 weeks of focused build: (1) Generalize beyond the incident table — add UI Action primitives for problem, change, sc_request, kb_knowledge, and a registration pattern for custom tables (~3 days). (2) BYO API key UX — let the customer set their own Anthropic key in a system property, plus an AWS Bedrock fallback path so customers who already have Bedrock can use their own quota (~2 days). (3) Per-table prompt library — different record types need different narrative framing (incident = root cause + risks; change = approval chain + impact; KB = freshness check). Build a templated prompt system with customer-overridable per-table prompts (~3 days). (4) Usage metering — per-user / per-team quotas with cost reporting, prevents runaway API spend (~3 days). (5) ATF test suite + Update Set distribution + customer install guide (~3 days). The hard parts (prompt engineering, tool_use schema, cross-scope reads, freshness cache) are already solved.",
+    "lecture_number": 2
+  },
+  {
+    "number": 208,
+    "question": "What did you use Claude for during this build, and what did you decide yourself?",
+    "answer": "Claude was my pair programmer. Things Claude generated significant code for: the Fluent SDK primitive boilerplate (table schemas, UI Action definitions), the Jelly template syntax debugging, the regex patterns for parsing choice values, the Anthropic API request payload structure. Things I decided: every architecture choice — UI Action over Business Rule, scoped over global, server-side Jelly over client-side React after the bisect, cache-by-sys_updated_on instead of TTL, forced tool_use over free-text, role-gated to scoped roles only. Every product choice was mine: what risks Claude should look for, what the narrative tone should be, what the demo incident's lifecycle should look like. Every debugging direction was mine: which hypothesis to test next, when to pivot vs persist. I won't pretend I memorized every Jelly tag — I understand what the system does at the shape level, not the syntactic-detail level. That's the right balance of AI assistance for fast learning: skip the boring lookup, not the thinking.",
+    "lecture_number": 2
+  }
+]
